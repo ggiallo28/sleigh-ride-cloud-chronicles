@@ -1,0 +1,6 @@
+outs:
+- md5: cbe118fe2d6df307b49c4c8e7e811427.dir
+  size: 6466
+  nfiles: 1
+  hash: md5
+  path: generators

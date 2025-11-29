@@ -1,0 +1,5 @@
+[core]
+    autostage = true
+    remote = aws
+['remote "aws"']
+    url = s3://dvc-remote-storage-us-east-1/sleigh-ride-cloud-chronicles

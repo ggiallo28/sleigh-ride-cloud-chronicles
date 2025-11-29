@@ -32,7 +32,6 @@ The North Pole Cloud Apprentice.
 
 The story begins now.
 
-
 ---
 
 ## 🎅 Characters
@@ -44,8 +43,8 @@ The protagonist and final decision-maker. Once a master of traditional toy-makin
 The participant and Santa's trusted partner throughout this journey. You learn cloud engineering and AI concepts alongside Santa, helping him solve each day's crisis. You write the code, deploy the infrastructure, and make the technical decisions that keep Project Sleigh-Ride moving forward. Your growth from novice to confident cloud architect mirrors the narrative arc of the challenge.
 
 ### Supporting Cast
-- **Amazon Bedrock** – The magical AI engine powering Santa's solutions.
-- **AWS Services** – The toolbox (Lambda, S3, DynamoDB, etc.) that Santa uses to build the system.
+- **Amazon Bedrock**: The magical AI engine powering Santa's solutions.
+- **AWS Services**: The toolbox (Lambda, S3, DynamoDB, etc.) that Santa uses to build the system.
 
 ---
 
@@ -87,11 +86,11 @@ You do **not** need prior experience with AI/ML or advanced cloud architecture t
 ### Daily Structure
 
 Each day includes:
-1. **Story Chapter** – A narrative scene advancing the plot and introducing the day's technical theme
-2. **Learning Goal** – Conceptual explanation of the cloud/AI concept you'll implement
-3. **Challenge Materials** – Input files and task descriptions in the `dayXX/` folders
-4. **Expected Outputs** – Reference examples showing what success looks like
-5. **Cost-Saving Tips** – Practical advice for managing AWS spend
+1. **Story Chapter**: A narrative scene advancing the plot and introducing the day's technical theme
+2. **Learning Goal**: Conceptual explanation of the cloud/AI concept you'll implement
+3. **Challenge Materials**: Input files and task descriptions in the `dayXX/` folders
+4. **Expected Outputs**: Reference examples showing what success looks like
+5. **Cost-Saving Tips**: Practical advice for managing AWS spend
 
 ### Your Mission
 
@@ -136,15 +135,15 @@ Prepare for production scale. Implement observability, audit trails, and explain
 ### Cost Management Strategy
 
 AWS services cost real money. To participate responsibly:
-1. **Use Infrastructure as Code templates** – Deploy only what you need, when you need it
-2. **Destroy resources after each day** – Use `terraform destroy` or equivalent cleanup scripts
-3. **Set up budget alerts** – Configure AWS Budgets before starting (see `setup/aws_budget_setup.md`)
-4. **Optimize prompts** – Reduce token usage through efficient prompt design
-5. **Cache aggressively** – Reuse embeddings, summaries, and model responses where possible
+1. **Use Infrastructure as Code templates**: Deploy only what you need, when you need it
+2. **Destroy resources after each day**: Use `terraform destroy` or equivalent cleanup scripts
+3. **Set up budget alerts**: Configure AWS Budgets before starting (see `setup/aws_budget_setup.md`)
+4. **Optimize prompts**: Reduce token usage through efficient prompt design
+5. **Cache aggressively**: Reuse embeddings, summaries, and model responses where possible
 
-**Estimated daily cost:** $0.50 – $5.00 USD depending on usage patterns.
+**Estimated daily cost:** $0.50 / $5.00 USD depending on usage patterns.
 
-**Total estimated cost for all 25 days:** $12.50 – $125.00 USD (assuming responsible resource cleanup).
+**Total estimated cost for all 25 days:** $12.50 / $125.00 USD (assuming responsible resource cleanup).
 
 ---
 
@@ -162,6 +161,9 @@ AWS services cost real money. To participate responsibly:
 | **Amazon DynamoDB** | NoSQL database for session state and memory | [DynamoDB Docs](https://docs.aws.amazon.com/dynamodb/) |
 | **AWS Step Functions** | Workflow orchestration (optional) | [Step Functions Docs](https://docs.aws.amazon.com/step-functions/) |
 | **Amazon CloudWatch** | Logging and monitoring | [CloudWatch Docs](https://docs.aws.amazon.com/cloudwatch/) |
+| **Strands Agents** | Framework for autonomous agent planning and tool use | [Strands Docs](https://strandsagents.com/latest/) |
+| **AWS AgentCode** | Bedrock native agent development and execution| [AgentCode Docs](https://docs.aws.amazon.com/bedrock-agentcore/) |
+
 
 ### Software Requirements
 
@@ -173,22 +175,22 @@ AWS services cost real money. To participate responsibly:
 ### Python Dependencies
 
 Core packages (see `setup/requirements.txt`):
-- `boto3` – AWS SDK for Python
-- `pandas` – Data manipulation and analysis
-- `numpy` – Numerical computing
-- `hypothesis` – Property-based testing
-- `pytest` – Unit testing framework
-- `faker` – Synthetic data generation
-- `jinja2` – Template rendering
-- `python-dotenv` – Environment variable management
+- `boto3`: AWS SDK for Python
+- `pandas`: Data manipulation and analysis
+- `numpy`: Numerical computing
+- `hypothesis`: Property-based testing
+- `pytest`: Unit testing framework
+- `faker`: Synthetic data generation
+- `jinja2`: Template rendering
+- `python-dotenv`: Environment variable management
 
 ### AWS Account Setup
 
-1. **Create an AWS Account** – Visit [aws.amazon.com](https://aws.amazon.com)
-2. **Enable Bedrock** – Request model access in the Bedrock console
-3. **Create IAM User** – Set up a dedicated user with programmatic access
-4. **Configure Credentials** – Run `aws configure` with your access keys
-5. **Set Budget Alerts** – Configure AWS Budgets to monitor spending
+1. **Create an AWS Account**: Visit [aws.amazon.com](https://aws.amazon.com)
+2. **Enable Bedrock**: Request model access in the Bedrock console
+3. **Create IAM User**: Set up a dedicated user with programmatic access
+4. **Configure Credentials**: Run `aws configure` with your access keys
+5. **Set Budget Alerts**: Configure AWS Budgets to monitor spending
 
 See `setup/bedrock_setup_guide.md` and `setup/aws_budget_setup.md` for detailed instructions.
 
@@ -208,28 +210,28 @@ sleigh-ride-cloud-chronicles/
 ```
 
 Each `dayXX/` folder contains:
-- `task.md` – The day's challenge description
-- `input/` – Files needed to complete the challenge
-- `expected/` – Reference outputs showing what you're aiming for
-- `output/` – Where you'll place your generated results
+- `task.md`: The day's challenge description
+- `input/`: Files needed to complete the challenge
+- `expected/`: Reference outputs showing what you're aiming for
+- `output/`: Where you'll place your generated results
 
 ---
 
 ## 🎮 Rules & Guidelines
 
 ### What You Should Do
-1. **Write and share your code** – Create scripts, notebooks, or applications that solve each day's challenge
-2. **Use infrastructure-as-code** – Define your AWS resources programmatically so others can reproduce your work
-3. **Submit pull requests** – Share your solutions by adding them to your fork and opening a PR
-4. **Collaborate and learn** – Discuss approaches, share insights, help others debug
-5. **Destroy your infrastructure daily** – Don't leave expensive resources running overnight
+1. **Write and share your code**: Create scripts, notebooks, or applications that solve each day's challenge
+2. **Use infrastructure-as-code**: Define your AWS resources programmatically so others can reproduce your work
+3. **Submit pull requests**: Share your solutions by adding them to your fork and opening a PR
+4. **Collaborate and learn**: Discuss approaches, share insights, help others debug
+5. **Destroy your infrastructure daily**: Don't leave expensive resources running overnight
 
 ### What You Should NOT Do
-1. **Do not solve challenges using only online chatbots** – You need actual code and infrastructure
-2. **Do not copy/redistribute the story text** – You may link to this repository, but don't republish the narrative chapters
-3. **Do not share your AWS credentials** – Use IAM roles, environment variables, and secure practices
-4. **Do not create permanent global infrastructure** – Each day should be deployed and destroyed
-5. **Do not use this for production workloads** – This is a learning exercise with mock data
+1. **Do not solve challenges using only online chatbots**: You need actual code and infrastructure
+2. **Do not copy/redistribute the story text**: You may link to this repository, but don't republish the narrative chapters
+3. **Do not share your AWS credentials**: Use IAM roles, environment variables, and secure practices
+4. **Do not create permanent global infrastructure**: Each day should be deployed and destroyed
+5. **Do not use this for production workloads**: This is a learning exercise with mock data
 
 ---
 
@@ -314,14 +316,14 @@ git push origin solution-day01-yourname
 ---
 
 ## 💡 Tips for Success
-1. **Start simple** – Don't over-engineer early days; complexity builds gradually
-2. **Read the story** – Technical hints are woven into the narrative
-3. **Use the expected outputs** – They show exactly what format you're targeting
-4. **Monitor your AWS costs** – Check billing dashboard daily
-5. **Ask for help** – Use GitHub Discussions when you're stuck
-6. **Document your decisions** – Future you will thank present you
-7. **Test with small datasets first** – Scale up only after your logic works
-8. **Destroy infrastructure nightly** – Avoid surprise bills
+1. **Start simple**: Don't over-engineer early days; complexity builds gradually
+2. **Read the story**: Technical hints are woven into the narrative
+3. **Use the expected outputs**: They show exactly what format you're targeting
+4. **Monitor your AWS costs**: Check billing dashboard daily
+5. **Ask for help**: Use GitHub Discussions when you're stuck
+6. **Document your decisions**: Future you will thank present you
+7. **Test with small datasets first**: Scale up only after your logic works
+8. **Destroy infrastructure nightly**: Avoid surprise bills
 
 ---
 

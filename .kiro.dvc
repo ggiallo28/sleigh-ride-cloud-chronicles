@@ -1,0 +1,6 @@
+outs:
+- md5: c0d72b798cac85e65ec692669f169488.dir
+  size: 114252
+  nfiles: 8
+  hash: md5
+  path: .kiro
