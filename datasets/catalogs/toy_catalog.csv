@@ -1,61 +1,157 @@
-ProductName,Description,Category,Price,SafetyRating
-Khaki Join Arts & Craft,Result loss long decision claim street.,Arts & Crafts,119.7,Restricted
-Beige Either Doll,Campaign or care.,Dolls,18.71,Safe
-Thistle Among Sport,Chair coach two might if wide point.,Sports,197.19,Safe
-Lightskyblue Your Doll,Describe paper likely loss.,Dolls,82.22,Caution
-Indigo Then Arts & Craft,Over some star consider process enough.,Arts & Crafts,40.9,Caution
-Mediumspringgreen Win Board Game,Others attention her car admit mission training.,Board Games,137.33,Restricted
-Peachpuff The Doll,Painting concern top outside.,Dolls,125.73,Safe
-White Most Board Game,Behavior process top much.,Board Games,41.05,Caution
-Aliceblue Watch Sport,Miss have analysis morning director sort.,Sports,198.01,Restricted
-Olive Hard Board Game,Source traditional student office international effort she travel.,Board Games,140.08,Safe
-Darkblue Federal Board Game,Theory impact country remember smile official brother according.,Board Games,166.14,Caution
-Greenyellow Rise Book,Impact blood international one end movie.,Books,60.87,Safe
-Moccasin Population Arts & Craft,Yeah however data need newspaper.,Arts & Crafts,50.4,Caution
-Fuchsia Hospital Book,Never effect fill general relationship save talk.,Books,178.09,Restricted
-Darkorchid Small Puzzle,Land record class Democrat hundred.,Puzzles,37.15,Safe
-Mediumslateblue Suddenly Board Game,Pass range appear home player source statement.,Board Games,151.55,Restricted
-Seashell With Sport,Itself ask develop bag also his worker pass.,Sports,151.93,Caution
-Turquoise Few Book,Arm similar compare manager action sure us million.,Books,78.78,Safe
-Goldenrod Along Puzzle,Member recognize past purpose growth pretty wish beautiful.,Puzzles,27.27,Safe
-Lightsalmon State Doll,Good house only military say attention.,Dolls,39.04,Safe
-Darkgoldenrod Often Book,Risk next on girl spring.,Books,123.32,Caution
-Ivory Police Book,Lawyer identify above company media.,Books,123.22,Caution
-Cornsilk Most Sport,Future bring message election Mrs.,Sports,194.5,Safe
-Lightcoral Rule Doll,Whom none show serious which learn.,Dolls,139.52,Restricted
-Salmon Watch Sport,Television loss election him small detail red son.,Sports,156.03,Caution
-Palevioletred Head Doll,Movie red enjoy expert human see garden.,Dolls,65.77,Safe
-Fuchsia Maybe Puzzle,Government thus especially water raise travel.,Puzzles,10.62,Restricted
-Springgreen Since Sport,Dog drug enter director strong.,Sports,194.66,Safe
-Mintcream Clearly Doll,Build bad what manage.,Dolls,175.4,Caution
-Antiquewhite South Board Game,When summer he firm together thing off.,Board Games,39.04,Safe
-Lightsalmon Military Vehicle,Worker trouble exactly develop.,Vehicles,123.8,Caution
-Darksalmon Arm Vehicle,Son long must maybe hour rather company.,Vehicles,31.25,Caution
-Darkorchid Say Sport,Least ready activity decision ok foot party.,Sports,55.5,Safe
-Lightgoldenrodyellow Culture Doll,Enjoy especially when gas contain interest industry.,Dolls,26.27,Caution
-Navy His Doll,Evidence conference capital office direction between.,Dolls,195.82,Restricted
-Lightpink Summer Electronic,New task cultural son school.,Electronics,34.39,Caution
-Sienna Sure Electronic,Computer matter yet.,Electronics,60.36,Restricted
-Tomato None Book,Size feel no nothing huge real.,Books,193.23,Restricted
-Chocolate Dinner Board Game,Live picture last free guess.,Board Games,145.46,Caution
-Lightcyan Guy Arts & Craft,In go quickly.,Arts & Crafts,93.24,Restricted
-Gray Part Puzzle,Practice Mrs without expect foot member simple.,Puzzles,32.99,Safe
-Rosybrown Visit Doll,High expert place certain.,Dolls,74.24,Restricted
-Firebrick Push Board Game,Instead partner if trade bad gas.,Board Games,121.8,Safe
-Maroon Free Doll,Report painting house thought sit.,Dolls,144.49,Safe
-Mistyrose Small Board Game,Minute late cold take by doctor edge season.,Board Games,22.81,Safe
-Cyan Develop Arts & Craft,However believe view list.,Arts & Crafts,23.46,Safe
-Cadetblue Agree Sport,Model you billion peace base use.,Sports,137.11,Safe
-Orange For Electronic,Easy exist phone capital stuff.,Electronics,147.44,Restricted
-Black Already Puzzle,Team foot live window music evening.,Puzzles,56.17,Caution
-Red Central Book,Computer our piece player nor model police.,Books,46.18,Safe
-Magenta When Book,Loss dinner become film include choose.,Books,77.32,Caution
-Aqua A Puzzle,Spring summer gas light across two water.,Puzzles,174.13,Safe
-Silver Firm Doll,She something others.,Dolls,21.52,Restricted
-Antiquewhite Official Arts & Craft,Country think join economic resource position.,Arts & Crafts,162.11,Safe
-Oldlace Discussion Board Game,Bad personal might son party.,Board Games,46.4,Restricted
-Lightpink Feel Puzzle,Speak include table consumer face PM pay.,Puzzles,36.63,Safe
-Lightpink School Sport,Man fly charge wide against win example by.,Sports,97.9,Safe
-Purple Short Puzzle,Do character management.,Puzzles,163.52,Restricted
-Mediumspringgreen Kitchen Doll,Size marriage he recent all.,Dolls,19.61,Restricted
-Cyan Threat Vehicle,Argue simply author like.,Vehicles,194.11,Safe
+ProductName,Category,Price,SafetyRating,PopularityScore,Description
+Apple Ipad Air,Electronics,$305.15,Caution,10,State-of-the-art Apple Ipad Air for the tech-savvy user.
+Robot,Electronics,$364.32,Caution,9.5,State-of-the-art Robot for the tech-savvy user.
+Portable Campfire,General,$94.58,Caution,9.1,The Portable Campfire is a versatile gift for everyone.
+Skateboard,Board Games & Puzzles,$35.39,Safe,9.1,Challenge your mind and friends with this engaging Skateboard.
+Interactive Storybook Projector,Books,$25.80,Caution,9.1,Immerse yourself in stories with this Interactive Storybook Projector.
+Smart Fitness Tracker,Sports & Outdoors,$76.68,Safe,8.9,Get active and stay fit with this high-performance Smart Fitness Tracker.
+Mini Espresso Maker,Arts & Crafts,$63.06,Safe,8.8,Unleash your creativity with the Mini Espresso Maker.
+3D Printing Pen,Arts & Crafts,$27.84,Safe,8.8,Unleash your creativity with the 3D Printing Pen.
+Customizable Neon Sign,General,$52.89,Caution,8.8,The Customizable Neon Sign is a versatile gift for everyone.
+Indoor Herb Garden Kit,Arts & Crafts,$51.76,Safe,8.8,Unleash your creativity with the Indoor Herb Garden Kit.
+Programmable Led Message Board,Board Games & Puzzles,$49.73,Caution,8.8,Challenge your mind and friends with this engaging Programmable Led Message Board.
+Teddy Bear,Dolls & Plush,$16.75,Safe,8.8,"Soft and cuddly Teddy Bear, perfect for hugs and imaginative play."
+Wireless Charging Pad,General,$78.92,Caution,8.7,The Wireless Charging Pad is a versatile gift for everyone.
+Smart Home Assistant,Arts & Crafts,$60.14,Safe,8.7,Unleash your creativity with the Smart Home Assistant.
+Small Stoneware Vase,General,$96.88,Safe,8.6,The Small Stoneware Vase is a versatile gift for everyone.
+Mini Drone,Electronics,$160.28,Caution,8.6,State-of-the-art Mini Drone for the tech-savvy user.
+Desktop Air Purifier,Electronics,$103.14,Caution,8.6,State-of-the-art Desktop Air Purifier for the tech-savvy user.
+Smart Water Bottle,Arts & Crafts,$52.79,Safe,8.5,Unleash your creativity with the Smart Water Bottle.
+Compact Sewing Machine,Arts & Crafts,$60.79,Safe,8.5,Unleash your creativity with the Compact Sewing Machine.
+Bicycle,General,$75.67,Caution,8.5,The Bicycle is a versatile gift for everyone.
+Smartphone Tripod,Arts & Crafts,$54.69,Safe,8.5,Unleash your creativity with the Smartphone Tripod.
+Miniverse Make It Mini Food Kits,Arts & Crafts,$79.89,Safe,8.5,Unleash your creativity with the Miniverse Make It Mini Food Kits.
+Virtual Pet Robot,Electronics,$217.57,Caution,8.4,State-of-the-art Virtual Pet Robot for the tech-savvy user.
+Toy Car,General,$20.52,Safe,8.4,The Toy Car is a versatile gift for everyone.
+Foldable Travel Backpack,General,$41.98,Safe,8.3,The Foldable Travel Backpack is a versatile gift for everyone.
+Amazon Fire Hd 10 Kids Pro,General,$56.68,Caution,8.3,The Amazon Fire Hd 10 Kids Pro is a versatile gift for everyone.
+Rechargeable Hand Warmer,General,$61.58,Caution,8.3,The Rechargeable Hand Warmer is a versatile gift for everyone.
+Skullcandy Dime 2 In-Ear Wireless Earbuds,General,$63.76,Caution,8.3,The Skullcandy Dime 2 In-Ear Wireless Earbuds is a versatile gift for everyone.
+The Clearly Impossible Puzzle,Board Games & Puzzles,$45.08,Safe,8.3,Challenge your mind and friends with this engaging The Clearly Impossible Puzzle.
+Barbie Dreamhouse,Dolls & Plush,$41.38,Safe,8.3,"Soft and cuddly Barbie Dreamhouse, perfect for hugs and imaginative play."
+Harry Potter Crookshanks Plush,Dolls & Plush,$15.31,Safe,8.3,"Soft and cuddly Harry Potter Crookshanks Plush, perfect for hugs and imaginative play."
+Live Christmas Tree (Norfolk Island Pine),General,$71.60,Safe,8.3,The Live Christmas Tree (Norfolk Island Pine) is a versatile gift for everyone.
+Ceramic Piggybank Nursery Keepsake,General,$99.64,Safe,8.2,The Ceramic Piggybank Nursery Keepsake is a versatile gift for everyone.
+Furby Furblets,Dolls & Plush,$53.84,Safe,8.2,"Soft and cuddly Furby Furblets, perfect for hugs and imaginative play."
+Wireless Gaming Mouse,General,$93.70,Caution,8.1,The Wireless Gaming Mouse is a versatile gift for everyone.
+Apple Watch,Electronics,$375.36,Caution,8.1,State-of-the-art Apple Watch for the tech-savvy user.
+Samsung Galaxy Tab A9+,General,$35.32,Caution,8.1,The Samsung Galaxy Tab A9+ is a versatile gift for everyone.
+Mechanical Keyboard,Board Games & Puzzles,$22.41,Caution,8.1,Challenge your mind and friends with this engaging Mechanical Keyboard.
+Multi-Tool Pocket Knife,General,$75.04,Restricted,8,The Multi-Tool Pocket Knife is a versatile gift for everyone.
+Harry Potter Wand,General,$26.01,Safe,8,The Harry Potter Wand is a versatile gift for everyone.
+Minnie Mouse Hat And Mittens,General,$96.83,Caution,8,The Minnie Mouse Hat And Mittens is a versatile gift for everyone.
+Portable Bluetooth Speaker,Electronics,$115.96,Caution,8,State-of-the-art Portable Bluetooth Speaker for the tech-savvy user.
+Lego Star Wars Set,Arts & Crafts,$58.02,Safe,8,Unleash your creativity with the Lego Star Wars Set.
+Pom Pom Beanie With Led Light,General,$84.72,Caution,8,The Pom Pom Beanie With Led Light is a versatile gift for everyone.
+Book,Books,$28.29,Safe,8,Immerse yourself in stories with this Book.
+Heated Blanket With Remote,General,$52.17,Caution,8,The Heated Blanket With Remote is a versatile gift for everyone.
+Virtual Reality Headset,Electronics,$164.28,Caution,7.9,State-of-the-art Virtual Reality Headset for the tech-savvy user.
+Magnetic Levitating Globe,General,$80.65,Safe,7.8,The Magnetic Levitating Globe is a versatile gift for everyone.
+Desktop Bonsai Tree Kit,Arts & Crafts,$34.69,Safe,7.8,Unleash your creativity with the Desktop Bonsai Tree Kit.
+Funko Pop! Figures (Nba,Dolls & Plush,$53.63,Safe,7.8,"Soft and cuddly Funko Pop! Figures (Nba, perfect for hugs and imaginative play."
+Marvel,General,$81.68,Safe,7.8,The Marvel is a versatile gift for everyone.
+Lego Creator 3-In-1 Mighty Dinosaurs,Arts & Crafts,$36.92,Safe,7.8,Unleash your creativity with the Lego Creator 3-In-1 Mighty Dinosaurs.
+Mlb,General,$20.14,Safe,7.8,The Mlb is a versatile gift for everyone.
+Transformers Authentics Optimus Prime,General,$34.02,Safe,7.8,The Transformers Authentics Optimus Prime is a versatile gift for everyone.
+Yellow Dress-Up Set,General,$38.10,Safe,7.8,The Yellow Dress-Up Set is a versatile gift for everyone.
+Rc Controlled Paper Airplane Kit,Arts & Crafts,$23.44,Caution,7.7,Unleash your creativity with the Rc Controlled Paper Airplane Kit.
+Eco-Friendly Reusable Notebook,Books,$23.19,Safe,7.7,Immerse yourself in stories with this Eco-Friendly Reusable Notebook.
+Solar-Powered Phone Charger,Electronics,$261.82,Caution,7.6,State-of-the-art Solar-Powered Phone Charger for the tech-savvy user.
+E.L.F. Halo Glow Liquid Filter,General,$47.66,Safe,7.6,The E.L.F. Halo Glow Liquid Filter is a versatile gift for everyone.
+Apple Ipad (10Th Generation),Electronics,$151.49,Caution,7.6,State-of-the-art Apple Ipad (10Th Generation) for the tech-savvy user.
+Rainbow Loom Charm Bracelet Kit,Arts & Crafts,$71.85,Safe,7.6,Unleash your creativity with the Rainbow Loom Charm Bracelet Kit.
+Our Generation Siberian Husky Plush,Dolls & Plush,$20.46,Safe,7.6,"Soft and cuddly Our Generation Siberian Husky Plush, perfect for hugs and imaginative play."
+Temporary Tattoo Markers Kit,Arts & Crafts,$74.89,Safe,7.6,Unleash your creativity with the Temporary Tattoo Markers Kit.
+Out To Impress Jewelry Set,General,$89.54,Safe,7.6,The Out To Impress Jewelry Set is a versatile gift for everyone.
+Video Game,Board Games & Puzzles,$45.97,Safe,7.5,Challenge your mind and friends with this engaging Video Game.
+Alex Glow Sketch It Nail Pens,Arts & Crafts,$77.46,Safe,7.5,Unleash your creativity with the Alex Glow Sketch It Nail Pens.
+Surprise Toy Bath Bombs,General,$22.60,Safe,7.5,The Surprise Toy Bath Bombs is a versatile gift for everyone.
+Led Light-Up Sneakers,General,$30.70,Caution,7.5,The Led Light-Up Sneakers is a versatile gift for everyone.
+X-Shot Excel Reflex 6 Blaster,General,$69.97,Caution,7.4,The X-Shot Excel Reflex 6 Blaster is a versatile gift for everyone.
+Portable Projector,General,$69.51,Caution,7.4,The Portable Projector is a versatile gift for everyone.
+Noise-Cancelling Headphones,Electronics,$88.75,Caution,7.4,State-of-the-art Noise-Cancelling Headphones for the tech-savvy user.
+Wake Up Light Sunrise Alarm Clock,General,$50.92,Caution,7.4,The Wake Up Light Sunrise Alarm Clock is a versatile gift for everyone.
+Customized Photo Puzzle,Board Games & Puzzles,$17.68,Safe,7.4,Challenge your mind and friends with this engaging Customized Photo Puzzle.
+Electric Scooter,Sports & Outdoors,$80.57,Caution,7.3,Get active and stay fit with this high-performance Electric Scooter.
+Vintage-Style Typewriter Keyboard,Board Games & Puzzles,$48.91,Caution,7.3,Challenge your mind and friends with this engaging Vintage-Style Typewriter Keyboard.
+Squishmallows (Hello Kitty,Arts & Crafts,$62.09,Safe,7.3,Unleash your creativity with the Squishmallows (Hello Kitty.
+Piplup,General,$81.72,Safe,7.3,The Piplup is a versatile gift for everyone.
+Adopt Me! Queen Bee,General,$63.66,Safe,7.3,The Adopt Me! Queen Bee is a versatile gift for everyone.
+Lego Set,Arts & Crafts,$50.83,Safe,7.2,Unleash your creativity with the Lego Set.
+Electrocubes Nightlight Building Set,General,$81.88,Caution,7.2,The Electrocubes Nightlight Building Set is a versatile gift for everyone.
+Lego Batman Mech Armor,Arts & Crafts,$70.78,Safe,7.1,Unleash your creativity with the Lego Batman Mech Armor.
+Electric Candle Lighter,General,$89.77,Caution,7.1,The Electric Candle Lighter is a versatile gift for everyone.
+5 Surprise Nba Ballers,Sports & Outdoors,$61.80,Safe,7.1,Get active and stay fit with this high-performance 5 Surprise Nba Ballers.
+Retro Instant Camera,Electronics,$96.66,Caution,7,State-of-the-art Retro Instant Camera for the tech-savvy user.
+Scratch-Off World Map,General,$93.44,Safe,7,The Scratch-Off World Map is a versatile gift for everyone.
+Teenage Mutant Ninja Turtles Figures,Dolls & Plush,$57.11,Safe,7,"Soft and cuddly Teenage Mutant Ninja Turtles Figures, perfect for hugs and imaginative play."
+Lego Sets,Arts & Crafts,$72.89,Safe,7,Unleash your creativity with the Lego Sets.
+Nintendo Switch Game,Board Games & Puzzles,$24.95,Safe,6.8,Challenge your mind and friends with this engaging Nintendo Switch Game.
+Digital Art Drawing Tablet,Arts & Crafts,$28.23,Caution,6.7,Unleash your creativity with the Digital Art Drawing Tablet.
+Color-Changing Smart Light Bulb,Arts & Crafts,$39.10,Caution,6.7,Unleash your creativity with the Color-Changing Smart Light Bulb.
+Personalized Leather Journal,Books,$22.71,Safe,6.6,Immerse yourself in stories with this Personalized Leather Journal.
+Doll,Dolls & Plush,$57.58,Safe,6.5,"Soft and cuddly Doll, perfect for hugs and imaginative play."
+Art Supplies,Arts & Crafts,$62.90,Safe,6.3,Unleash your creativity with the Art Supplies.
+Mini Waffle Maker,Arts & Crafts,$67.17,Safe,6.2,Unleash your creativity with the Mini Waffle Maker.
+Portable Karaoke Microphone,Electronics,$231.62,Caution,6.2,State-of-the-art Portable Karaoke Microphone for the tech-savvy user.
+Electric Wine Opener,Arts & Crafts,$30.25,Caution,6.2,Unleash your creativity with the Electric Wine Opener.
+Beige Either Doll,Dolls,$18.71,Safe,7.8,The Beige Either Doll is a versatile gift for everyone.
+Cyan Threat Vehicle,Vehicles,$194.11,Safe,7.9,The Cyan Threat Vehicle is a versatile gift for everyone.
+Mintcream Clearly Doll,Dolls,$175.40,Caution,7.8,The Mintcream Clearly Doll is a versatile gift for everyone.
+Springgreen Since Sport,Sports,$194.66,Safe,7.8,Get active and stay fit with this high-performance Springgreen Since Sport.
+Fuchsia Maybe Puzzle,Puzzles,$10.62,Restricted,7.9,Challenge your mind and friends with this engaging Fuchsia Maybe Puzzle.
+Palevioletred Head Doll,Dolls,$65.77,Safe,7.8,The Palevioletred Head Doll is a versatile gift for everyone.
+Salmon Watch Sport,Sports,$156.03,Caution,7.8,Get active and stay fit with this high-performance Salmon Watch Sport.
+Lightcoral Rule Doll,Dolls,$139.52,Restricted,7.8,The Lightcoral Rule Doll is a versatile gift for everyone.
+Cornsilk Most Sport,Sports,$194.50,Safe,7.8,Get active and stay fit with this high-performance Cornsilk Most Sport.
+Ivory Police Book,Books,$123.22,Caution,7.8,Immerse yourself in stories with this Ivory Police Book.
+Darkgoldenrod Often Book,Books,$123.32,Caution,7.8,Immerse yourself in stories with this Darkgoldenrod Often Book.
+Lightsalmon State Doll,Dolls,$39.04,Safe,7.8,The Lightsalmon State Doll is a versatile gift for everyone.
+Goldenrod Along Puzzle,Puzzles,$27.27,Safe,7.9,Challenge your mind and friends with this engaging Goldenrod Along Puzzle.
+Turquoise Few Book,Books,$78.78,Safe,7.8,Immerse yourself in stories with this Turquoise Few Book.
+Seashell With Sport,Sports,$151.93,Caution,7.8,Get active and stay fit with this high-performance Seashell With Sport.
+Mediumslateblue Suddenly Board Game,Board Games,$151.55,Restricted,7.9,Challenge your mind and friends with this engaging Mediumslateblue Suddenly Board Game.
+Darkorchid Small Puzzle,Puzzles,$37.15,Safe,7.9,Challenge your mind and friends with this engaging Darkorchid Small Puzzle.
+Fuchsia Hospital Book,Books,$178.09,Restricted,7.8,Immerse yourself in stories with this Fuchsia Hospital Book.
+Moccasin Population Arts & Craft,Arts & Crafts,$50.40,Caution,7.7,Unleash your creativity with the Moccasin Population Arts & Craft.
+Greenyellow Rise Book,Books,$60.87,Safe,7.8,Immerse yourself in stories with this Greenyellow Rise Book.
+Darkblue Federal Board Game,Board Games,$166.14,Caution,7.9,Challenge your mind and friends with this engaging Darkblue Federal Board Game.
+Olive Hard Board Game,Board Games,$140.08,Safe,7.9,Challenge your mind and friends with this engaging Olive Hard Board Game.
+Aliceblue Watch Sport,Sports,$198.01,Restricted,7.8,Get active and stay fit with this high-performance Aliceblue Watch Sport.
+White Most Board Game,Board Games,$41.05,Caution,7.9,Challenge your mind and friends with this engaging White Most Board Game.
+Peachpuff The Doll,Dolls,$125.73,Safe,7.8,The Peachpuff The Doll is a versatile gift for everyone.
+Mediumspringgreen Win Board Game,Board Games,$137.33,Restricted,7.9,Challenge your mind and friends with this engaging Mediumspringgreen Win Board Game.
+Indigo Then Arts & Craft,Arts & Crafts,$40.90,Caution,7.7,Unleash your creativity with the Indigo Then Arts & Craft.
+Lightskyblue Your Doll,Dolls,$82.22,Caution,7.8,The Lightskyblue Your Doll is a versatile gift for everyone.
+Thistle Among Sport,Sports,$197.19,Safe,7.8,Get active and stay fit with this high-performance Thistle Among Sport.
+Khaki Join Arts & Craft,Arts & Crafts,$119.70,Restricted,7.7,Unleash your creativity with the Khaki Join Arts & Craft.
+Rosybrown Visit Doll,Dolls,$74.24,Restricted,7.8,The Rosybrown Visit Doll is a versatile gift for everyone.
+Firebrick Push Board Game,Board Games,$121.80,Safe,7.9,Challenge your mind and friends with this engaging Firebrick Push Board Game.
+Maroon Free Doll,Dolls,$144.49,Safe,7.8,The Maroon Free Doll is a versatile gift for everyone.
+Mistyrose Small Board Game,Board Games,$22.81,Safe,7.9,Challenge your mind and friends with this engaging Mistyrose Small Board Game.
+Cyan Develop Arts & Craft,Arts & Crafts,$23.46,Safe,7.7,Unleash your creativity with the Cyan Develop Arts & Craft.
+Cadetblue Agree Sport,Sports,$137.11,Safe,7.8,Get active and stay fit with this high-performance Cadetblue Agree Sport.
+Orange For Electronic,Electronics,$147.44,Restricted,8.1,State-of-the-art Orange For Electronic for the tech-savvy user.
+Black Already Puzzle,Puzzles,$56.17,Caution,7.9,Challenge your mind and friends with this engaging Black Already Puzzle.
+Red Central Book,Books,$46.18,Safe,7.8,Immerse yourself in stories with this Red Central Book.
+Magenta When Book,Books,$77.32,Caution,7.8,Immerse yourself in stories with this Magenta When Book.
+Aqua A Puzzle,Puzzles,$174.13,Safe,7.9,Challenge your mind and friends with this engaging Aqua A Puzzle.
+Silver Firm Doll,Dolls,$21.52,Restricted,7.8,The Silver Firm Doll is a versatile gift for everyone.
+Antiquewhite Official Arts & Craft,Arts & Crafts,$162.11,Safe,7.7,Unleash your creativity with the Antiquewhite Official Arts & Craft.
+Oldlace Discussion Board Game,Board Games,$46.40,Restricted,7.9,Challenge your mind and friends with this engaging Oldlace Discussion Board Game.
+Lightpink Feel Puzzle,Puzzles,$36.63,Safe,7.9,Challenge your mind and friends with this engaging Lightpink Feel Puzzle.
+Lightpink School Sport,Sports,$97.90,Safe,7.8,Get active and stay fit with this high-performance Lightpink School Sport.
+Purple Short Puzzle,Puzzles,$163.52,Restricted,7.9,Challenge your mind and friends with this engaging Purple Short Puzzle.
+Lightcyan Guy Arts & Craft,Arts & Crafts,$93.24,Restricted,7.7,Unleash your creativity with the Lightcyan Guy Arts & Craft.
+Antiquewhite South Board Game,Board Games,$39.04,Safe,7.9,Challenge your mind and friends with this engaging Antiquewhite South Board Game.
+Tomato None Book,Books,$193.23,Restricted,7.8,Immerse yourself in stories with this Tomato None Book.
+Mediumspringgreen Kitchen Doll,Dolls,$19.61,Restricted,7.8,The Mediumspringgreen Kitchen Doll is a versatile gift for everyone.
+Lightpink Summer Electronic,Electronics,$34.39,Caution,8.1,State-of-the-art Lightpink Summer Electronic for the tech-savvy user.
+Navy His Doll,Dolls,$195.82,Restricted,7.8,The Navy His Doll is a versatile gift for everyone.
+Lightsalmon Military Vehicle,Vehicles,$123.80,Caution,7.9,The Lightsalmon Military Vehicle is a versatile gift for everyone.
+Darkorchid Say Sport,Sports,$55.50,Safe,7.8,Get active and stay fit with this high-performance Darkorchid Say Sport.
+Sienna Sure Electronic,Electronics,$60.36,Restricted,8.1,State-of-the-art Sienna Sure Electronic for the tech-savvy user.
+Gray Part Puzzle,Puzzles,$32.99,Safe,7.9,Challenge your mind and friends with this engaging Gray Part Puzzle.
+Chocolate Dinner Board Game,Board Games,$145.46,Caution,7.9,Challenge your mind and friends with this engaging Chocolate Dinner Board Game.
+Lightgoldenrodyellow Culture Doll,Dolls,$26.27,Caution,7.8,The Lightgoldenrodyellow Culture Doll is a versatile gift for everyone.
+Darksalmon Arm Vehicle,Vehicles,$31.25,Caution,7.9,The Darksalmon Arm Vehicle is a versatile gift for everyone.
