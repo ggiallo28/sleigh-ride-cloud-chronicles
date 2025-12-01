@@ -1,0 +1,184 @@
+{
+    "letters": [
+        {
+            "child_name": "Lucas Walsh",
+            "age": null,
+            "address": {
+                "street": "8727 Eaton Mount",
+                "city": "Brampton",
+                "province": "Ontario",
+                "postal_code": "N2D 0E1"
+            },
+            "wishlist": [
+                "electric scooter",
+                "virtual reality headset"
+            ],
+            "special_notes": "Child mentions having a wild year but trying to stay cool."
+        },
+        {
+            "child_name": "Donna Jones",
+            "age": null,
+            "address": {
+                "street": "3727 Karen Prairie Apt. 100",
+                "city": "Sydney",
+                "province": "Nova Scotia",
+                "postal_code": "B8Q 3E5"
+            },
+            "wishlist": [
+                "Our Generation Siberian Husky Plush",
+                "video game"
+            ],
+            "special_notes": "Child says she has been trying her best to be good most of the time."
+        },
+        {
+            "child_name": "Tammy King",
+            "age": null,
+            "address": {
+                "street": "8090 Veronica Pike Apt. 895",
+                "city": "Cambridge Bay",
+                "province": "Nunavut",
+                "postal_code": "X8P 5U9"
+            },
+            "wishlist": [
+                "lego set",
+                "art supplies"
+            ],
+            "special_notes": "Child says she tried her best to be good this year."
+        },
+        {
+            "child_name": "Lindsey Nelson",
+            "age": null,
+            "address": {
+                "street": "86230 Matthew Land",
+                "city": "Red Deer",
+                "province": "Alberta",
+                "postal_code": "T9Y 1S5"
+            },
+            "wishlist": [
+                "Furby Furblets",
+                "skateboard"
+            ],
+            "special_notes": "Letter mentions the child has been on their best behavior this year."
+        },
+        {
+            "child_name": "Kevin Jones",
+            "age": null,
+            "address": {
+                "street": "624 Grant Plaza",
+                "city": "Calgary",
+                "province": "Alberta",
+                "postal_code": "T4V 6G5"
+            },
+            "wishlist": [
+                "solar-powered phone charger",
+                "magnetic levitating globe"
+            ],
+            "special_notes": "Child says he has been good-ish this year."
+        },
+        {
+            "child_name": "Michelle Austin",
+            "age": null,
+            "address": {
+                "street": "47775 Robles Ramp Apt. 150",
+                "city": "Gatineau",
+                "province": "Quebec",
+                "postal_code": "J7U 3T3"
+            },
+            "wishlist": [
+                "digital art drawing tablet",
+                "portable karaoke microphone"
+            ],
+            "special_notes": "Child mentions keeping her nose clean all year."
+        },
+        {
+            "child_name": "Patricia Cox",
+            "age": null,
+            "address": {
+                "street": "167 Latasha Way",
+                "city": "Inuvik",
+                "province": "Northwest Territories",
+                "postal_code": "X2Z 5Z4"
+            },
+            "wishlist": [
+                "Apple iPad (10th Generation)",
+                "Squishmallows (Hello Kitty, Piplup, Adopt Me! Queen Bee)"
+            ],
+            "special_notes": "Child says she has been keeping it real and staying good."
+        },
+        {
+            "child_name": "Jordan Rogers",
+            "age": null,
+            "address": {
+                "street": "496 Arthur Forest",
+                "city": "Fredericton",
+                "province": "New Brunswick",
+                "postal_code": "E7T 1O2"
+            },
+            "wishlist": [
+                "Miniverse Make It Mini Food Kits",
+                "Apple Watch"
+            ],
+            "special_notes": "Child jokes about avoiding coal this year."
+        },
+        {
+            "child_name": "Jeffrey Berg",
+            "age": null,
+            "address": {
+                "street": "897 Debra Garden",
+                "city": "Vancouver",
+                "province": "British Columbia",
+                "postal_code": "V8M 9M1"
+            },
+            "wishlist": [
+                "desktop air purifier",
+                "Apple iPad Air"
+            ],
+            "special_notes": "Child says he has been very kind and helpful this year."
+        },
+        {
+            "child_name": "Donna Ramirez",
+            "age": null,
+            "address": {
+                "street": "65759 James Corner Suite 255",
+                "city": "Gander",
+                "province": "Newfoundland and Labrador",
+                "postal_code": "A1U 6Q6"
+            },
+            "wishlist": [
+                "mini drone",
+                "interactive storybook projector"
+            ],
+            "special_notes": "Child mentions trying her best to stay on the nice list."
+        },
+        {
+            "child_name": "Amanda Calderon",
+            "age": null,
+            "address": {
+                "street": "5775 Salazar Heights",
+                "city": "Rankin Inlet",
+                "province": "Nunavut",
+                "postal_code": "X3R 7D6"
+            },
+            "wishlist": [
+                "indoor herb garden kit",
+                "Samsung Galaxy Tab A9+"
+            ],
+            "special_notes": "Child jokes about avoiding coal this year."
+        },
+        {
+            "child_name": "Kevin Riddle",
+            "age": null,
+            "address": {
+                "street": "6333 Miles Bridge Apt. 874",
+                "city": "Winnipeg",
+                "province": "Manitoba",
+                "postal_code": "R6V 1A9"
+            },
+            "wishlist": [
+                "Electric Candle Lighter",
+                "customizable neon sign"
+            ],
+            "special_notes": "Child says he tried his best to be good this year."
+        }
+    ]
+}
