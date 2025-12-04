@@ -6,10 +6,12 @@ help:
 	@echo "  make help               Show this help message"
 	@echo "  make list-days          List all available day folders"
 	@echo "  make show-task DAY=XX   Show the task and inputs for a given day"
+	@echo "  make run-day DAY=XX     Run the starter script for a given day with uv"
 	@echo "  make dayXX              Shortcut for make show-task DAY=XX"
 	@echo ""
 	@echo "Examples:"
 	@echo "  make show-task DAY=01"
+	@echo "  make run-day DAY=01"
 	@echo "  make day01"
 	@echo ""
 
@@ -39,6 +41,25 @@ show-task:
 	else \
 		echo "❌ Input directory not found for day $(DAY)"; \
 	fi
+	@echo "========================================"
+
+run-day:
+	@if [ -z "$(DAY)" ]; then \
+		echo "❌ DAY variable not set. Use: make run-day DAY=01"; \
+		exit 1; \
+	fi
+	@echo "========================================"
+	@echo "🚀 Running Day $(DAY) Script"
+	@echo "========================================"
+	@SCRIPT=$$(find days/day$(DAY)/output -name "day$(DAY)*.py" -type f 2>/dev/null | head -n 1); \
+	if [ -z "$$SCRIPT" ]; then \
+		echo "❌ No Python script found in days/day$(DAY)/output/"; \
+		exit 1; \
+	fi; \
+	echo "📝 Script: $$SCRIPT"; \
+	echo "📂 Working directory: days/day$(DAY)"; \
+	echo ""; \
+	cd days/day$(DAY) && uv run ../../$$SCRIPT
 	@echo "========================================"
 
 day%: force

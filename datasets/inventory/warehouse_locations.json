@@ -1,0 +1,640 @@
+{
+  "metadata": {
+    "total_warehouses": 42,
+    "country": "Canada",
+    "generated_date": "2025-11-30T19:03:53.252778",
+    "description": "Warehouse locations derived from Santa letter delivery addresses"
+  },
+  "warehouses": [
+    {
+      "WarehouseID": "WH-AL-CAL-005",
+      "WarehouseName": "Calgary Main Center",
+      "City": "Calgary",
+      "Province": "Alberta",
+      "Country": "Canada",
+      "ZoneCode": "AL-B",
+      "Capacity": 20000,
+      "ShelfCount": 160,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 51.052399,
+        "Longitude": -114.093987
+      }
+    },
+    {
+      "WarehouseID": "WH-AL-EDM-077",
+      "WarehouseName": "Edmonton Express Center",
+      "City": "Edmonton",
+      "Province": "Alberta",
+      "Country": "Canada",
+      "ZoneCode": "AL-B",
+      "Capacity": 15000,
+      "ShelfCount": 107,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 53.550075,
+        "Longitude": -113.487944
+      }
+    },
+    {
+      "WarehouseID": "WH-AL-LET-031",
+      "WarehouseName": "Lethbridge Regional Center",
+      "City": "Lethbridge",
+      "Province": "Alberta",
+      "Country": "Canada",
+      "ZoneCode": "AL-B",
+      "Capacity": 15000,
+      "ShelfCount": 179,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 49.675831,
+        "Longitude": -112.852833
+      }
+    },
+    {
+      "WarehouseID": "WH-AL-RED-004",
+      "WarehouseName": "Red Deer Regional Center",
+      "City": "Red Deer",
+      "Province": "Alberta",
+      "Country": "Canada",
+      "ZoneCode": "AL-B",
+      "Capacity": 25000,
+      "ShelfCount": 181,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 52.265939,
+        "Longitude": -113.803211
+      }
+    },
+    {
+      "WarehouseID": "WH-BR-BUR-099",
+      "WarehouseName": "Burnaby Distribution Center",
+      "City": "Burnaby",
+      "Province": "British Columbia",
+      "Country": "Canada",
+      "ZoneCode": "BR-B",
+      "Capacity": 5000,
+      "ShelfCount": 162,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 49.235994,
+        "Longitude": -122.973731
+      }
+    },
+    {
+      "WarehouseID": "WH-BR-SUR-017",
+      "WarehouseName": "Surrey Regional Center",
+      "City": "Surrey",
+      "Province": "British Columbia",
+      "Country": "Canada",
+      "ZoneCode": "BR-D",
+      "Capacity": 50000,
+      "ShelfCount": 117,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 49.098024,
+        "Longitude": -122.790924
+      }
+    },
+    {
+      "WarehouseID": "WH-BR-VAN-009",
+      "WarehouseName": "Vancouver Main Center",
+      "City": "Vancouver",
+      "Province": "British Columbia",
+      "Country": "Canada",
+      "ZoneCode": "BR-E",
+      "Capacity": 15000,
+      "ShelfCount": 170,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 49.274904,
+        "Longitude": -123.130462
+      }
+    },
+    {
+      "WarehouseID": "WH-BR-VIC-039",
+      "WarehouseName": "Victoria Distribution Center",
+      "City": "Victoria",
+      "Province": "British Columbia",
+      "Country": "Canada",
+      "ZoneCode": "BR-D",
+      "Capacity": 25000,
+      "ShelfCount": 68,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 48.436214,
+        "Longitude": -123.379582
+      }
+    },
+    {
+      "WarehouseID": "WH-MA-BRA-025",
+      "WarehouseName": "Brandon Distribution Center",
+      "City": "Brandon",
+      "Province": "Manitoba",
+      "Country": "Canada",
+      "ZoneCode": "MA-A",
+      "Capacity": 25000,
+      "ShelfCount": 124,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 49.850751,
+        "Longitude": -99.941325
+      }
+    },
+    {
+      "WarehouseID": "WH-MA-STE-092",
+      "WarehouseName": "Steinbach Distribution Center",
+      "City": "Steinbach",
+      "Province": "Manitoba",
+      "Country": "Canada",
+      "ZoneCode": "MA-C",
+      "Capacity": 25000,
+      "ShelfCount": 157,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 49.507022,
+        "Longitude": -96.680001
+      }
+    },
+    {
+      "WarehouseID": "WH-MA-WIN-012",
+      "WarehouseName": "Winnipeg Main Center",
+      "City": "Winnipeg",
+      "Province": "Manitoba",
+      "Country": "Canada",
+      "ZoneCode": "MA-C",
+      "Capacity": 50000,
+      "ShelfCount": 134,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 49.903842,
+        "Longitude": -97.15385
+      }
+    },
+    {
+      "WarehouseID": "WH-NE-FRE-008",
+      "WarehouseName": "Fredericton Hub Center",
+      "City": "Fredericton",
+      "Province": "New Brunswick",
+      "Country": "Canada",
+      "ZoneCode": "NE-C",
+      "Capacity": 10000,
+      "ShelfCount": 83,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 45.95943,
+        "Longitude": -66.644346
+      }
+    },
+    {
+      "WarehouseID": "WH-NE-MON-076",
+      "WarehouseName": "Moncton Main Center",
+      "City": "Moncton",
+      "Province": "New Brunswick",
+      "Country": "Canada",
+      "ZoneCode": "NE-E",
+      "Capacity": 15000,
+      "ShelfCount": 113,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 46.07246,
+        "Longitude": -64.795566
+      }
+    },
+    {
+      "WarehouseID": "WH-NE-SAI-015",
+      "WarehouseName": "Saint John Hub Center",
+      "City": "Saint John",
+      "Province": "New Brunswick",
+      "Country": "Canada",
+      "ZoneCode": "NE-D",
+      "Capacity": 10000,
+      "ShelfCount": 79,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 45.284571,
+        "Longitude": -66.064986
+      }
+    },
+    {
+      "WarehouseID": "WH-NE-COR-051",
+      "WarehouseName": "Corner Brook Distribution Center",
+      "City": "Corner Brook",
+      "Province": "Newfoundland and Labrador",
+      "Country": "Canada",
+      "ZoneCode": "NE-D",
+      "Capacity": 10000,
+      "ShelfCount": 168,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 48.959482,
+        "Longitude": -57.966295
+      }
+    },
+    {
+      "WarehouseID": "WH-NE-GAN-010",
+      "WarehouseName": "Gander Regional Center",
+      "City": "Gander",
+      "Province": "Newfoundland and Labrador",
+      "Country": "Canada",
+      "ZoneCode": "NE-C",
+      "Capacity": 15000,
+      "ShelfCount": 157,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 48.952827,
+        "Longitude": -54.626667
+      }
+    },
+    {
+      "WarehouseID": "WH-NE-ST.-034",
+      "WarehouseName": "St. John's Hub Center",
+      "City": "St. John's",
+      "Province": "Newfoundland and Labrador",
+      "Country": "Canada",
+      "ZoneCode": "NE-E",
+      "Capacity": 20000,
+      "ShelfCount": 191,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 47.542937,
+        "Longitude": -52.707202
+      }
+    },
+    {
+      "WarehouseID": "WH-NO-HAY-041",
+      "WarehouseName": "Hay River Distribution Center",
+      "City": "Hay River",
+      "Province": "Northwest Territories",
+      "Country": "Canada",
+      "ZoneCode": "NO-E",
+      "Capacity": 15000,
+      "ShelfCount": 169,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 60.800107,
+        "Longitude": -115.789853
+      }
+    },
+    {
+      "WarehouseID": "WH-NO-INU-007",
+      "WarehouseName": "Inuvik Regional Center",
+      "City": "Inuvik",
+      "Province": "Northwest Territories",
+      "Country": "Canada",
+      "ZoneCode": "NO-C",
+      "Capacity": 5000,
+      "ShelfCount": 96,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 68.34178,
+        "Longitude": -133.721075
+      }
+    },
+    {
+      "WarehouseID": "WH-NO-YEL-100",
+      "WarehouseName": "Yellowknife Regional Center",
+      "City": "Yellowknife",
+      "Province": "Northwest Territories",
+      "Country": "Canada",
+      "ZoneCode": "NO-A",
+      "Capacity": 15000,
+      "ShelfCount": 200,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 62.447635,
+        "Longitude": -114.382491
+      }
+    },
+    {
+      "WarehouseID": "WH-NO-DAR-071",
+      "WarehouseName": "Dartmouth Hub Center",
+      "City": "Dartmouth",
+      "Province": "Nova Scotia",
+      "Country": "Canada",
+      "ZoneCode": "NO-B",
+      "Capacity": 15000,
+      "ShelfCount": 154,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 44.68569,
+        "Longitude": -63.5578
+      }
+    },
+    {
+      "WarehouseID": "WH-NO-HAL-019",
+      "WarehouseName": "Halifax Distribution Center",
+      "City": "Halifax",
+      "Province": "Nova Scotia",
+      "Country": "Canada",
+      "ZoneCode": "NO-A",
+      "Capacity": 15000,
+      "ShelfCount": 131,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 44.631721,
+        "Longitude": -63.587993
+      }
+    },
+    {
+      "WarehouseID": "WH-NO-SYD-002",
+      "WarehouseName": "Sydney Regional Center",
+      "City": "Sydney",
+      "Province": "Nova Scotia",
+      "Country": "Canada",
+      "ZoneCode": "NO-C",
+      "Capacity": 50000,
+      "ShelfCount": 172,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 46.150026,
+        "Longitude": -60.210909
+      }
+    },
+    {
+      "WarehouseID": "WH-NU-CAM-003",
+      "WarehouseName": "Cambridge Bay Distribution Center",
+      "City": "Cambridge Bay",
+      "Province": "Nunavut",
+      "Country": "Canada",
+      "ZoneCode": "NU-D",
+      "Capacity": 5000,
+      "ShelfCount": 164,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 69.1293,
+        "Longitude": -105.039139
+      }
+    },
+    {
+      "WarehouseID": "WH-NU-IQA-073",
+      "WarehouseName": "Iqaluit Express Center",
+      "City": "Iqaluit",
+      "Province": "Nunavut",
+      "Country": "Canada",
+      "ZoneCode": "NU-A",
+      "Capacity": 20000,
+      "ShelfCount": 59,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 63.752962,
+        "Longitude": -68.536472
+      }
+    },
+    {
+      "WarehouseID": "WH-NU-RAN-011",
+      "WarehouseName": "Rankin Inlet Regional Center",
+      "City": "Rankin Inlet",
+      "Province": "Nunavut",
+      "Country": "Canada",
+      "ZoneCode": "NU-A",
+      "Capacity": 10000,
+      "ShelfCount": 141,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 62.823281,
+        "Longitude": -92.096889
+      }
+    },
+    {
+      "WarehouseID": "WH-ON-BRA-001",
+      "WarehouseName": "Brampton Distribution Center",
+      "City": "Brampton",
+      "Province": "Ontario",
+      "Country": "Canada",
+      "ZoneCode": "ON-E",
+      "Capacity": 15000,
+      "ShelfCount": 107,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 43.686371,
+        "Longitude": -79.771426
+      }
+    },
+    {
+      "WarehouseID": "WH-ON-MIS-032",
+      "WarehouseName": "Mississauga Hub Center",
+      "City": "Mississauga",
+      "Province": "Ontario",
+      "Country": "Canada",
+      "ZoneCode": "ON-A",
+      "Capacity": 5000,
+      "ShelfCount": 154,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 43.584604,
+        "Longitude": -79.658133
+      }
+    },
+    {
+      "WarehouseID": "WH-ON-OTT-060",
+      "WarehouseName": "Ottawa Main Center",
+      "City": "Ottawa",
+      "Province": "Ontario",
+      "Country": "Canada",
+      "ZoneCode": "ON-C",
+      "Capacity": 10000,
+      "ShelfCount": 155,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 45.401897,
+        "Longitude": -75.714893
+      }
+    },
+    {
+      "WarehouseID": "WH-ON-TOR-022",
+      "WarehouseName": "Toronto Express Center",
+      "City": "Toronto",
+      "Province": "Ontario",
+      "Country": "Canada",
+      "ZoneCode": "ON-E",
+      "Capacity": 50000,
+      "ShelfCount": 72,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 43.640097,
+        "Longitude": -79.393659
+      }
+    },
+    {
+      "WarehouseID": "WH-PR-CHA-084",
+      "WarehouseName": "Charlottetown Hub Center",
+      "City": "Charlottetown",
+      "Province": "Prince Edward Island",
+      "Country": "Canada",
+      "ZoneCode": "PR-D",
+      "Capacity": 5000,
+      "ShelfCount": 187,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 46.236038,
+        "Longitude": -63.11226
+      }
+    },
+    {
+      "WarehouseID": "WH-PR-SUM-040",
+      "WarehouseName": "Summerside Regional Center",
+      "City": "Summerside",
+      "Province": "Prince Edward Island",
+      "Country": "Canada",
+      "ZoneCode": "PR-D",
+      "Capacity": 10000,
+      "ShelfCount": 196,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 46.388883,
+        "Longitude": -63.782413
+      }
+    },
+    {
+      "WarehouseID": "WH-QU-GAT-006",
+      "WarehouseName": "Gatineau Hub Center",
+      "City": "Gatineau",
+      "Province": "Quebec",
+      "Country": "Canada",
+      "ZoneCode": "QU-B",
+      "Capacity": 15000,
+      "ShelfCount": 149,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 45.476139,
+        "Longitude": -75.710812
+      }
+    },
+    {
+      "WarehouseID": "WH-QU-LAV-035",
+      "WarehouseName": "Laval Hub Center",
+      "City": "Laval",
+      "Province": "Quebec",
+      "Country": "Canada",
+      "ZoneCode": "QU-C",
+      "Capacity": 15000,
+      "ShelfCount": 130,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 45.593344,
+        "Longitude": -73.693123
+      }
+    },
+    {
+      "WarehouseID": "WH-QU-MON-027",
+      "WarehouseName": "Montreal Main Center",
+      "City": "Montreal",
+      "Province": "Quebec",
+      "Country": "Canada",
+      "ZoneCode": "QU-D",
+      "Capacity": 15000,
+      "ShelfCount": 113,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 45.512209,
+        "Longitude": -73.562581
+      }
+    },
+    {
+      "WarehouseID": "WH-QU-QUE-169",
+      "WarehouseName": "Quebec City Express Center",
+      "City": "Quebec City",
+      "Province": "Quebec",
+      "Country": "Canada",
+      "ZoneCode": "QU-A",
+      "Capacity": 5000,
+      "ShelfCount": 133,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 46.825829,
+        "Longitude": -71.25286
+      }
+    },
+    {
+      "WarehouseID": "WH-SA-PRI-030",
+      "WarehouseName": "Prince Albert Main Center",
+      "City": "Prince Albert",
+      "Province": "Saskatchewan",
+      "Country": "Canada",
+      "ZoneCode": "SA-D",
+      "Capacity": 10000,
+      "ShelfCount": 110,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 53.207167,
+        "Longitude": -105.754612
+      }
+    },
+    {
+      "WarehouseID": "WH-SA-REG-050",
+      "WarehouseName": "Regina Regional Center",
+      "City": "Regina",
+      "Province": "Saskatchewan",
+      "Country": "Canada",
+      "ZoneCode": "SA-B",
+      "Capacity": 15000,
+      "ShelfCount": 108,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 50.444971,
+        "Longitude": -104.632606
+      }
+    },
+    {
+      "WarehouseID": "WH-SA-SAS-016",
+      "WarehouseName": "Saskatoon Regional Center",
+      "City": "Saskatoon",
+      "Province": "Saskatchewan",
+      "Country": "Canada",
+      "ZoneCode": "SA-C",
+      "Capacity": 10000,
+      "ShelfCount": 171,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 52.12179,
+        "Longitude": -106.678138
+      }
+    },
+    {
+      "WarehouseID": "WH-YU-DAW-067",
+      "WarehouseName": "Dawson City Distribution Center",
+      "City": "Dawson City",
+      "Province": "Yukon",
+      "Country": "Canada",
+      "ZoneCode": "YU-E",
+      "Capacity": 5000,
+      "ShelfCount": 87,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 64.063324,
+        "Longitude": -139.41535
+      }
+    },
+    {
+      "WarehouseID": "WH-YU-WAT-029",
+      "WarehouseName": "Watson Lake Express Center",
+      "City": "Watson Lake",
+      "Province": "Yukon",
+      "Country": "Canada",
+      "ZoneCode": "YU-A",
+      "Capacity": 20000,
+      "ShelfCount": 53,
+      "OperationalStatus": "Active",
+      "Coordinates": {
+        "Latitude": 60.068064,
+        "Longitude": -128.701366
+      }
+    },
+    {
+      "WarehouseID": "WH-YU-WHI-048",
+      "WarehouseName": "Whitehorse Hub Center",
+      "City": "Whitehorse",
+      "Province": "Yukon",
+      "Country": "Canada",
+      "ZoneCode": "YU-E",
+      "Capacity": 20000,
+      "ShelfCount": 71,
+      "OperationalStatus": "Seasonal",
+      "Coordinates": {
+        "Latitude": 60.731757,
+        "Longitude": -135.047637
+      }
+    }
+  ]
+}

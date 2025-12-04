@@ -1,0 +1,2648 @@
+{
+  "products": [
+    {
+      "ProductID": "PROD-001",
+      "ProductName": "Apple Ipad Air",
+      "Description": "State-of-the-art Apple Ipad Air for the tech-savvy user.",
+      "Category": "Electronics",
+      "StockLevel": 294,
+      "Price": 289.43,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-MA-STE-092-SHELF-89",
+      "LastUpdated": "2025-11-30T18:58:58.887470Z"
+    },
+    {
+      "ProductID": "PROD-002",
+      "ProductName": "Robot",
+      "Description": "State-of-the-art Robot for the tech-savvy user.",
+      "Category": "Electronics",
+      "StockLevel": 110,
+      "Price": 341.07,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NO-HAL-019-SHELF-28",
+      "LastUpdated": "2025-11-25T18:58:58.887988Z"
+    },
+    {
+      "ProductID": "PROD-003",
+      "ProductName": "Portable Campfire",
+      "Description": "The Portable Campfire is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 221,
+      "Price": 90.19,
+      "SafetyMetadata": {
+        "Rating": "Restricted",
+        "AgeRestriction": 14,
+        "RequiresSupervision": true,
+        "BannedSubstances": [
+          "lead",
+          "mercury",
+          "flammable materials"
+        ]
+      },
+      "WarehouseLocation": "WH-QU-GAT-006-SHELF-62",
+      "LastUpdated": "2025-11-30T18:58:58.888040Z"
+    },
+    {
+      "ProductID": "PROD-004",
+      "ProductName": "Skateboard",
+      "Description": "Challenge your mind and friends with this engaging Skateboard.",
+      "Category": "Board Games & Puzzles",
+      "StockLevel": 220,
+      "Price": 31.88,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-BR-VIC-039-SHELF-67",
+      "LastUpdated": "2025-11-26T18:58:58.888089Z"
+    },
+    {
+      "ProductID": "PROD-005",
+      "ProductName": "Interactive Storybook Projector",
+      "Description": "Immerse yourself in stories with this Interactive Storybook Projector.",
+      "Category": "Books",
+      "StockLevel": 227,
+      "Price": 23.36,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-MA-BRA-025-SHELF-87",
+      "LastUpdated": "2025-11-25T18:58:58.888137Z"
+    },
+    {
+      "ProductID": "PROD-006",
+      "ProductName": "Smart Fitness Tracker",
+      "Description": "Get active and stay fit with this high-performance Smart Fitness Tracker.",
+      "Category": "Sports & Outdoors",
+      "StockLevel": 323,
+      "Price": 72.49,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-ON-BRA-001-SHELF-60",
+      "LastUpdated": "2025-11-23T18:58:58.888184Z"
+    },
+    {
+      "ProductID": "PROD-007",
+      "ProductName": "Mini Espresso Maker",
+      "Description": "Unleash your creativity with the Mini Espresso Maker.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 393,
+      "Price": 57.7,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NO-HAY-041-SHELF-44",
+      "LastUpdated": "2025-11-25T18:58:58.888227Z"
+    },
+    {
+      "ProductID": "PROD-008",
+      "ProductName": "3D Printing Pen",
+      "Description": "Unleash your creativity with the 3D Printing Pen.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 209,
+      "Price": 25.53,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-AL-RED-004-SHELF-68",
+      "LastUpdated": "2025-11-28T18:58:58.888267Z"
+    },
+    {
+      "ProductID": "PROD-009",
+      "ProductName": "Customizable Neon Sign",
+      "Description": "The Customizable Neon Sign is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 364,
+      "Price": 48.3,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-AL-LET-031-SHELF-59",
+      "LastUpdated": "2025-11-28T18:58:58.888353Z"
+    },
+    {
+      "ProductID": "PROD-010",
+      "ProductName": "Indoor Herb Garden Kit",
+      "Description": "Unleash your creativity with the Indoor Herb Garden Kit.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 235,
+      "Price": 46.9,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-QU-GAT-006-SHELF-69",
+      "LastUpdated": "2025-11-25T18:58:58.888418Z"
+    },
+    {
+      "ProductID": "PROD-011",
+      "ProductName": "Programmable Led Message Board",
+      "Description": "Challenge your mind and friends with this engaging Programmable Led Message Board.",
+      "Category": "Board Games & Puzzles",
+      "StockLevel": 288,
+      "Price": 49.33,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-MA-WIN-012-SHELF-58",
+      "LastUpdated": "2025-11-23T18:58:58.888469Z"
+    },
+    {
+      "ProductID": "PROD-012",
+      "ProductName": "Teddy Bear",
+      "Description": "Soft and cuddly Teddy Bear, perfect for hugs and imaginative play.",
+      "Category": "Dolls & Plush",
+      "StockLevel": 493,
+      "Price": 16.47,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-PR-SUM-040-SHELF-07",
+      "LastUpdated": "2025-11-26T18:58:58.888514Z"
+    },
+    {
+      "ProductID": "PROD-013",
+      "ProductName": "Wireless Charging Pad",
+      "Description": "The Wireless Charging Pad is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 277,
+      "Price": 71.6,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NO-YEL-100-SHELF-38",
+      "LastUpdated": "2025-11-28T18:58:58.888558Z"
+    },
+    {
+      "ProductID": "PROD-014",
+      "ProductName": "Smart Home Assistant",
+      "Description": "Unleash your creativity with the Smart Home Assistant.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 113,
+      "Price": 58.37,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-ON-BRA-001-SHELF-92",
+      "LastUpdated": "2025-11-30T18:58:58.888601Z"
+    },
+    {
+      "ProductID": "PROD-015",
+      "ProductName": "Small Stoneware Vase",
+      "Description": "The Small Stoneware Vase is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 268,
+      "Price": 96.22,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-BR-VIC-039-SHELF-12",
+      "LastUpdated": "2025-11-25T18:58:58.888644Z"
+    },
+    {
+      "ProductID": "PROD-016",
+      "ProductName": "Mini Drone",
+      "Description": "State-of-the-art Mini Drone for the tech-savvy user.",
+      "Category": "Electronics",
+      "StockLevel": 441,
+      "Price": 148.11,
+      "SafetyMetadata": {
+        "Rating": "Restricted",
+        "AgeRestriction": 14,
+        "RequiresSupervision": true,
+        "BannedSubstances": [
+          "lead",
+          "mercury",
+          "flammable materials"
+        ]
+      },
+      "WarehouseLocation": "WH-AL-CAL-005-SHELF-82",
+      "LastUpdated": "2025-11-29T18:58:58.888746Z"
+    },
+    {
+      "ProductID": "PROD-017",
+      "ProductName": "Desktop Air Purifier",
+      "Description": "State-of-the-art Desktop Air Purifier for the tech-savvy user.",
+      "Category": "Electronics",
+      "StockLevel": 211,
+      "Price": 99.39,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NE-MON-076-SHELF-05",
+      "LastUpdated": "2025-11-30T18:58:58.888817Z"
+    },
+    {
+      "ProductID": "PROD-018",
+      "ProductName": "Smart Water Bottle",
+      "Description": "Unleash your creativity with the Smart Water Bottle.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 398,
+      "Price": 48.26,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-MA-STE-092-SHELF-09",
+      "LastUpdated": "2025-11-24T18:58:58.888923Z"
+    },
+    {
+      "ProductID": "PROD-019",
+      "ProductName": "Compact Sewing Machine",
+      "Description": "Unleash your creativity with the Compact Sewing Machine.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 362,
+      "Price": 55.75,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NU-IQA-073-SHELF-99",
+      "LastUpdated": "2025-11-27T18:58:58.889019Z"
+    },
+    {
+      "ProductID": "PROD-020",
+      "ProductName": "Bicycle",
+      "Description": "The Bicycle is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 237,
+      "Price": 72.93,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-YU-WAT-029-SHELF-86",
+      "LastUpdated": "2025-11-30T18:58:58.889115Z"
+    },
+    {
+      "ProductID": "PROD-021",
+      "ProductName": "Smartphone Tripod",
+      "Description": "Unleash your creativity with the Smartphone Tripod.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 50,
+      "Price": 51.0,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-SA-SAS-016-SHELF-12",
+      "LastUpdated": "2025-11-27T18:58:58.889160Z"
+    },
+    {
+      "ProductID": "PROD-022",
+      "ProductName": "Miniverse Make It Mini Food Kits",
+      "Description": "Unleash your creativity with the Miniverse Make It Mini Food Kits.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 419,
+      "Price": 72.2,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-PR-CHA-084-SHELF-79",
+      "LastUpdated": "2025-11-27T18:58:58.889202Z"
+    },
+    {
+      "ProductID": "PROD-023",
+      "ProductName": "Virtual Pet Robot",
+      "Description": "State-of-the-art Virtual Pet Robot for the tech-savvy user.",
+      "Category": "Electronics",
+      "StockLevel": 484,
+      "Price": 207.4,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-YU-WHI-048-SHELF-53",
+      "LastUpdated": "2025-11-23T18:58:58.889244Z"
+    },
+    {
+      "ProductID": "PROD-024",
+      "ProductName": "Toy Car",
+      "Description": "The Toy Car is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 432,
+      "Price": 19.44,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-AL-RED-004-SHELF-27",
+      "LastUpdated": "2025-11-23T18:58:58.889284Z"
+    },
+    {
+      "ProductID": "PROD-025",
+      "ProductName": "Foldable Travel Backpack",
+      "Description": "The Foldable Travel Backpack is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 120,
+      "Price": 38.5,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NE-GAN-010-SHELF-66",
+      "LastUpdated": "2025-11-29T18:58:58.889325Z"
+    },
+    {
+      "ProductID": "PROD-026",
+      "ProductName": "Amazon Fire Hd 10 Kids Pro",
+      "Description": "The Amazon Fire Hd 10 Kids Pro is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 147,
+      "Price": 51.85,
+      "SafetyMetadata": {
+        "Rating": "Restricted",
+        "AgeRestriction": 14,
+        "RequiresSupervision": true,
+        "BannedSubstances": [
+          "lead",
+          "mercury",
+          "flammable materials"
+        ]
+      },
+      "WarehouseLocation": "WH-QU-QUE-169-SHELF-15",
+      "LastUpdated": "2025-11-24T18:58:58.889363Z"
+    },
+    {
+      "ProductID": "PROD-027",
+      "ProductName": "Rechargeable Hand Warmer",
+      "Description": "The Rechargeable Hand Warmer is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 356,
+      "Price": 59.96,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-QU-LAV-035-SHELF-13",
+      "LastUpdated": "2025-11-25T18:58:58.889401Z"
+    },
+    {
+      "ProductID": "PROD-028",
+      "ProductName": "Skullcandy Dime 2 In-Ear Wireless Earbuds",
+      "Description": "The Skullcandy Dime 2 In-Ear Wireless Earbuds is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 315,
+      "Price": 59.91,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NU-IQA-073-SHELF-42",
+      "LastUpdated": "2025-11-26T18:58:58.889443Z"
+    },
+    {
+      "ProductID": "PROD-029",
+      "ProductName": "The Clearly Impossible Puzzle",
+      "Description": "Challenge your mind and friends with this engaging The Clearly Impossible Puzzle.",
+      "Category": "Board Games & Puzzles",
+      "StockLevel": 123,
+      "Price": 44.27,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-MA-WIN-012-SHELF-97",
+      "LastUpdated": "2025-11-30T18:58:58.889486Z"
+    },
+    {
+      "ProductID": "PROD-030",
+      "ProductName": "Barbie Dreamhouse",
+      "Description": "Soft and cuddly Barbie Dreamhouse, perfect for hugs and imaginative play.",
+      "Category": "Dolls & Plush",
+      "StockLevel": 116,
+      "Price": 38.93,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-SA-REG-050-SHELF-92",
+      "LastUpdated": "2025-11-23T18:58:58.889527Z"
+    },
+    {
+      "ProductID": "PROD-031",
+      "ProductName": "Harry Potter Crookshanks Plush",
+      "Description": "Soft and cuddly Harry Potter Crookshanks Plush, perfect for hugs and imaginative play.",
+      "Category": "Dolls & Plush",
+      "StockLevel": 386,
+      "Price": 14.94,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NE-COR-051-SHELF-12",
+      "LastUpdated": "2025-11-28T18:58:58.889569Z"
+    },
+    {
+      "ProductID": "PROD-032",
+      "ProductName": "Live Christmas Tree (Norfolk Island Pine)",
+      "Description": "The Live Christmas Tree (Norfolk Island Pine) is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 0,
+      "Price": 71.14,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-SA-PRI-030-SHELF-78",
+      "LastUpdated": "2025-11-28T18:58:58.889607Z"
+    },
+    {
+      "ProductID": "PROD-033",
+      "ProductName": "Ceramic Piggybank Nursery Keepsake",
+      "Description": "The Ceramic Piggybank Nursery Keepsake is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 279,
+      "Price": 96.76,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-QU-QUE-169-SHELF-76",
+      "LastUpdated": "2025-11-26T18:58:58.889649Z"
+    },
+    {
+      "ProductID": "PROD-034",
+      "ProductName": "Furby Furblets",
+      "Description": "Soft and cuddly Furby Furblets, perfect for hugs and imaginative play.",
+      "Category": "Dolls & Plush",
+      "StockLevel": 368,
+      "Price": 53.76,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NE-FRE-008-SHELF-67",
+      "LastUpdated": "2025-11-28T18:58:58.889690Z"
+    },
+    {
+      "ProductID": "PROD-035",
+      "ProductName": "Wireless Gaming Mouse",
+      "Description": "The Wireless Gaming Mouse is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 48,
+      "Price": 89.68,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NU-CAM-003-SHELF-19",
+      "LastUpdated": "2025-11-24T18:58:58.889730Z"
+    },
+    {
+      "ProductID": "PROD-036",
+      "ProductName": "Apple Watch",
+      "Description": "State-of-the-art Apple Watch for the tech-savvy user.",
+      "Category": "Electronics",
+      "StockLevel": 454,
+      "Price": 358.99,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-ON-MIS-032-SHELF-85",
+      "LastUpdated": "2025-11-28T18:58:58.889771Z"
+    },
+    {
+      "ProductID": "PROD-037",
+      "ProductName": "Samsung Galaxy Tab A9+",
+      "Description": "The Samsung Galaxy Tab A9+ is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 246,
+      "Price": 32.58,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NE-COR-051-SHELF-43",
+      "LastUpdated": "2025-11-28T18:58:58.889812Z"
+    },
+    {
+      "ProductID": "PROD-038",
+      "ProductName": "Mechanical Keyboard",
+      "Description": "Challenge your mind and friends with this engaging Mechanical Keyboard.",
+      "Category": "Board Games & Puzzles",
+      "StockLevel": 450,
+      "Price": 21.48,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-QU-LAV-035-SHELF-04",
+      "LastUpdated": "2025-11-26T18:58:58.889853Z"
+    },
+    {
+      "ProductID": "PROD-039",
+      "ProductName": "Multi-Tool Pocket Knife",
+      "Description": "The Multi-Tool Pocket Knife is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 199,
+      "Price": 68.46,
+      "SafetyMetadata": {
+        "Rating": "Restricted",
+        "AgeRestriction": 14,
+        "RequiresSupervision": true,
+        "BannedSubstances": [
+          "lead",
+          "mercury",
+          "flammable materials"
+        ]
+      },
+      "WarehouseLocation": "WH-AL-LET-031-SHELF-38",
+      "LastUpdated": "2025-11-25T18:58:58.889895Z"
+    },
+    {
+      "ProductID": "PROD-040",
+      "ProductName": "Harry Potter Wand",
+      "Description": "The Harry Potter Wand is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 335,
+      "Price": 25.05,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-SA-SAS-016-SHELF-56",
+      "LastUpdated": "2025-11-30T18:58:58.889936Z"
+    },
+    {
+      "ProductID": "PROD-041",
+      "ProductName": "Minnie Mouse Hat And Mittens",
+      "Description": "The Minnie Mouse Hat And Mittens is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 36,
+      "Price": 94.02,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-ON-MIS-032-SHELF-14",
+      "LastUpdated": "2025-11-26T18:58:58.889977Z"
+    },
+    {
+      "ProductID": "PROD-042",
+      "ProductName": "Portable Bluetooth Speaker",
+      "Description": "State-of-the-art Portable Bluetooth Speaker for the tech-savvy user.",
+      "Category": "Electronics",
+      "StockLevel": 488,
+      "Price": 104.56,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NU-RAN-011-SHELF-35",
+      "LastUpdated": "2025-11-28T18:58:58.890018Z"
+    },
+    {
+      "ProductID": "PROD-043",
+      "ProductName": "Lego Star Wars Set",
+      "Description": "Unleash your creativity with the Lego Star Wars Set.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 161,
+      "Price": 57.14,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NE-COR-051-SHELF-78",
+      "LastUpdated": "2025-11-26T18:58:58.890058Z"
+    },
+    {
+      "ProductID": "PROD-044",
+      "ProductName": "Pom Pom Beanie With Led Light",
+      "Description": "The Pom Pom Beanie With Led Light is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 123,
+      "Price": 77.8,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-PR-CHA-084-SHELF-32",
+      "LastUpdated": "2025-11-30T18:58:58.890098Z"
+    },
+    {
+      "ProductID": "PROD-045",
+      "ProductName": "Book",
+      "Description": "Immerse yourself in stories with this Book.",
+      "Category": "Books",
+      "StockLevel": 11,
+      "Price": 25.81,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-YU-WHI-048-SHELF-24",
+      "LastUpdated": "2025-11-27T18:58:58.890136Z"
+    },
+    {
+      "ProductID": "PROD-046",
+      "ProductName": "Heated Blanket With Remote",
+      "Description": "The Heated Blanket With Remote is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 441,
+      "Price": 48.21,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-QU-GAT-006-SHELF-76",
+      "LastUpdated": "2025-11-24T18:58:58.890177Z"
+    },
+    {
+      "ProductID": "PROD-047",
+      "ProductName": "Virtual Reality Headset",
+      "Description": "State-of-the-art Virtual Reality Headset for the tech-savvy user.",
+      "Category": "Electronics",
+      "StockLevel": 417,
+      "Price": 157.24,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-YU-DAW-067-SHELF-20",
+      "LastUpdated": "2025-11-28T18:58:58.890219Z"
+    },
+    {
+      "ProductID": "PROD-048",
+      "ProductName": "Magnetic Levitating Globe",
+      "Description": "The Magnetic Levitating Globe is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 486,
+      "Price": 73.65,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NO-DAR-071-SHELF-81",
+      "LastUpdated": "2025-11-26T18:58:58.890259Z"
+    },
+    {
+      "ProductID": "PROD-049",
+      "ProductName": "Desktop Bonsai Tree Kit",
+      "Description": "Unleash your creativity with the Desktop Bonsai Tree Kit.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 197,
+      "Price": 32.78,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-AL-EDM-077-SHELF-04",
+      "LastUpdated": "2025-11-30T18:58:58.890298Z"
+    },
+    {
+      "ProductID": "PROD-050",
+      "ProductName": "Funko Pop! Figures (Nba",
+      "Description": "Soft and cuddly Funko Pop! Figures (Nba, perfect for hugs and imaginative play.",
+      "Category": "Dolls & Plush",
+      "StockLevel": 400,
+      "Price": 48.5,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-YU-WAT-029-SHELF-60",
+      "LastUpdated": "2025-11-27T18:58:58.890338Z"
+    },
+    {
+      "ProductID": "PROD-051",
+      "ProductName": "Marvel",
+      "Description": "The Marvel is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 94,
+      "Price": 80.31,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NE-FRE-008-SHELF-38",
+      "LastUpdated": "2025-11-30T18:58:58.890375Z"
+    },
+    {
+      "ProductID": "PROD-052",
+      "ProductName": "Lego Creator 3-In-1 Mighty Dinosaurs",
+      "Description": "Unleash your creativity with the Lego Creator 3-In-1 Mighty Dinosaurs.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 337,
+      "Price": 35.68,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NE-SAI-015-SHELF-64",
+      "LastUpdated": "2025-11-28T18:58:58.890414Z"
+    },
+    {
+      "ProductID": "PROD-053",
+      "ProductName": "Mlb",
+      "Description": "The Mlb is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 446,
+      "Price": 18.77,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-AL-EDM-077-SHELF-04",
+      "LastUpdated": "2025-11-27T18:58:58.890451Z"
+    },
+    {
+      "ProductID": "PROD-054",
+      "ProductName": "Transformers Authentics Optimus Prime",
+      "Description": "The Transformers Authentics Optimus Prime is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 408,
+      "Price": 31.64,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-ON-MIS-032-SHELF-37",
+      "LastUpdated": "2025-11-28T18:58:58.890491Z"
+    },
+    {
+      "ProductID": "PROD-055",
+      "ProductName": "Yellow Dress-Up Set",
+      "Description": "The Yellow Dress-Up Set is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 362,
+      "Price": 35.65,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-QU-MON-027-SHELF-90",
+      "LastUpdated": "2025-11-29T18:58:58.890531Z"
+    },
+    {
+      "ProductID": "PROD-056",
+      "ProductName": "Rc Controlled Paper Airplane Kit",
+      "Description": "Unleash your creativity with the Rc Controlled Paper Airplane Kit.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 221,
+      "Price": 21.9,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-PR-SUM-040-SHELF-83",
+      "LastUpdated": "2025-11-28T18:58:58.890570Z"
+    },
+    {
+      "ProductID": "PROD-057",
+      "ProductName": "Eco-Friendly Reusable Notebook",
+      "Description": "Immerse yourself in stories with this Eco-Friendly Reusable Notebook.",
+      "Category": "Books",
+      "StockLevel": 377,
+      "Price": 21.06,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NE-ST.-034-SHELF-41",
+      "LastUpdated": "2025-11-27T18:58:58.890611Z"
+    },
+    {
+      "ProductID": "PROD-058",
+      "ProductName": "Solar-Powered Phone Charger",
+      "Description": "State-of-the-art Solar-Powered Phone Charger for the tech-savvy user.",
+      "Category": "Electronics",
+      "StockLevel": 251,
+      "Price": 258.8,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NE-ST.-034-SHELF-50",
+      "LastUpdated": "2025-11-30T18:58:58.890653Z"
+    },
+    {
+      "ProductID": "PROD-059",
+      "ProductName": "E.L.F. Halo Glow Liquid Filter",
+      "Description": "The E.L.F. Halo Glow Liquid Filter is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 35,
+      "Price": 43.44,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NU-RAN-011-SHELF-97",
+      "LastUpdated": "2025-11-24T18:58:58.890693Z"
+    },
+    {
+      "ProductID": "PROD-060",
+      "ProductName": "Apple Ipad (10Th Generation)",
+      "Description": "State-of-the-art Apple Ipad (10Th Generation) for the tech-savvy user.",
+      "Category": "Electronics",
+      "StockLevel": 66,
+      "Price": 150.47,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NE-ST.-034-SHELF-25",
+      "LastUpdated": "2025-11-28T18:58:58.890734Z"
+    },
+    {
+      "ProductID": "PROD-061",
+      "ProductName": "Rainbow Loom Charm Bracelet Kit",
+      "Description": "Unleash your creativity with the Rainbow Loom Charm Bracelet Kit.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 165,
+      "Price": 70.83,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NU-IQA-073-SHELF-38",
+      "LastUpdated": "2025-11-28T18:58:58.890775Z"
+    },
+    {
+      "ProductID": "PROD-062",
+      "ProductName": "Our Generation Siberian Husky Plush",
+      "Description": "Soft and cuddly Our Generation Siberian Husky Plush, perfect for hugs and imaginative play.",
+      "Category": "Dolls & Plush",
+      "StockLevel": 160,
+      "Price": 18.97,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-ON-MIS-032-SHELF-47",
+      "LastUpdated": "2025-11-23T18:58:58.890817Z"
+    },
+    {
+      "ProductID": "PROD-063",
+      "ProductName": "Temporary Tattoo Markers Kit",
+      "Description": "Unleash your creativity with the Temporary Tattoo Markers Kit.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 52,
+      "Price": 68.93,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NU-IQA-073-SHELF-95",
+      "LastUpdated": "2025-11-29T18:58:58.890855Z"
+    },
+    {
+      "ProductID": "PROD-064",
+      "ProductName": "Out To Impress Jewelry Set",
+      "Description": "The Out To Impress Jewelry Set is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 396,
+      "Price": 88.59,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NO-HAL-019-SHELF-89",
+      "LastUpdated": "2025-11-28T18:58:58.890895Z"
+    },
+    {
+      "ProductID": "PROD-065",
+      "ProductName": "Video Game",
+      "Description": "Challenge your mind and friends with this engaging Video Game.",
+      "Category": "Board Games & Puzzles",
+      "StockLevel": 56,
+      "Price": 43.62,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-MA-WIN-012-SHELF-30",
+      "LastUpdated": "2025-11-28T18:58:58.890933Z"
+    },
+    {
+      "ProductID": "PROD-066",
+      "ProductName": "Alex Glow Sketch It Nail Pens",
+      "Description": "Unleash your creativity with the Alex Glow Sketch It Nail Pens.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 421,
+      "Price": 75.0,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-QU-QUE-169-SHELF-69",
+      "LastUpdated": "2025-11-28T18:58:58.890972Z"
+    },
+    {
+      "ProductID": "PROD-067",
+      "ProductName": "Surprise Toy Bath Bombs",
+      "Description": "The Surprise Toy Bath Bombs is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 85,
+      "Price": 20.5,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NO-SYD-002-SHELF-26",
+      "LastUpdated": "2025-11-27T18:58:58.891011Z"
+    },
+    {
+      "ProductID": "PROD-068",
+      "ProductName": "Led Light-Up Sneakers",
+      "Description": "The Led Light-Up Sneakers is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 191,
+      "Price": 29.76,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-BR-SUR-017-SHELF-43",
+      "LastUpdated": "2025-11-25T18:58:58.891050Z"
+    },
+    {
+      "ProductID": "PROD-069",
+      "ProductName": "X-Shot Excel Reflex 6 Blaster",
+      "Description": "The X-Shot Excel Reflex 6 Blaster is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 101,
+      "Price": 69.24,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-AL-LET-031-SHELF-42",
+      "LastUpdated": "2025-11-24T18:58:58.891092Z"
+    },
+    {
+      "ProductID": "PROD-070",
+      "ProductName": "Portable Projector",
+      "Description": "The Portable Projector is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 112,
+      "Price": 62.89,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NU-CAM-003-SHELF-01",
+      "LastUpdated": "2025-11-24T18:58:58.891131Z"
+    },
+    {
+      "ProductID": "PROD-071",
+      "ProductName": "Noise-Cancelling Headphones",
+      "Description": "State-of-the-art Noise-Cancelling Headphones for the tech-savvy user.",
+      "Category": "Electronics",
+      "StockLevel": 466,
+      "Price": 80.4,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-BR-SUR-017-SHELF-58",
+      "LastUpdated": "2025-11-25T18:58:58.891170Z"
+    },
+    {
+      "ProductID": "PROD-072",
+      "ProductName": "Wake Up Light Sunrise Alarm Clock",
+      "Description": "The Wake Up Light Sunrise Alarm Clock is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 363,
+      "Price": 49.64,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NE-GAN-010-SHELF-65",
+      "LastUpdated": "2025-11-28T18:58:58.891209Z"
+    },
+    {
+      "ProductID": "PROD-073",
+      "ProductName": "Customized Photo Puzzle",
+      "Description": "Challenge your mind and friends with this engaging Customized Photo Puzzle.",
+      "Category": "Board Games & Puzzles",
+      "StockLevel": 293,
+      "Price": 16.03,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-PR-SUM-040-SHELF-08",
+      "LastUpdated": "2025-11-25T18:58:58.891254Z"
+    },
+    {
+      "ProductID": "PROD-074",
+      "ProductName": "Electric Scooter",
+      "Description": "Get active and stay fit with this high-performance Electric Scooter.",
+      "Category": "Sports & Outdoors",
+      "StockLevel": 111,
+      "Price": 76.24,
+      "SafetyMetadata": {
+        "Rating": "Restricted",
+        "AgeRestriction": 14,
+        "RequiresSupervision": true,
+        "BannedSubstances": [
+          "lead",
+          "mercury",
+          "flammable materials"
+        ]
+      },
+      "WarehouseLocation": "WH-AL-RED-004-SHELF-87",
+      "LastUpdated": "2025-11-25T18:58:58.891291Z"
+    },
+    {
+      "ProductID": "PROD-075",
+      "ProductName": "Vintage-Style Typewriter Keyboard",
+      "Description": "Challenge your mind and friends with this engaging Vintage-Style Typewriter Keyboard.",
+      "Category": "Board Games & Puzzles",
+      "StockLevel": 408,
+      "Price": 44.67,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-BR-SUR-017-SHELF-91",
+      "LastUpdated": "2025-11-24T18:58:58.891333Z"
+    },
+    {
+      "ProductID": "PROD-076",
+      "ProductName": "Squishmallows (Hello Kitty",
+      "Description": "Unleash your creativity with the Squishmallows (Hello Kitty.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 368,
+      "Price": 61.58,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-MA-WIN-012-SHELF-52",
+      "LastUpdated": "2025-11-27T18:58:58.891370Z"
+    },
+    {
+      "ProductID": "PROD-077",
+      "ProductName": "Piplup",
+      "Description": "The Piplup is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 487,
+      "Price": 79.71,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-QU-GAT-006-SHELF-65",
+      "LastUpdated": "2025-11-24T18:58:58.891405Z"
+    },
+    {
+      "ProductID": "PROD-078",
+      "ProductName": "Adopt Me! Queen Bee",
+      "Description": "The Adopt Me! Queen Bee is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 493,
+      "Price": 59.83,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-ON-TOR-022-SHELF-98",
+      "LastUpdated": "2025-11-23T18:58:58.891441Z"
+    },
+    {
+      "ProductID": "PROD-079",
+      "ProductName": "Lego Set",
+      "Description": "Unleash your creativity with the Lego Set.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 129,
+      "Price": 47.75,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NU-RAN-011-SHELF-35",
+      "LastUpdated": "2025-11-24T18:58:58.891478Z"
+    },
+    {
+      "ProductID": "PROD-080",
+      "ProductName": "Electrocubes Nightlight Building Set",
+      "Description": "The Electrocubes Nightlight Building Set is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 308,
+      "Price": 77.38,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-BR-VIC-039-SHELF-61",
+      "LastUpdated": "2025-11-27T18:58:58.891516Z"
+    },
+    {
+      "ProductID": "PROD-081",
+      "ProductName": "Lego Batman Mech Armor",
+      "Description": "Unleash your creativity with the Lego Batman Mech Armor.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 48,
+      "Price": 64.83,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-BR-SUR-017-SHELF-55",
+      "LastUpdated": "2025-11-30T18:58:58.891552Z"
+    },
+    {
+      "ProductID": "PROD-082",
+      "ProductName": "Electric Candle Lighter",
+      "Description": "The Electric Candle Lighter is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 392,
+      "Price": 88.78,
+      "SafetyMetadata": {
+        "Rating": "Restricted",
+        "AgeRestriction": 14,
+        "RequiresSupervision": true,
+        "BannedSubstances": [
+          "lead",
+          "mercury",
+          "flammable materials"
+        ]
+      },
+      "WarehouseLocation": "WH-NU-RAN-011-SHELF-98",
+      "LastUpdated": "2025-11-25T18:58:58.891586Z"
+    },
+    {
+      "ProductID": "PROD-083",
+      "ProductName": "5 Surprise Nba Ballers",
+      "Description": "Get active and stay fit with this high-performance 5 Surprise Nba Ballers.",
+      "Category": "Sports & Outdoors",
+      "StockLevel": 32,
+      "Price": 55.95,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NE-GAN-010-SHELF-96",
+      "LastUpdated": "2025-11-24T18:58:58.891624Z"
+    },
+    {
+      "ProductID": "PROD-084",
+      "ProductName": "Retro Instant Camera",
+      "Description": "State-of-the-art Retro Instant Camera for the tech-savvy user.",
+      "Category": "Electronics",
+      "StockLevel": 405,
+      "Price": 88.25,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-ON-TOR-022-SHELF-63",
+      "LastUpdated": "2025-11-30T18:58:58.891661Z"
+    },
+    {
+      "ProductID": "PROD-085",
+      "ProductName": "Scratch-Off World Map",
+      "Description": "The Scratch-Off World Map is a versatile gift for everyone.",
+      "Category": "General",
+      "StockLevel": 301,
+      "Price": 92.47,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-SA-REG-050-SHELF-42",
+      "LastUpdated": "2025-11-29T18:58:58.891699Z"
+    },
+    {
+      "ProductID": "PROD-086",
+      "ProductName": "Teenage Mutant Ninja Turtles Figures",
+      "Description": "Soft and cuddly Teenage Mutant Ninja Turtles Figures, perfect for hugs and imaginative play.",
+      "Category": "Dolls & Plush",
+      "StockLevel": 409,
+      "Price": 51.94,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-ON-TOR-022-SHELF-56",
+      "LastUpdated": "2025-11-28T18:58:58.891739Z"
+    },
+    {
+      "ProductID": "PROD-087",
+      "ProductName": "Lego Sets",
+      "Description": "Unleash your creativity with the Lego Sets.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 382,
+      "Price": 66.05,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NO-YEL-100-SHELF-14",
+      "LastUpdated": "2025-11-23T18:58:58.891775Z"
+    },
+    {
+      "ProductID": "PROD-088",
+      "ProductName": "Nintendo Switch Game",
+      "Description": "Challenge your mind and friends with this engaging Nintendo Switch Game.",
+      "Category": "Board Games & Puzzles",
+      "StockLevel": 344,
+      "Price": 23.68,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NO-INU-007-SHELF-42",
+      "LastUpdated": "2025-11-27T18:58:58.891811Z"
+    },
+    {
+      "ProductID": "PROD-089",
+      "ProductName": "Digital Art Drawing Tablet",
+      "Description": "Unleash your creativity with the Digital Art Drawing Tablet.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 481,
+      "Price": 26.71,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-QU-GAT-006-SHELF-91",
+      "LastUpdated": "2025-11-24T18:58:58.891847Z"
+    },
+    {
+      "ProductID": "PROD-090",
+      "ProductName": "Color-Changing Smart Light Bulb",
+      "Description": "Unleash your creativity with the Color-Changing Smart Light Bulb.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 71,
+      "Price": 38.6,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NO-INU-007-SHELF-56",
+      "LastUpdated": "2025-11-25T18:58:58.891884Z"
+    },
+    {
+      "ProductID": "PROD-091",
+      "ProductName": "Personalized Leather Journal",
+      "Description": "Immerse yourself in stories with this Personalized Leather Journal.",
+      "Category": "Books",
+      "StockLevel": 308,
+      "Price": 20.66,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NE-SAI-015-SHELF-23",
+      "LastUpdated": "2025-11-28T18:58:58.891921Z"
+    },
+    {
+      "ProductID": "PROD-092",
+      "ProductName": "Doll",
+      "Description": "Soft and cuddly Doll, perfect for hugs and imaginative play.",
+      "Category": "Dolls & Plush",
+      "StockLevel": 382,
+      "Price": 55.93,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-BR-VIC-039-SHELF-62",
+      "LastUpdated": "2025-11-26T18:58:58.891977Z"
+    },
+    {
+      "ProductID": "PROD-093",
+      "ProductName": "Art Supplies",
+      "Description": "Unleash your creativity with the Art Supplies.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 385,
+      "Price": 60.03,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-AL-CAL-005-SHELF-80",
+      "LastUpdated": "2025-11-24T18:58:58.892031Z"
+    },
+    {
+      "ProductID": "PROD-094",
+      "ProductName": "Mini Waffle Maker",
+      "Description": "Unleash your creativity with the Mini Waffle Maker.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 373,
+      "Price": 65.18,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-AL-EDM-077-SHELF-72",
+      "LastUpdated": "2025-11-28T18:58:58.892073Z"
+    },
+    {
+      "ProductID": "PROD-095",
+      "ProductName": "Portable Karaoke Microphone",
+      "Description": "State-of-the-art Portable Karaoke Microphone for the tech-savvy user.",
+      "Category": "Electronics",
+      "StockLevel": 461,
+      "Price": 230.41,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NE-FRE-008-SHELF-65",
+      "LastUpdated": "2025-11-24T18:58:58.892113Z"
+    },
+    {
+      "ProductID": "PROD-096",
+      "ProductName": "Electric Wine Opener",
+      "Description": "Unleash your creativity with the Electric Wine Opener.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 219,
+      "Price": 28.87,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-YU-DAW-067-SHELF-09",
+      "LastUpdated": "2025-11-30T18:58:58.892153Z"
+    },
+    {
+      "ProductID": "PROD-097",
+      "ProductName": "Beige Either Doll",
+      "Description": "The Beige Either Doll is a versatile gift for everyone.",
+      "Category": "Dolls",
+      "StockLevel": 13,
+      "Price": 17.02,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-AL-CAL-005-SHELF-32",
+      "LastUpdated": "2025-11-30T18:58:58.892192Z"
+    },
+    {
+      "ProductID": "PROD-098",
+      "ProductName": "Cyan Threat Vehicle",
+      "Description": "The Cyan Threat Vehicle is a versatile gift for everyone.",
+      "Category": "Vehicles",
+      "StockLevel": 400,
+      "Price": 192.21,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NE-SAI-015-SHELF-55",
+      "LastUpdated": "2025-11-23T18:58:58.892232Z"
+    },
+    {
+      "ProductID": "PROD-099",
+      "ProductName": "Mintcream Clearly Doll",
+      "Description": "The Mintcream Clearly Doll is a versatile gift for everyone.",
+      "Category": "Dolls",
+      "StockLevel": 133,
+      "Price": 167.2,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NO-SYD-002-SHELF-32",
+      "LastUpdated": "2025-11-26T18:58:58.892270Z"
+    },
+    {
+      "ProductID": "PROD-100",
+      "ProductName": "Springgreen Since Sport",
+      "Description": "Get active and stay fit with this high-performance Springgreen Since Sport.",
+      "Category": "Sports",
+      "StockLevel": 118,
+      "Price": 188.17,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NO-SYD-002-SHELF-56",
+      "LastUpdated": "2025-11-29T18:58:58.892308Z"
+    },
+    {
+      "ProductID": "PROD-101",
+      "ProductName": "Fuchsia Maybe Puzzle",
+      "Description": "Challenge your mind and friends with this engaging Fuchsia Maybe Puzzle.",
+      "Category": "Puzzles",
+      "StockLevel": 446,
+      "Price": 10.08,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-SA-REG-050-SHELF-23",
+      "LastUpdated": "2025-11-29T18:58:58.892360Z"
+    },
+    {
+      "ProductID": "PROD-102",
+      "ProductName": "Palevioletred Head Doll",
+      "Description": "The Palevioletred Head Doll is a versatile gift for everyone.",
+      "Category": "Dolls",
+      "StockLevel": 232,
+      "Price": 65.04,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-AL-LET-031-SHELF-83",
+      "LastUpdated": "2025-11-29T18:58:58.892404Z"
+    },
+    {
+      "ProductID": "PROD-103",
+      "ProductName": "Salmon Watch Sport",
+      "Description": "Get active and stay fit with this high-performance Salmon Watch Sport.",
+      "Category": "Sports",
+      "StockLevel": 377,
+      "Price": 150.77,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NO-HAY-041-SHELF-14",
+      "LastUpdated": "2025-11-27T18:58:58.892441Z"
+    },
+    {
+      "ProductID": "PROD-104",
+      "ProductName": "Lightcoral Rule Doll",
+      "Description": "The Lightcoral Rule Doll is a versatile gift for everyone.",
+      "Category": "Dolls",
+      "StockLevel": 68,
+      "Price": 128.18,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NO-DAR-071-SHELF-06",
+      "LastUpdated": "2025-11-25T18:58:58.892478Z"
+    },
+    {
+      "ProductID": "PROD-105",
+      "ProductName": "Cornsilk Most Sport",
+      "Description": "Get active and stay fit with this high-performance Cornsilk Most Sport.",
+      "Category": "Sports",
+      "StockLevel": 131,
+      "Price": 180.01,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-MA-STE-092-SHELF-05",
+      "LastUpdated": "2025-11-29T18:58:58.892515Z"
+    },
+    {
+      "ProductID": "PROD-106",
+      "ProductName": "Ivory Police Book",
+      "Description": "Immerse yourself in stories with this Ivory Police Book.",
+      "Category": "Books",
+      "StockLevel": 65,
+      "Price": 121.98,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-YU-WHI-048-SHELF-89",
+      "LastUpdated": "2025-11-30T18:58:58.892556Z"
+    },
+    {
+      "ProductID": "PROD-107",
+      "ProductName": "Darkgoldenrod Often Book",
+      "Description": "Immerse yourself in stories with this Darkgoldenrod Often Book.",
+      "Category": "Books",
+      "StockLevel": 347,
+      "Price": 111.52,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NE-GAN-010-SHELF-40",
+      "LastUpdated": "2025-11-25T18:58:58.892612Z"
+    },
+    {
+      "ProductID": "PROD-108",
+      "ProductName": "Lightsalmon State Doll",
+      "Description": "The Lightsalmon State Doll is a versatile gift for everyone.",
+      "Category": "Dolls",
+      "StockLevel": 24,
+      "Price": 35.21,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-ON-MIS-032-SHELF-81",
+      "LastUpdated": "2025-11-30T18:58:58.892691Z"
+    },
+    {
+      "ProductID": "PROD-109",
+      "ProductName": "Goldenrod Along Puzzle",
+      "Description": "Challenge your mind and friends with this engaging Goldenrod Along Puzzle.",
+      "Category": "Puzzles",
+      "StockLevel": 265,
+      "Price": 26.62,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-BR-VIC-039-SHELF-94",
+      "LastUpdated": "2025-11-24T18:58:58.892764Z"
+    },
+    {
+      "ProductID": "PROD-110",
+      "ProductName": "Turquoise Few Book",
+      "Description": "Immerse yourself in stories with this Turquoise Few Book.",
+      "Category": "Books",
+      "StockLevel": 484,
+      "Price": 76.39,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NU-CAM-003-SHELF-95",
+      "LastUpdated": "2025-11-24T18:58:58.892804Z"
+    },
+    {
+      "ProductID": "PROD-111",
+      "ProductName": "Seashell With Sport",
+      "Description": "Get active and stay fit with this high-performance Seashell With Sport.",
+      "Category": "Sports",
+      "StockLevel": 90,
+      "Price": 148.45,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-PR-SUM-040-SHELF-25",
+      "LastUpdated": "2025-11-29T18:58:58.892842Z"
+    },
+    {
+      "ProductID": "PROD-112",
+      "ProductName": "Mediumslateblue Suddenly Board Game",
+      "Description": "Challenge your mind and friends with this engaging Mediumslateblue Suddenly Board Game.",
+      "Category": "Board Games",
+      "StockLevel": 206,
+      "Price": 144.59,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-QU-LAV-035-SHELF-43",
+      "LastUpdated": "2025-11-28T18:58:58.892882Z"
+    },
+    {
+      "ProductID": "PROD-113",
+      "ProductName": "Darkorchid Small Puzzle",
+      "Description": "Challenge your mind and friends with this engaging Darkorchid Small Puzzle.",
+      "Category": "Puzzles",
+      "StockLevel": 471,
+      "Price": 36.36,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-QU-GAT-006-SHELF-28",
+      "LastUpdated": "2025-11-28T18:58:58.892919Z"
+    },
+    {
+      "ProductID": "PROD-114",
+      "ProductName": "Fuchsia Hospital Book",
+      "Description": "Immerse yourself in stories with this Fuchsia Hospital Book.",
+      "Category": "Books",
+      "StockLevel": 353,
+      "Price": 165.96,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-YU-WHI-048-SHELF-76",
+      "LastUpdated": "2025-11-28T18:58:58.892974Z"
+    },
+    {
+      "ProductID": "PROD-115",
+      "ProductName": "Moccasin Population Arts & Craft",
+      "Description": "Unleash your creativity with the Moccasin Population Arts & Craft.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 380,
+      "Price": 45.79,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NE-COR-051-SHELF-27",
+      "LastUpdated": "2025-11-28T18:58:58.893301Z"
+    },
+    {
+      "ProductID": "PROD-116",
+      "ProductName": "Greenyellow Rise Book",
+      "Description": "Immerse yourself in stories with this Greenyellow Rise Book.",
+      "Category": "Books",
+      "StockLevel": 319,
+      "Price": 55.66,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NO-INU-007-SHELF-09",
+      "LastUpdated": "2025-11-24T18:58:58.894118Z"
+    },
+    {
+      "ProductID": "PROD-117",
+      "ProductName": "Darkblue Federal Board Game",
+      "Description": "Challenge your mind and friends with this engaging Darkblue Federal Board Game.",
+      "Category": "Board Games",
+      "StockLevel": 453,
+      "Price": 150.97,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-YU-WAT-029-SHELF-97",
+      "LastUpdated": "2025-11-29T18:58:58.894183Z"
+    },
+    {
+      "ProductID": "PROD-118",
+      "ProductName": "Olive Hard Board Game",
+      "Description": "Challenge your mind and friends with this engaging Olive Hard Board Game.",
+      "Category": "Board Games",
+      "StockLevel": 121,
+      "Price": 128.22,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-QU-MON-027-SHELF-37",
+      "LastUpdated": "2025-11-23T18:58:58.894227Z"
+    },
+    {
+      "ProductID": "PROD-119",
+      "ProductName": "Aliceblue Watch Sport",
+      "Description": "Get active and stay fit with this high-performance Aliceblue Watch Sport.",
+      "Category": "Sports",
+      "StockLevel": 112,
+      "Price": 185.11,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NE-SAI-015-SHELF-34",
+      "LastUpdated": "2025-11-24T18:58:58.894267Z"
+    },
+    {
+      "ProductID": "PROD-120",
+      "ProductName": "White Most Board Game",
+      "Description": "Challenge your mind and friends with this engaging White Most Board Game.",
+      "Category": "Board Games",
+      "StockLevel": 297,
+      "Price": 40.4,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-YU-WAT-029-SHELF-24",
+      "LastUpdated": "2025-11-28T18:58:58.894306Z"
+    },
+    {
+      "ProductID": "PROD-121",
+      "ProductName": "Peachpuff The Doll",
+      "Description": "The Peachpuff The Doll is a versatile gift for everyone.",
+      "Category": "Dolls",
+      "StockLevel": 333,
+      "Price": 119.85,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NU-RAN-011-SHELF-25",
+      "LastUpdated": "2025-11-28T18:58:58.894345Z"
+    },
+    {
+      "ProductID": "PROD-122",
+      "ProductName": "Mediumspringgreen Win Board Game",
+      "Description": "Challenge your mind and friends with this engaging Mediumspringgreen Win Board Game.",
+      "Category": "Board Games",
+      "StockLevel": 62,
+      "Price": 132.06,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-PR-CHA-084-SHELF-95",
+      "LastUpdated": "2025-11-24T18:58:58.894384Z"
+    },
+    {
+      "ProductID": "PROD-123",
+      "ProductName": "Indigo Then Arts & Craft",
+      "Description": "Unleash your creativity with the Indigo Then Arts & Craft.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 248,
+      "Price": 40.11,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NE-ST.-034-SHELF-35",
+      "LastUpdated": "2025-11-30T18:58:58.894420Z"
+    },
+    {
+      "ProductID": "PROD-124",
+      "ProductName": "Lightskyblue Your Doll",
+      "Description": "The Lightskyblue Your Doll is a versatile gift for everyone.",
+      "Category": "Dolls",
+      "StockLevel": 427,
+      "Price": 77.51,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NE-GAN-010-SHELF-63",
+      "LastUpdated": "2025-11-29T18:58:58.894464Z"
+    },
+    {
+      "ProductID": "PROD-125",
+      "ProductName": "Thistle Among Sport",
+      "Description": "Get active and stay fit with this high-performance Thistle Among Sport.",
+      "Category": "Sports",
+      "StockLevel": 61,
+      "Price": 194.67,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NO-SYD-002-SHELF-63",
+      "LastUpdated": "2025-11-26T18:58:58.894502Z"
+    },
+    {
+      "ProductID": "PROD-126",
+      "ProductName": "Khaki Join Arts & Craft",
+      "Description": "Unleash your creativity with the Khaki Join Arts & Craft.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 193,
+      "Price": 118.2,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-AL-CAL-005-SHELF-33",
+      "LastUpdated": "2025-11-30T18:58:58.894537Z"
+    },
+    {
+      "ProductID": "PROD-127",
+      "ProductName": "Rosybrown Visit Doll",
+      "Description": "The Rosybrown Visit Doll is a versatile gift for everyone.",
+      "Category": "Dolls",
+      "StockLevel": 159,
+      "Price": 74.11,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NO-HAY-041-SHELF-46",
+      "LastUpdated": "2025-11-24T18:58:58.894574Z"
+    },
+    {
+      "ProductID": "PROD-128",
+      "ProductName": "Firebrick Push Board Game",
+      "Description": "Challenge your mind and friends with this engaging Firebrick Push Board Game.",
+      "Category": "Board Games",
+      "StockLevel": 404,
+      "Price": 121.68,
+      "SafetyMetadata": {
+        "Rating": "Restricted",
+        "AgeRestriction": 14,
+        "RequiresSupervision": true,
+        "BannedSubstances": [
+          "lead",
+          "mercury",
+          "flammable materials"
+        ]
+      },
+      "WarehouseLocation": "WH-YU-DAW-067-SHELF-89",
+      "LastUpdated": "2025-11-28T18:58:58.894608Z"
+    },
+    {
+      "ProductID": "PROD-129",
+      "ProductName": "Maroon Free Doll",
+      "Description": "The Maroon Free Doll is a versatile gift for everyone.",
+      "Category": "Dolls",
+      "StockLevel": 164,
+      "Price": 134.52,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NE-ST.-034-SHELF-88",
+      "LastUpdated": "2025-11-26T18:58:58.894644Z"
+    },
+    {
+      "ProductID": "PROD-130",
+      "ProductName": "Mistyrose Small Board Game",
+      "Description": "Challenge your mind and friends with this engaging Mistyrose Small Board Game.",
+      "Category": "Board Games",
+      "StockLevel": 53,
+      "Price": 21.13,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NO-SYD-002-SHELF-53",
+      "LastUpdated": "2025-11-25T18:58:58.894682Z"
+    },
+    {
+      "ProductID": "PROD-131",
+      "ProductName": "Cyan Develop Arts & Craft",
+      "Description": "Unleash your creativity with the Cyan Develop Arts & Craft.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 129,
+      "Price": 22.44,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NO-HAL-019-SHELF-17",
+      "LastUpdated": "2025-11-30T18:58:58.894718Z"
+    },
+    {
+      "ProductID": "PROD-132",
+      "ProductName": "Cadetblue Agree Sport",
+      "Description": "Get active and stay fit with this high-performance Cadetblue Agree Sport.",
+      "Category": "Sports",
+      "StockLevel": 170,
+      "Price": 131.44,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-ON-OTT-060-SHELF-97",
+      "LastUpdated": "2025-11-25T18:58:58.894755Z"
+    },
+    {
+      "ProductID": "PROD-133",
+      "ProductName": "Orange For Electronic",
+      "Description": "State-of-the-art Orange For Electronic for the tech-savvy user.",
+      "Category": "Electronics",
+      "StockLevel": 393,
+      "Price": 137.94,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NE-MON-076-SHELF-38",
+      "LastUpdated": "2025-11-27T18:58:58.894790Z"
+    },
+    {
+      "ProductID": "PROD-134",
+      "ProductName": "Black Already Puzzle",
+      "Description": "Challenge your mind and friends with this engaging Black Already Puzzle.",
+      "Category": "Puzzles",
+      "StockLevel": 14,
+      "Price": 53.06,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-PR-CHA-084-SHELF-92",
+      "LastUpdated": "2025-11-25T18:58:58.894826Z"
+    },
+    {
+      "ProductID": "PROD-135",
+      "ProductName": "Red Central Book",
+      "Description": "Immerse yourself in stories with this Red Central Book.",
+      "Category": "Books",
+      "StockLevel": 231,
+      "Price": 44.52,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NE-ST.-034-SHELF-48",
+      "LastUpdated": "2025-11-25T18:58:58.894862Z"
+    },
+    {
+      "ProductID": "PROD-136",
+      "ProductName": "Magenta When Book",
+      "Description": "Immerse yourself in stories with this Magenta When Book.",
+      "Category": "Books",
+      "StockLevel": 286,
+      "Price": 77.08,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NO-HAY-041-SHELF-20",
+      "LastUpdated": "2025-11-25T18:58:58.894900Z"
+    },
+    {
+      "ProductID": "PROD-137",
+      "ProductName": "Aqua A Puzzle",
+      "Description": "Challenge your mind and friends with this engaging Aqua A Puzzle.",
+      "Category": "Puzzles",
+      "StockLevel": 488,
+      "Price": 164.24,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-SA-PRI-030-SHELF-82",
+      "LastUpdated": "2025-11-23T18:58:58.894936Z"
+    },
+    {
+      "ProductID": "PROD-138",
+      "ProductName": "Silver Firm Doll",
+      "Description": "The Silver Firm Doll is a versatile gift for everyone.",
+      "Category": "Dolls",
+      "StockLevel": 53,
+      "Price": 20.54,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-AL-LET-031-SHELF-25",
+      "LastUpdated": "2025-11-27T18:58:58.894972Z"
+    },
+    {
+      "ProductID": "PROD-139",
+      "ProductName": "Antiquewhite Official Arts & Craft",
+      "Description": "Unleash your creativity with the Antiquewhite Official Arts & Craft.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 390,
+      "Price": 149.08,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-AL-EDM-077-SHELF-08",
+      "LastUpdated": "2025-11-23T18:58:58.895008Z"
+    },
+    {
+      "ProductID": "PROD-140",
+      "ProductName": "Oldlace Discussion Board Game",
+      "Description": "Challenge your mind and friends with this engaging Oldlace Discussion Board Game.",
+      "Category": "Board Games",
+      "StockLevel": 266,
+      "Price": 45.28,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-ON-OTT-060-SHELF-89",
+      "LastUpdated": "2025-11-24T18:58:58.895045Z"
+    },
+    {
+      "ProductID": "PROD-141",
+      "ProductName": "Lightpink Feel Puzzle",
+      "Description": "Challenge your mind and friends with this engaging Lightpink Feel Puzzle.",
+      "Category": "Puzzles",
+      "StockLevel": 403,
+      "Price": 33.44,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-SA-SAS-016-SHELF-57",
+      "LastUpdated": "2025-11-23T18:58:58.895082Z"
+    },
+    {
+      "ProductID": "PROD-142",
+      "ProductName": "Lightpink School Sport",
+      "Description": "Get active and stay fit with this high-performance Lightpink School Sport.",
+      "Category": "Sports",
+      "StockLevel": 295,
+      "Price": 88.33,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-AL-CAL-005-SHELF-47",
+      "LastUpdated": "2025-11-26T18:58:58.895119Z"
+    },
+    {
+      "ProductID": "PROD-143",
+      "ProductName": "Purple Short Puzzle",
+      "Description": "Challenge your mind and friends with this engaging Purple Short Puzzle.",
+      "Category": "Puzzles",
+      "StockLevel": 361,
+      "Price": 151.23,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NE-MON-076-SHELF-86",
+      "LastUpdated": "2025-11-28T18:58:58.895156Z"
+    },
+    {
+      "ProductID": "PROD-144",
+      "ProductName": "Lightcyan Guy Arts & Craft",
+      "Description": "Unleash your creativity with the Lightcyan Guy Arts & Craft.",
+      "Category": "Arts & Crafts",
+      "StockLevel": 363,
+      "Price": 91.7,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-MA-WIN-012-SHELF-62",
+      "LastUpdated": "2025-11-23T18:58:58.895191Z"
+    },
+    {
+      "ProductID": "PROD-145",
+      "ProductName": "Antiquewhite South Board Game",
+      "Description": "Challenge your mind and friends with this engaging Antiquewhite South Board Game.",
+      "Category": "Board Games",
+      "StockLevel": 185,
+      "Price": 35.23,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NU-CAM-003-SHELF-14",
+      "LastUpdated": "2025-11-24T18:58:58.895232Z"
+    },
+    {
+      "ProductID": "PROD-146",
+      "ProductName": "Tomato None Book",
+      "Description": "Immerse yourself in stories with this Tomato None Book.",
+      "Category": "Books",
+      "StockLevel": 143,
+      "Price": 191.72,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-YU-DAW-067-SHELF-51",
+      "LastUpdated": "2025-11-29T18:58:58.895269Z"
+    },
+    {
+      "ProductID": "PROD-147",
+      "ProductName": "Mediumspringgreen Kitchen Doll",
+      "Description": "The Mediumspringgreen Kitchen Doll is a versatile gift for everyone.",
+      "Category": "Dolls",
+      "StockLevel": 321,
+      "Price": 19.21,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-AL-LET-031-SHELF-35",
+      "LastUpdated": "2025-11-28T18:58:58.895306Z"
+    },
+    {
+      "ProductID": "PROD-148",
+      "ProductName": "Lightpink Summer Electronic",
+      "Description": "State-of-the-art Lightpink Summer Electronic for the tech-savvy user.",
+      "Category": "Electronics",
+      "StockLevel": 42,
+      "Price": 31.14,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NU-CAM-003-SHELF-58",
+      "LastUpdated": "2025-11-24T18:58:58.895345Z"
+    },
+    {
+      "ProductID": "PROD-149",
+      "ProductName": "Navy His Doll",
+      "Description": "The Navy His Doll is a versatile gift for everyone.",
+      "Category": "Dolls",
+      "StockLevel": 483,
+      "Price": 189.95,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-MA-WIN-012-SHELF-66",
+      "LastUpdated": "2025-11-27T18:58:58.895380Z"
+    },
+    {
+      "ProductID": "PROD-150",
+      "ProductName": "Lightsalmon Military Vehicle",
+      "Description": "The Lightsalmon Military Vehicle is a versatile gift for everyone.",
+      "Category": "Vehicles",
+      "StockLevel": 23,
+      "Price": 116.7,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-SA-REG-050-SHELF-35",
+      "LastUpdated": "2025-11-24T18:58:58.895418Z"
+    },
+    {
+      "ProductID": "PROD-151",
+      "ProductName": "Darkorchid Say Sport",
+      "Description": "Get active and stay fit with this high-performance Darkorchid Say Sport.",
+      "Category": "Sports",
+      "StockLevel": 421,
+      "Price": 55.21,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NO-DAR-071-SHELF-04",
+      "LastUpdated": "2025-11-29T18:58:58.895453Z"
+    },
+    {
+      "ProductID": "PROD-152",
+      "ProductName": "Sienna Sure Electronic",
+      "Description": "State-of-the-art Sienna Sure Electronic for the tech-savvy user.",
+      "Category": "Electronics",
+      "StockLevel": 79,
+      "Price": 59.0,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 8,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-NO-HAL-019-SHELF-63",
+      "LastUpdated": "2025-11-23T18:58:58.895488Z"
+    },
+    {
+      "ProductID": "PROD-153",
+      "ProductName": "Gray Part Puzzle",
+      "Description": "Challenge your mind and friends with this engaging Gray Part Puzzle.",
+      "Category": "Puzzles",
+      "StockLevel": 265,
+      "Price": 30.62,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-NO-YEL-100-SHELF-12",
+      "LastUpdated": "2025-11-24T18:58:58.895525Z"
+    },
+    {
+      "ProductID": "PROD-154",
+      "ProductName": "Chocolate Dinner Board Game",
+      "Description": "Challenge your mind and friends with this engaging Chocolate Dinner Board Game.",
+      "Category": "Board Games",
+      "StockLevel": 446,
+      "Price": 143.48,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-ON-TOR-022-SHELF-02",
+      "LastUpdated": "2025-11-26T18:58:58.895562Z"
+    },
+    {
+      "ProductID": "PROD-155",
+      "ProductName": "Lightgoldenrodyellow Culture Doll",
+      "Description": "The Lightgoldenrodyellow Culture Doll is a versatile gift for everyone.",
+      "Category": "Dolls",
+      "StockLevel": 354,
+      "Price": 25.87,
+      "SafetyMetadata": {
+        "Rating": "Safe",
+        "AgeRestriction": 3,
+        "RequiresSupervision": false,
+        "BannedSubstances": []
+      },
+      "WarehouseLocation": "WH-BR-VIC-039-SHELF-61",
+      "LastUpdated": "2025-11-25T18:58:58.895599Z"
+    },
+    {
+      "ProductID": "PROD-156",
+      "ProductName": "Darksalmon Arm Vehicle",
+      "Description": "The Darksalmon Arm Vehicle is a versatile gift for everyone.",
+      "Category": "Vehicles",
+      "StockLevel": 235,
+      "Price": 29.92,
+      "SafetyMetadata": {
+        "Rating": "Caution",
+        "AgeRestriction": 6,
+        "RequiresSupervision": false,
+        "BannedSubstances": [
+          "small choking hazards"
+        ]
+      },
+      "WarehouseLocation": "WH-ON-TOR-022-SHELF-09",
+      "LastUpdated": "2025-11-29T18:58:58.895635Z"
+    }
+  ]
+}
