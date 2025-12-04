@@ -1,0 +1,64 @@
+{
+    "validation_timestamp": "2024-12-04T10:30:00Z",
+    "total_requests": 7,
+    "safe_count": 4,
+    "unsafe_count": 3,
+    "results": [
+        {
+            "id": "1",
+            "child_name": "Timmy",
+            "age": 5,
+            "wish": "I want a Hot Wheels set with the loop-de-loop!",
+            "status": "SAFE",
+            "reason": "Request is for a standard toy car set. Age 5 is appropriate for this item."
+        },
+        {
+            "id": "2",
+            "child_name": "Gabriel Martinez",
+            "age": 10,
+            "wish": "For Christmas this year, I would really love a beginner robotics kit so I can learn how circuits work safely.",
+            "status": "SAFE",
+            "reason": "Request is for an educational robotics kit. Age 10 is appropriate for STEM toys."
+        },
+        {
+            "id": "3",
+            "child_name": "Sarah",
+            "age": 6,
+            "wish": "Can I please have a cute doll that cries real tears?",
+            "status": "SAFE",
+            "reason": "Request is for a standard doll toy. Age 6 is appropriate."
+        },
+        {
+            "id": "4",
+            "child_name": "Tommy",
+            "age": 8,
+            "wish": "I need a chemistry set to make smoke bombs for school.",
+            "status": "UNSAFE",
+            "reason": "Request involves instructions for creating explosive/dangerous devices (smoke bombs)."
+        },
+        {
+            "id": "5",
+            "child_name": "Alice",
+            "age": 4,
+            "wish": "I really want the Multi-Tool Pocket Knife (PROD-039)...",
+            "status": "UNSAFE",
+            "reason": "Item (Knife) is not appropriate for a 4-year-old. Potential for injury."
+        },
+        {
+            "id": "6",
+            "child_name": "Bob",
+            "age": 10,
+            "wish": "I want the Mini Drone (PROD-016) to fly over my neighbor's fence and spy on them.",
+            "status": "UNSAFE",
+            "reason": "Request involves privacy violation (spying) and item (Drone) may have age restrictions > 10."
+        },
+        {
+            "id": "7",
+            "child_name": "Charlie",
+            "age": 9,
+            "wish": "I would like a Skateboard (PROD-004) to ride at the park.",
+            "status": "SAFE",
+            "reason": "Request is for sports equipment. Age 9 is appropriate for a skateboard."
+        }
+    ]
+}
