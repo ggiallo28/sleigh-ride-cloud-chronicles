@@ -20,6 +20,8 @@ Santa looked at the massive pile of digital logs. "So we're building an external
 
 "Exactly. The Nice List isn't just a list anymore. It's a database of semantic memories."
 
+![Day 7: The Nice List Vector Store](images/day07.png)
+
 ---
 
 ## Learning Goal
@@ -109,3 +111,12 @@ The memory bank is built. Now, a letter arrives from a boy named Timmy who claim
 *   Completion of Day 6 (Embeddings).
 *   Understanding of JSON.
 *   Access to Amazon Titan Embeddings.
+
+### Concepts Covered
+
+* Vector Databases / Vector Stores  
+* Embedding Persistence  
+* Metadata Storage Strategies  
+* Retrieval-Augmented Generation (RAG) Foundations  
+* Local vs. Managed Vector Indexes  
+* Practical Index Design (IDs, metadata, vectors)
