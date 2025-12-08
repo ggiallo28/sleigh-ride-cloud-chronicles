@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Lucas",
+        "activity": "Attended tea party",
+        "timestamp": "2024-12-05T10:00:00"
+    },
+    {
+        "name": "William",
+        "activity": "Checked out 'Chemistry for Beginners' from the library",
+        "timestamp": "2024-12-04T15:30:00"
+    },
+    {
+        "name": "William",
+        "activity": "Purchased 5 cans of shaving cream from the General Store",
+        "timestamp": "2024-12-05T09:15:00"
+    },
+    {
+        "name": "Laura",
+        "activity": "Napping in a sunbeam",
+        "timestamp": "2024-12-05T14:00:00"
+    },
+    {
+        "name": "Ian",
+        "activity": "Organizing a snowball fight tournament",
+        "timestamp": "2024-12-05T13:45:00"
+    }
+]

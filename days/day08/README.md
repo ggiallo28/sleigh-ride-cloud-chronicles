@@ -44,101 +44,100 @@ Santa nodded, looking at Timmy's profile. A boy who shared his lunch. Who taught
 
 ![Day 8: Retrieval Augmented Christmas](images/day08.png)
 
+# Day 8: The RAG-Enhanced Profile
+
+## Story
+
+"Okay," Santa said, looking at the screen. "We have the vector store from Day 7. It knows who's been naughty and nice based on their behavior logs. But now we have a letter."
+
+He held up a handwritten letter from **Tammy King**.
+
+"Tammy says she's been 'super duper good' this year," Santa read. "She specifically mentions helping her little sister with homework and sharing her lunch. But... is she telling the truth?"
+
+The Apprentice tapped the keyboard. "This is where Retrieval-Augmented Generation (RAG) comes in. We don't just ask the model 'Is Tammy good?' We take her claims from the letter, search our vector store for matching evidence, and *then* ask the model to verify it."
+
+"So we're fact-checking children?" Santa raised an eyebrow.
+
+"We're... verifying their self-assessments," the Apprentice corrected. "If Tammy says she helped her sister, and we find a log entry that says 'Helped little sister with homework,' then the model can confidently say: Verified."
+
+"And if she says she cleaned her room, but the logs say she shoved everything under the bed?"
+
+"Then the model will flag it as a discrepancy," the Apprentice grinned. "The Naughty-or-Nice list just got a lot more accurate."
+
+![Day 8: The RAG-Enhanced Profile](images/day08.png)
+
+> **Image Prompt Description**: A split-screen view of a high-tech "Truth-o-Meter." On one side, a handwritten letter from a child (Tammy) is being scanned. On the other side, a digital database scrolls through behavior logs. A central holographic brain (the LLM) is connecting a line between "I helped my sister" in the letter and a matching log entry, glowing green for "VERIFIED." Santa looks impressed.
+
 ---
 
 ## Learning Goal
 
-**Basic RAG (Retrieval-Augmented Generation)**
-
-Today you'll connect a foundation model to external knowledge using RAG. Language models have limited context windows and no memory of your specific data. By *retrieving* relevant information from a vector store and *augmenting* the prompt with that context, you give the model access to knowledge it wouldn't otherwise have. The workflow: (1) receive a query, (2) search the vector store for relevant records, (3) inject those records into the prompt, (4) generate an informed response. In Project Sleigh-Ride, RAG lets Santa verify children's claims against historical behavior records.
-
----
+Understand **Retrieval-Augmented Generation (RAG)** by combining unstructured user input (a letter) with structured retrieved data (behavior logs) to generate a fact-based response (a child profile).
 
 ## Participant Challenge
 
-Your challenge is to implement basic RAG. You'll take a letter from a child who claims to have been good, extract the key behavioral claims, query the vector store from Day 7 to retrieve relevant historical records, and use a foundation model to synthesize a comprehensive profile combining the letter with retrieved behavior data. The goal is to demonstrate that augmenting context with retrieved memories enables informed judgments.
-
----
+Write a script that:
+1.  Reads **Tammy's letter** (`days/day08/input/letter_tammy.txt`).
+2.  Extracts key claims (e.g., "I helped my sister").
+3.  Simulates a vector search (using the `vector_store.json` from Day 7) to find relevant behavior logs.
+4.  Uses an LLM (Bedrock) to generate a **Child Profile Summary** that confirms or denies the claims based on the evidence.
 
 ## Cost-Saving Tips
 
-1.  **Retrieve selectively**: Don't dump your entire vector store into the prompt. Retrieve only the top 3-5 most relevant records to reduce token costs.
-
-2.  **Cache retrieval results**: If multiple queries relate to the same child, cache their behavior records rather than re-querying.
-
----
+*   **Small Models for Extraction**: Use a cheaper model (like Claude 3 Haiku or Titan Text) for extracting claims from the letter.
+*   **Local "Vector Search"**: Since our dataset is small, you don't need a real vector database yet. You can just load the JSON and do a simple keyword match or cosine similarity if you want to be fancy (but simple matching is fine for today).
+*   **Prompt Caching**: If you were processing millions of letters, you'd cache the system prompt instructions.
 
 ## Tomorrow's Teaser
 
-Timmy's profile is complete, but Santa realizes the information is scattered—letters, behavior logs, address histories. Tomorrow, he learns to weave multiple data sources into a single tapestry of truth.
+"Tammy is verified! But wait... we have a partial ID in this incident report, but the name is missing. Can we reconstruct the identity from scattered logs?"
 
 ---
 
 ## Technical Specifications
 
-### Input Files
-
-*   **letter_timmy.txt**: A letter from Timmy Anderson claiming to have been good.
-*   **vector_store.json** (from Day 7): The vector index containing behavior log embeddings.
-
-**Preview of letter_timmy.txt:**
-```
---- START LETTER ---
-From: Timmy Anderson
-Address: 42 Snowflake Lane, Whitehorse, Yukon, Y1A 3T7, Canada
-Date: 2024-12-08
-
-Dear Santa,
-
-Hi! It's me, Timmy! I'm 8 years old...
-I've been REALLY good this year, Santa. Like, super duper good. 
-I always share my stuff and I help people all the time...
---- END LETTER ---
-```
+### Input Data
+*   `days/day08/input/letter_tammy.txt`: A text file containing Tammy's letter to Santa.
+*   `days/day07/output/vector_store.json`: The vector store created in Day 7 (or a mock version of it).
 
 ### Expected Output
+*   `days/day08/output/tammy_profile_summary.txt`: A text file summarizing the child's profile.
 
-*   **timmy_profile_summary.txt**: A comprehensive profile combining letter content with retrieved behavior records.
-
-**Format Example:**
+#### Format
 ```markdown
-# Child Profile: Timmy Anderson
+# Child Profile: Tammy King
 
-**Name:** Timmy Anderson  
-**Age:** 8  
-**Location:** Whitehorse, Yukon, Canada
+**Name:** Tammy King
+**Age:** 11
+**Location:** Cambridge Bay, Nunavut, Canada
 
 ## Wishlist
-1. Nintendo Switch
-2. Mario Kart game
-3. Lego sets (space themed)
+1. [Item 1]
+2. [Item 2]
+...
 
 ## Retrieved Behavior Records
-- March 15, 2024 (Nice): Shared lunch with a friend
-- September 10, 2024 (Nice): Helped sister with homework
+- [Date] ([Category]): [Action]
+...
 
 ## Assessment
-Claims verified against historical records.
-**Recommendation:** Nice List
+[Model's analysis of whether the claims in the letter match the retrieved records.]
+
+**Recommendation:** [Nice List / Naughty List / Needs Review]
 ```
 
-### Validation Criteria
+### Implementation Steps
+1.  **Load the Letter**: Read the text file.
+2.  **Extract Claims**: Use an LLM or regex to find what the child claims they did.
+3.  **Retrieve Evidence**: Search `vector_store.json` for matching `metadata['name']` and relevant `action` descriptions.
+4.  **Generate Profile**: Construct a prompt that includes the letter content AND the retrieved logs, and ask the LLM to write the summary.
 
-*   The script loads the letter and vector store from Day 7.
-*   Behavioral claims are extracted from the letter.
-*   Relevant records are retrieved using semantic search.
-*   The output combines letter content with retrieved evidence.
-*   A final recommendation is provided.
-
-### Getting Started
-
-1.  **Load the letter**: Read the letter file.
-2.  **Load vector store**: Load the index from Day 7.
-3.  **Extract claims**: Identify behavioral claims from the letter.
-4.  **Retrieve records**: Query the vector store for each claim.
-5.  **Build RAG prompt**: Combine letter + retrieved records.
-6.  **Generate profile**: Call the LLM with augmented context.
-7.  **Save output**: Write the profile to file.
+### Critical Concepts
+*   **RAG (Retrieval-Augmented Generation)**: The pattern of retrieving external data to ground the LLM's response.
+*   **Query Construction**: Converting "I helped my sister" into a search query.
+*   **Context Injection**: Inserting the retrieved logs into the LLM's prompt context window.
+*   **Evidence-Based Reasoning**: Asking the model to cite the specific logs that support its conclusion.
+*   **Profile Synthesis**: Combining multiple data points into a coherent narrative.
 
 ### Prerequisites
 

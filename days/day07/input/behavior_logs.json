@@ -1,30 +1,30 @@
 [
     {
-        "id": "101",
-        "name": "Timmy",
+        "id": "2",
+        "name": "Tammy",
         "date": "2024-03-15",
         "action": "Shared lunch with a friend who forgot theirs.",
         "category": "Nice",
-        "details": "Timmy gave half his sandwich to Sarah."
+        "details": "Tammy gave half her sandwich to Sarah."
     },
     {
-        "id": "102",
+        "id": "2",
         "name": "Tammy",
         "date": "2024-06-22",
         "action": "Broke a window playing baseball and didn't tell anyone.",
         "category": "Naughty",
-        "details": "Ball went through Mrs. Gable's greenhouse. Timmy ran away."
+        "details": "Ball went through Mrs. Gable's greenhouse. Tammy ran away."
     },
     {
-        "id": "103",
-        "name": "Timmy",
+        "id": "2",
+        "name": "Tammy",
         "date": "2024-09-10",
         "action": "Helped little sister with homework.",
         "category": "Nice",
         "details": "Spent 2 hours teaching basic math."
     },
     {
-        "id": "104",
+        "id": "2",
         "name": "Tammy",
         "date": "2024-11-05",
         "action": "Fought with brother over video games.",
@@ -32,7 +32,7 @@
         "details": "Yelled and threw the controller."
     },
     {
-        "id": "201",
+        "id": "122",
         "name": "Sarah",
         "date": "2024-04-12",
         "action": "Planted trees with the community group.",
@@ -40,7 +40,7 @@
         "details": "Volunteered for Earth Day."
     },
     {
-        "id": "202",
+        "id": "122",
         "name": "Sarah",
         "date": "2024-08-30",
         "action": "Lied about finishing chores.",

@@ -1,0 +1,42 @@
+[
+    {
+        "query": "something red that goes fast",
+        "matches": [
+            {
+                "product_name": "Turbo Fire Truck",
+                "description": "A bright red fire engine with working sirens and high-speed wheels.",
+                "score": 0.89
+            },
+            {
+                "product_name": "Lightning Racer",
+                "description": "Red sports car, built for speed.",
+                "score": 0.87
+            },
+            {
+                "product_name": "Rocket Sled",
+                "description": "Aerodynamic red sled for fast downhill racing.",
+                "score": 0.82
+            }
+        ]
+    },
+    {
+        "query": "a toy for building things",
+        "matches": [
+            {
+                "product_name": "Mega Block Set",
+                "description": "500-piece construction set for creative building.",
+                "score": 0.92
+            },
+            {
+                "product_name": "Robot Builder Kit",
+                "description": "Build your own programmable robot.",
+                "score": 0.85
+            },
+            {
+                "product_name": "Wooden Castle Blocks",
+                "description": "Classic wooden blocks for castle construction.",
+                "score": 0.81
+            }
+        ]
+    }
+]
