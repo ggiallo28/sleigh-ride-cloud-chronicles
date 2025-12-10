@@ -110,3 +110,12 @@ We've mastered the past (logs) and the present (letters). But what about the fut
 *   Completion of Days 1-8.
 *   Basic data manipulation (CSV/JSON in Python).
 *   Understanding of modular code structure.
+
+### Concepts Covered
+
+*   Multi-Hop Reasoning
+*   Complex Query Decomposition
+*   Tool Use / Agentic Patterns
+*   Structured Data Lookup
+*   Chain of Thought
+
