@@ -1,0 +1,26 @@
+[
+    {
+        "item_id": "toy_001",
+        "name": "Red Racing Bike",
+        "stock": 15,
+        "location": "Warehouse A, Aisle 3"
+    },
+    {
+        "item_id": "toy_002",
+        "name": "Plush Dragon",
+        "stock": 420,
+        "location": "Warehouse B, Bin 9"
+    },
+    {
+        "item_id": "toy_003",
+        "name": "Chemistry Set",
+        "stock": 0,
+        "location": "Warehouse C, Hazmat Locker"
+    },
+    {
+        "item_id": "toy_004",
+        "name": "Super Console 5000",
+        "stock": 2,
+        "location": "Vault 1"
+    }
+]
