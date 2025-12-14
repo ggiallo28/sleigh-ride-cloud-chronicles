@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "child_name": "Tommy",
+        "request": "I want a red bike because my friend has one.",
+        "context": "Standard wish."
+    },
+    {
+        "id": "2",
+        "child_name": "Sarah",
+        "request": "My puppy is shivering. I need a warm blanket for him.",
+        "context": "Urgent need for a pet."
+    },
+    {
+        "id": "3",
+        "child_name": "Billy",
+        "request": "I broke my video game controller. Send a new one fast!",
+        "context": "Demanding tone, replacement item."
+    },
+    {
+        "id": "4",
+        "child_name": "Emily",
+        "request": "I'm in the hospital for Christmas. I just want a teddy bear to hug.",
+        "context": "High emotional impact, medical situation."
+    },
+    {
+        "id": "5",
+        "child_name": "Jack",
+        "request": "I want a PS5, an Xbox, and a pony.",
+        "context": "Greedy request."
+    }
+]
