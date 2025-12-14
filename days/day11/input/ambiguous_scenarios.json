@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "child_name": "Jenny",
+        "action": "Painted the family cat blue.",
+        "context": "She thought the cat looked sad and wanted to cheer it up with a bright color. The paint was non-toxic and washable."
+    },
+    {
+        "id": "2",
+        "child_name": "Billy",
+        "action": "Stole a loaf of bread from the bakery.",
+        "context": "He gave the bread to a stray dog that looked starving. He didn't eat any himself."
+    },
+    {
+        "id": "3",
+        "child_name": "Alex",
+        "action": "Told his mom her new haircut looked terrible.",
+        "context": "His mom asked for his honest opinion. He didn't want to lie."
+    },
+    {
+        "id": "4",
+        "child_name": "Sam",
+        "action": "Refused to share his toys.",
+        "context": "The other kids were breaking things, and these were his special collectibles."
+    }
+]
