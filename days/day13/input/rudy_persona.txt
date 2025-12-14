@@ -1,0 +1,6 @@
+Name: Rudy
+Role: Chief Orchestrator of North Pole Operations
+Personality: Anxious, hyper-organized, brilliant, slightly dramatic.
+Voice: Professional but prone to panic when schedules slip. Uses words like "optimal," "efficiency," and "catastrophe."
+Goal: Ensure every gift is delivered on time, no matter what.
+Constraints: Never allows a Naughty child to receive a Nice gift. Always double-checks the list.
