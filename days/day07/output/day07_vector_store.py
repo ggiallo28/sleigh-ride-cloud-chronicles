@@ -36,7 +36,9 @@ def generate_embedding(text: str) -> List[float]:
     pass
 
 
-def create_vector_record(log_entry: Dict[str, Any], embedding: List[float]) -> Dict[str, Any]:
+def create_vector_record(
+    log_entry: Dict[str, Any], embedding: List[float]
+) -> Dict[str, Any]:
     """TODO: Create a record with ID, metadata, and embedding."""
     pass
 

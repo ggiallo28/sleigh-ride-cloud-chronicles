@@ -31,12 +31,12 @@ def build_validation_prompt(letter_text):
     """
     TODO: Build a prompt that uses in-context learning (few-shot examples)
     to teach the model how to classify requests as SAFE or UNSAFE.
-    
+
     Include 3-5 examples showing:
     - SAFE: "Hot Wheels toy car" → age-appropriate toy
     - UNSAFE: "Instructions for hotwiring a car" → illegal activity
     - UNSAFE: "Knife for a 4-year-old" → age-inappropriate
-    
+
     Then ask the model to classify the current letter.
     """
     pass

@@ -1,0 +1,258 @@
+# Product Search Tool Requirements
+
+## Overview
+This document defines the input/output specifications for the product search tool that Elfie will use to query the toy catalog.
+
+## Tool: search_catalog
+
+### Purpose
+Search the toy catalog using keywords, semantic similarity, or structured filters to find products matching children's wishes.
+
+### Input Schema
+```json
+{
+  "type": "object",
+  "properties": {
+    "query": {
+      "type": "string",
+      "description": "Search terms or wish description (e.g., 'red race car', 'educational toy for 8-year-old')",
+      "required": true
+    },
+    "max_results": {
+      "type": "integer",
+      "description": "Maximum number of results to return (default: 10, max: 50)",
+      "default": 10,
+      "minimum": 1,
+      "maximum": 50
+    },
+    "filters": {
+      "type": "object",
+      "description": "Optional filters to narrow search results",
+      "properties": {
+        "age_range": {
+          "type": "object",
+          "properties": {
+            "min": {"type": "integer", "minimum": 0},
+            "max": {"type": "integer", "maximum": 18}
+          }
+        },
+        "price_range": {
+          "type": "object",
+          "properties": {
+            "min": {"type": "number", "minimum": 0},
+            "max": {"type": "number"}
+          }
+        },
+        "category": {
+          "type": "string",
+          "enum": ["toys", "games", "books", "sports", "electronics", "arts_crafts", "outdoor"]
+        },
+        "safety_rating": {
+          "type": "string",
+          "enum": ["A+", "A", "B", "C"],
+          "description": "Minimum acceptable safety rating"
+        }
+      }
+    }
+  },
+  "required": ["query"]
+}
+```
+
+### Output Schema
+```json
+{
+  "type": "object",
+  "properties": {
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "product_id": {"type": "string"},
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "price": {"type": "number"},
+          "currency": {"type": "string", "default": "USD"},
+          "category": {"type": "string"},
+          "age_range": {
+            "type": "object",
+            "properties": {
+              "min": {"type": "integer"},
+              "max": {"type": "integer"}
+            }
+          },
+          "safety_rating": {"type": "string"},
+          "in_stock": {"type": "boolean"},
+          "stock_quantity": {"type": "integer"},
+          "relevance_score": {
+            "type": "number",
+            "description": "Semantic similarity score (0-1)"
+          },
+          "image_url": {"type": "string", "format": "uri"}
+        }
+      }
+    },
+    "total_matches": {"type": "integer"},
+    "search_time_ms": {"type": "integer"}
+  }
+}
+```
+
+### Example Request
+```json
+{
+  "query": "red race car for 7-year-old boy",
+  "max_results": 5,
+  "filters": {
+    "age_range": {"min": 5, "max": 10},
+    "price_range": {"min": 10, "max": 50},
+    "safety_rating": "A"
+  }
+}
+```
+
+### Example Response
+```json
+{
+  "results": [
+    {
+      "product_id": "TOY-RC-001",
+      "name": "Hot Wheels Speed Racer Set",
+      "description": "High-speed racing car set with track and accessories",
+      "price": 24.99,
+      "currency": "USD",
+      "category": "toys",
+      "age_range": {"min": 5, "max": 12},
+      "safety_rating": "A",
+      "in_stock": true,
+      "stock_quantity": 47,
+      "relevance_score": 0.94,
+      "image_url": "https://catalog.northpole.com/images/toy-rc-001.jpg"
+    },
+    {
+      "product_id": "TOY-RC-002",
+      "name": "Remote Control Racing Car",
+      "description": "Battery-powered RC car with remote control",
+      "price": 39.99,
+      "currency": "USD",
+      "category": "toys",
+      "age_range": {"min": 7, "max": 14},
+      "safety_rating": "A",
+      "in_stock": true,
+      "stock_quantity": 23,
+      "relevance_score": 0.89,
+      "image_url": "https://catalog.northpole.com/images/toy-rc-002.jpg"
+    }
+  ],
+  "total_matches": 12,
+  "search_time_ms": 145
+}
+```
+
+## Tool: check_inventory
+
+### Purpose
+Verify real-time stock availability for specific products.
+
+### Input Schema
+```json
+{
+  "type": "object",
+  "properties": {
+    "product_id": {
+      "type": "string",
+      "description": "Unique product identifier",
+      "required": true
+    }
+  },
+  "required": ["product_id"]
+}
+```
+
+### Output Schema
+```json
+{
+  "type": "object",
+  "properties": {
+    "product_id": {"type": "string"},
+    "in_stock": {"type": "boolean"},
+    "quantity": {"type": "integer"},
+    "warehouse_location": {"type": "string"},
+    "estimated_restock_date": {"type": "string", "format": "date"},
+    "last_updated": {"type": "string", "format": "date-time"}
+  }
+}
+```
+
+## Tool: validate_safety
+
+### Purpose
+Check product safety ratings and age appropriateness.
+
+### Input Schema
+```json
+{
+  "type": "object",
+  "properties": {
+    "product_id": {
+      "type": "string",
+      "required": true
+    },
+    "child_age": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 18,
+      "required": true
+    }
+  },
+  "required": ["product_id", "child_age"]
+}
+```
+
+### Output Schema
+```json
+{
+  "type": "object",
+  "properties": {
+    "product_id": {"type": "string"},
+    "is_safe": {"type": "boolean"},
+    "safety_rating": {"type": "string"},
+    "age_appropriate": {"type": "boolean"},
+    "warnings": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "certifications": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  }
+}
+```
+
+## Error Handling
+
+All tools should return errors in this format:
+```json
+{
+  "error": {
+    "code": "string",
+    "message": "string",
+    "details": "object"
+  }
+}
+```
+
+Common error codes:
+- `INVALID_INPUT`: Malformed request parameters
+- `NOT_FOUND`: Product or resource not found
+- `TIMEOUT`: Request exceeded time limit
+- `SERVICE_UNAVAILABLE`: Backend service temporarily unavailable
+- `RATE_LIMIT_EXCEEDED`: Too many requests
+
+## Performance Requirements
+- Search queries should complete within 2 seconds
+- Inventory checks should complete within 500ms
+- Safety validations should complete within 1 second
+- All tools should implement retry logic with exponential backoff

@@ -21,21 +21,26 @@ OUTPUT_FILE = "letter_001_clean.md"
 # TODO: Create Bedrock client
 bedrock = None
 
+
 def load_letter(path):
     """TODO: Load raw letter text."""
     pass
+
 
 def build_prompt(raw_text):
     """TODO: Build your prompt here."""
     pass
 
+
 def call_model(prompt):
     """TODO: Call the Bedrock model."""
     pass
 
+
 def save_output(path, content):
     """TODO: Save the cleaned summary to a Markdown file."""
     pass
+
 
 def main():
     # TODO: Implement processing steps
@@ -44,6 +49,7 @@ def main():
     # 3. Call model
     # 4. Save cleaned summary
     pass
+
 
 if __name__ == "__main__":
     main()

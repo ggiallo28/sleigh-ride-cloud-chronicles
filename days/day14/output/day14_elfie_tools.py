@@ -1,12 +1,14 @@
 # /// script
 # dependencies = [
 #   "boto3",
+#   "strands-agents",
 # ]
 # ///
 
 import boto3
 import json
 from typing import Dict, Any, Optional
+from strands import Agent
 
 # -------------------------------------
 # Day 14 – Enter Elfie (The Tool User)
@@ -25,12 +27,12 @@ bedrock = None
 def define_tool_schema() -> str:
     """
     TODO: Define the tool schema as a string to include in the prompt.
-    
+
     Describe the get_inventory function:
     - Name: get_inventory
     - Description: What it does
     - Parameters: item_name (string, required)
-    
+
     Return a string that explains the tool to the model.
     """
     pass
@@ -39,13 +41,13 @@ def define_tool_schema() -> str:
 def build_elfie_prompt(tool_schema: str, user_question: str) -> str:
     """
     TODO: Build the full prompt for Elfie.
-    
+
     The prompt should:
     1. Define Elfie's persona (cheerful, efficient, uses tools)
     2. Include the tool schema
     3. Instruct the model to output a JSON function call (not answer directly)
     4. Include the user's question
-    
+
     Example output format to request:
     {
         "tool_name": "get_inventory",
@@ -62,9 +64,14 @@ def call_llm(prompt: str) -> str:
     pass
 
 
-
 def main():
     # TODO: Implement the Tool Call Test
+    # How to areate an agent with default settings
+    # agent = Agent()
+    #
+    # Ask the agent a question
+    # agent("Tell me about agentic AI")
+    #
     # 1. Define the tool schema
     # 2. Build the prompt with a test question: "How many Red Racing Bikes do we have?"
     # 3. Call the LLM

@@ -40,12 +40,12 @@ def load_requests(path: str) -> List[Dict[str, Any]]:
 def build_scoring_prompt(request: Dict[str, Any]) -> str:
     """
     TODO: Build a prompt to score a single request.
-    
+
     The prompt should:
     1. Include the priority rubric
     2. Present the child's request and context
     3. Ask for a JSON response with 'score' and 'reason'
-    
+
     Hint: Be explicit about the output format you expect.
     """
     pass
@@ -54,7 +54,7 @@ def build_scoring_prompt(request: Dict[str, Any]) -> str:
 def call_llm(prompt: str) -> str:
     """
     TODO: Call the Bedrock LLM to get the priority score.
-    
+
     Hint: Use bedrock.invoke_model() with the appropriate payload.
     """
     pass
@@ -63,7 +63,7 @@ def call_llm(prompt: str) -> str:
 def parse_score_response(response: str) -> Dict[str, Any]:
     """
     TODO: Parse the LLM response to extract score and reasoning.
-    
+
     Expected output format:
     {
         "score": 5,
@@ -76,7 +76,7 @@ def parse_score_response(response: str) -> Dict[str, Any]:
 def score_request(request: Dict[str, Any]) -> Dict[str, Any]:
     """
     TODO: Score a single request and return enriched data.
-    
+
     Returns the original request data plus:
     - priority_score
     - reasoning
@@ -87,7 +87,7 @@ def score_request(request: Dict[str, Any]) -> Dict[str, Any]:
 def sort_by_priority(requests: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """
     TODO: Sort requests by priority score in descending order.
-    
+
     Hint: Use sorted() with a key function.
     """
     pass

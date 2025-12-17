@@ -1,12 +1,14 @@
 # /// script
 # dependencies = [
 #   "boto3",
+#   "strands-agents",
 # ]
 # ///
 
 import boto3
 import json
 from typing import List, Dict, Any
+from strands import Agent
 
 # -------------------------------------
 # Day 13 – Enter Rudy (The Orchestrator)
@@ -36,27 +38,27 @@ def load_persona(path: str) -> str:
 def build_system_prompt(persona: str) -> str:
     """
     TODO: Build a system prompt that enforces Rudy's personality.
-    
+
     The system prompt should:
     1. Define who Rudy is (name, role)
     2. Establish his personality traits
     3. Set his goals and constraints
     4. Encourage in-character responses
-    
+
     """
     pass
 
 
-
 # OPTION A: Simulated Agent Loop (Direct LLM)
+
 
 def chat_with_rudy_llm(system_prompt: str, user_message: str) -> str:
     """
     TODO: Send a message to Rudy using direct LLM invocation.
-    
+
     This simulates an agent by using a system prompt with the Converse API.
     Good for quick testing without setting up a full Bedrock Agent.
-    
+
     Hint: Use bedrock_runtime.converse() with:
     - modelId
     - system parameter for the persona
@@ -65,18 +67,18 @@ def chat_with_rudy_llm(system_prompt: str, user_message: str) -> str:
     pass
 
 
-
 # OPTION B: Amazon Bedrock Agent
+
 
 def chat_with_rudy_agent(user_message: str, session_id: str = "rudy-session") -> str:
     """
     TODO: Send a message to Rudy using a configured Bedrock Agent.
-    
+
     Prerequisites:
     1. Create a Bedrock Agent in the AWS Console
     2. Configure the agent with the system prompt
     3. Create an alias and set AGENT_ID and AGENT_ALIAS_ID above
-    
+
     Hint: Use bedrock_agent_runtime.invoke_agent() with:
     - agentId
     - agentAliasId
@@ -93,7 +95,12 @@ def save_transcript(path: str, user_message: str, rudy_response: str):
 
 def main():
     # TODO: Implement the Rudy Agent interaction
-    # 
+    # How to areate an agent with default settings
+    # agent = Agent()
+    #
+    # Ask the agent a question
+    # agent("Tell me about agentic AI")
+    #
     # Choose your approach:
     #
     # OPTION A - Simulated Agent (Quick Start):

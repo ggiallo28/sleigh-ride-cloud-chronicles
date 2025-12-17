@@ -31,13 +31,13 @@ def load_scenarios(path: str) -> List[Dict[str, Any]]:
 def build_cot_prompt(scenario: Dict[str, Any]) -> str:
     """
     TODO: Build a Chain-of-Thought prompt for moral evaluation.
-    
+
     The prompt should instruct the model to:
     1. Analyze the action (what happened)
     2. Analyze the intent (why it happened)
     3. Evaluate the outcome (harm vs good)
     4. Provide a final verdict
-    
+
     Hint: Use "Let's think step by step" or explicit numbered steps.
     """
     pass
@@ -46,7 +46,7 @@ def build_cot_prompt(scenario: Dict[str, Any]) -> str:
 def call_llm(prompt: str) -> str:
     """
     TODO: Call the Bedrock LLM to get the moral evaluation.
-    
+
     Hint: Use bedrock.invoke_model() with the appropriate payload.
     """
     pass
@@ -55,7 +55,7 @@ def call_llm(prompt: str) -> str:
 def parse_verdict(response: str) -> Dict[str, str]:
     """
     TODO: Parse the LLM response to extract reasoning and verdict.
-    
+
     Expected output format:
     {
         "reasoning": "Step-by-step analysis...",
@@ -68,7 +68,7 @@ def parse_verdict(response: str) -> Dict[str, str]:
 def evaluate_scenario(scenario: Dict[str, Any]) -> Dict[str, Any]:
     """
     TODO: Evaluate a single scenario using Chain-of-Thought.
-    
+
     Returns a dict with child_name, reasoning, and verdict.
     """
     pass

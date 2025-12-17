@@ -47,7 +47,9 @@ def calculate_similarity(vec1: List[float], vec2: List[float]) -> float:
     pass
 
 
-def retrieve_records(query: str, vector_store: List[Dict], top_k: int = 3, name_filter: str = None) -> List[Dict]:
+def retrieve_records(
+    query: str, vector_store: List[Dict], top_k: int = 3, name_filter: str = None
+) -> List[Dict]:
     """TODO: Retrieve the most relevant behavior records for a query."""
     # Hint:
     # 1. Generate embedding for query

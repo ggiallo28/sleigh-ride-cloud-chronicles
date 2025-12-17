@@ -26,7 +26,7 @@ VAGUE_WISHES = [
     "something red that goes fast",
     "a toy for building things",
     "something cuddly and soft",
-    "a game to play with my family"
+    "a game to play with my family",
 ]
 
 # TODO: Create Bedrock client
@@ -49,7 +49,12 @@ def calculate_similarity(vec1: List[float], vec2: List[float]) -> float:
     pass
 
 
-def find_matches(query: str, catalog_items: List[Dict], catalog_vectors: List[List[float]], top_k: int = 3):
+def find_matches(
+    query: str,
+    catalog_items: List[Dict],
+    catalog_vectors: List[List[float]],
+    top_k: int = 3,
+):
     """TODO: Find the top K semantic matches for a query."""
     pass
 

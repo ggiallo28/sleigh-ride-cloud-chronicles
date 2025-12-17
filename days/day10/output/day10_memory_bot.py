@@ -38,7 +38,7 @@ def format_messages_for_bedrock(history: List[Dict[str, str]]) -> List[Dict[str,
 def chat_with_model(messages: List[Dict[str, Any]]) -> str:
     """
     TODO: Send the full conversation history to the model and get a response.
-    
+
     Hint: Use the `bedrock.converse()` API for easier state management.
     """
     pass
