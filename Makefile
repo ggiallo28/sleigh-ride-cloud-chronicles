@@ -27,10 +27,10 @@ show-task:
 	@echo "========================================"
 	@echo "🎄 Task for Day $(DAY)"
 	@echo "========================================"
-	@if [ -f days/day$(DAY)/task.md ]; then \
-		cat days/day$(DAY)/task.md; \
+	@if [ -f days/day$(DAY)/README.md ]; then \
+		cat days/day$(DAY)/README.md; \
 	else \
-		echo "❌ Task file not found: days/day$(DAY)/task.md"; \
+		echo "❌ Task file not found: days/day$(DAY)/README.md"; \
 	fi
 	@echo ""
 	@echo "========================================"

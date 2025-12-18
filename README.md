@@ -231,7 +231,7 @@ sleigh-ride-cloud-chronicles/
 ├── setup/ (installation guides, starter code, budget setup)
 ├── datasets/ (all shared data: letters, catalogs, behavior logs)
 ├── resources/ (personas, guidelines, workflow specs)
-├── day01/ through day25/ (daily challenges with input/ and output/ folders)
+├── days/ day01 through day25/ (daily challenges with input/ and output/ folders)
 └── utils/ (helper scripts and reusable code modules)
 ```
 
@@ -293,23 +293,52 @@ See `setup/bedrock_setup_guide.md` for detailed instructions.
 
 ### Step 3: Install Dependencies
 
-```bash
-# From the repository root
-pip install -r setup/requirements.txt
+We recommend using `uv` for fast and reliable dependency management.
 
-# Or using uv (faster)
+```bash
+# Install uv (if not already installed)
+pip install uv
+
+# Install dependencies
 uv pip install -r setup/requirements.txt
 ```
 
-### Step 4: Start Day 1
+### Step 4: Using the Makefile
+
+This project includes a `Makefile` to simplify common tasks.
 
 ```bash
-cd day01
-cat README.md  # Read the challenge
-python solution.py  # Your code goes here
+# List all available days
+make list-days
+
+# View the task and input files for a specific day (e.g., Day 1)
+make day01
+
+# Run your solution script for a specific day using uv
+make run-day DAY=01
 ```
 
-### Step 5: Deploy Infrastructure (Example)
+### Step 5: Start Day 1
+
+You can run the challenges manually or use the Makefile helper.
+
+**Option A: Using Makefile (Recommended)**
+```bash
+# View the task
+make day01
+
+# Run your solution (requires a script in output/ named day01*.py)
+make run-day DAY=01
+```
+
+**Option B: Manual**
+```bash
+cd days/day01
+cat README.md  # Read the challenge
+uv run solution.py  # Your code goes here
+```
+
+### Step 6: Deploy Infrastructure (Example)
 
 ```bash
 # Using Terraform
@@ -322,7 +351,7 @@ terraform apply
 terraform destroy
 ```
 
-### Step 6: Share Your Solution
+### Step 7: Share Your Solution
 
 ```bash
 # Create your solution folder
@@ -403,7 +432,7 @@ Your solution code and infrastructure definitions are your own and may be licens
 
 Santa is waiting at the North Pole, and Christmas hangs in the balance.
 
-Read `day01/README.md` to begin your journey.
+Read `days/day01/README.md` to begin your journey.
 
 The Cloud Migration starts now.
 
