@@ -1,0 +1,22 @@
+[
+    {
+        "item_name": "Super Console 5000",
+        "stock": 2,
+        "location": "Vault 1"
+    },
+    {
+        "item_name": "Red Racing Bike",
+        "stock": 15,
+        "location": "Aisle 3"
+    },
+    {
+        "item_name": "Plush Dragon",
+        "stock": 100,
+        "location": "Bin 42"
+    },
+    {
+        "item_name": "Chemistry Set",
+        "stock": 5,
+        "location": "Hazardous Materials Section"
+    }
+]

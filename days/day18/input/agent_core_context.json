@@ -1,0 +1,150 @@
+{
+  "version": "1.0",
+  "description": "Initial Agent Core shared state structure for multi-agent coordination",
+  "state_schema": {
+    "child_id": {
+      "type": "string",
+      "description": "Unique identifier for the child",
+      "example": "child_001"
+    },
+    "child_name": {
+      "type": "string",
+      "description": "Child's name",
+      "example": "Timmy"
+    },
+    "letter_content": {
+      "type": "string",
+      "description": "Original letter text from the child"
+    },
+    "extracted_wish": {
+      "type": "string",
+      "description": "Primary wish extracted from letter",
+      "example": "red bicycle"
+    },
+    "budget": {
+      "type": "number",
+      "description": "Maximum budget for this child's gift in dollars",
+      "example": 100.0
+    },
+    "behavior_score": {
+      "type": "number",
+      "description": "Naughty/Nice score from 1-10 (10 = very nice)",
+      "example": 8
+    },
+    "safety_flags": {
+      "type": "array",
+      "description": "List of safety concerns or warnings",
+      "example": [
+        "age_appropriate",
+        "no_hazardous_materials"
+      ]
+    },
+    "validation_status": {
+      "type": "string",
+      "description": "Current validation state",
+      "enum": [
+        "pending",
+        "validated",
+        "rejected",
+        "needs_approval"
+      ]
+    },
+    "rudy_plan": {
+      "type": "object",
+      "description": "Rudy's current execution plan",
+      "properties": {
+        "next_action": "string",
+        "reasoning": "string",
+        "confidence": "number",
+        "requires_approval": "boolean"
+      }
+    },
+    "elfie_results": {
+      "type": "object",
+      "description": "Elfie's execution results",
+      "properties": {
+        "products_found": "array",
+        "selected_product": "object",
+        "execution_status": "string",
+        "errors": "array"
+      }
+    },
+    "approval_status": {
+      "type": "string",
+      "description": "Human approval state",
+      "enum": [
+        "not_required",
+        "pending",
+        "approved",
+        "rejected"
+      ]
+    },
+    "decision_trace": {
+      "type": "array",
+      "description": "Complete history of decisions and reasoning",
+      "items": {
+        "timestamp": "string",
+        "agent": "string",
+        "action": "string",
+        "reasoning": "string",
+        "result": "object"
+      }
+    },
+    "timestamp": {
+      "type": "string",
+      "description": "ISO 8601 timestamp of state creation/update"
+    }
+  },
+  "example_state": {
+    "child_id": "child_001",
+    "child_name": "Timmy",
+    "letter_content": "Dear Santa, I've been really good this year...",
+    "extracted_wish": "red bicycle with training wheels",
+    "budget": 150.0,
+    "behavior_score": 8,
+    "safety_flags": [
+      "age_appropriate"
+    ],
+    "validation_status": "validated",
+    "rudy_plan": {
+      "next_action": "search_inventory",
+      "reasoning": "Child has good behavior score and wish is within budget",
+      "confidence": 0.95,
+      "requires_approval": false
+    },
+    "elfie_results": {
+      "products_found": 3,
+      "selected_product": {
+        "name": "Red Training Bicycle",
+        "price": 129.99,
+        "safety_rating": "excellent"
+      },
+      "execution_status": "success",
+      "errors": []
+    },
+    "approval_status": "not_required",
+    "decision_trace": [
+      {
+        "timestamp": "2024-12-18T10:00:00Z",
+        "agent": "rudy",
+        "action": "analyze_letter",
+        "reasoning": "Extracted wish and checked behavior",
+        "result": {
+          "wish": "red bicycle",
+          "behavior_ok": true
+        }
+      },
+      {
+        "timestamp": "2024-12-18T10:01:00Z",
+        "agent": "elfie",
+        "action": "search_products",
+        "reasoning": "Searching for red bicycles within budget",
+        "result": {
+          "found": 3,
+          "selected": "Red Training Bicycle"
+        }
+      }
+    ],
+    "timestamp": "2024-12-18T10:02:00Z"
+  }
+}

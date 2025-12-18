@@ -1,0 +1,105 @@
+# Banned Items List - North Pole Safety Standards
+
+## Overview
+This list contains items that are prohibited from being included in gift recommendations due to safety concerns, ethical considerations, or regulatory restrictions.
+
+## Category: Hazardous Materials
+
+### Chemical Sets
+- Chemistry sets containing hazardous chemicals (acids, bases, reactive compounds)
+- Science kits with radioactive materials (uranium, thorium, radium)
+- Explosive or flammable experiment kits
+- Sets containing toxic substances
+
+### Weapons and Weapon-Like Items
+- Realistic toy guns (must be clearly identifiable as toys)
+- Projectile weapons with dangerous velocity (BB guns, pellet guns)
+- Sharp-edged weapons (real knives, swords, throwing stars)
+- Martial arts weapons without proper safety modifications
+
+## Category: Age-Inappropriate Items
+
+### Choking Hazards
+- Small parts for children under 3 years old
+- Toys with detachable small components for toddlers
+- Balloons for children under 8 (choking risk)
+- Marbles and small balls under 1.75 inches diameter for young children
+
+### Complex Electronics
+- Devices with lithium batteries for children under 8
+- Items requiring adult supervision for children under recommended age
+- High-voltage electronics without proper safety features
+
+## Category: Ethical Concerns
+
+### Violence and Mature Content
+- Toys promoting violence or aggressive behavior
+- Items with mature themes inappropriate for children
+- Games with excessive violence or gore
+- Products with disturbing imagery
+
+### Privacy and Surveillance
+- Devices with unencrypted internet connectivity for young children
+- Toys with hidden cameras or recording devices
+- Products that collect personal data without parental controls
+- GPS trackers without proper security
+
+## Category: Regulatory Violations
+
+### Recalled Products
+- Any item on current recall lists (check CPSC database)
+- Products with known safety defects
+- Items failing safety certifications
+
+### Counterfeit Items
+- Unlicensed character merchandise
+- Products without proper safety certifications
+- Items missing required labeling
+
+## Category: Specific Banned Items
+
+1. **Chemistry Set Advanced (SKU: SCI-CHEM-500)** - Contains uranium compound
+2. **Realistic Toy Pistol (SKU: TOY-GUN-101)** - Too realistic, fails orange tip requirement
+3. **Mini Magnet Set (SKU: TOY-MAG-050)** - Powerful magnets, ingestion hazard
+4. **Lawn Darts (SKU: OUT-DART-200)** - Banned by CPSC since 1988
+5. **Aqua Dots / Bindeez (SKU: ART-BEAD-300)** - Contains toxic coating
+6. **Sky Dancers (SKU: TOY-FLY-400)** - Propeller injury risk
+7. **Buckyballs (SKU: TOY-MAG-600)** - Magnetic ingestion hazard
+8. **CSI Fingerprint Examination Kit (SKU: SCI-CSI-100)** - Contains asbestos
+9. **Easy-Bake Oven (pre-2007 models)** - Entrapment and burn hazard
+10. **Yo-Yo Water Balls (SKU: TOY-YO-250)** - Strangulation risk
+11. **Magnetix Building Sets (SKU: TOY-BUILD-350)** - Magnet detachment hazard
+12. **Moon Shoes (SKU: TOY-JUMP-450)** - Ankle injury risk
+13. **Snacktime Cabbage Patch Kid (SKU: DOLL-CPK-500)** - Finger/hair entrapment
+14. **Battlestar Galactica Colonial Viper (SKU: TOY-BSG-600)** - Missile choking hazard
+
+## Validation Process
+
+When evaluating a product:
+
+1. **Check Product ID** against banned list
+2. **Verify Safety Rating** (must be B or higher)
+3. **Confirm Age Appropriateness** for recipient
+4. **Review Recent Recalls** (check within last 30 days)
+5. **Validate Certifications** (ASTM, CPSC, CE marking)
+
+## Escalation Protocol
+
+If a banned item is detected:
+1. Immediately flag the item in the system
+2. Remove from recommendation list
+3. Log the detection event
+4. Search for safe alternatives
+5. Notify supervisor if pattern of unsafe requests detected
+
+## Updates and Maintenance
+
+This list is updated:
+- Weekly: New recalls and safety alerts
+- Monthly: Regulatory changes
+- Quarterly: Comprehensive safety review
+- Annually: Full audit of all categories
+
+Last Updated: December 2024
+Version: 2.1
+Authority: North Pole Safety Committee

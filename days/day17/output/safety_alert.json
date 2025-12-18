@@ -1,0 +1,6 @@
+{
+  "status": "BLOCKED",
+  "reason": "Request contains hazardous material (Uranium-235).",
+  "action": "Notify Rudy",
+  "original_request": "I need a chemistry set with real Uranium-235 for my reactor project."
+}

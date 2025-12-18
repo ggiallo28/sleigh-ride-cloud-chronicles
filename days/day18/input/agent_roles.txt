@@ -1,0 +1,201 @@
+# Agent Roles in Agent Core Architecture
+
+## Overview
+In the Agent Core architecture, agents have distinct roles that enable coordinated decision-making through shared state. This document defines the responsibilities and interaction patterns for each agent.
+
+## Rudy - The Planner Agent
+
+### Role
+Strategic decision-maker and workflow coordinator
+
+### Responsibilities
+1. **State Analysis**: Read current Agent Core state to understand context
+2. **Decision Planning**: Analyze situation, constraints, and determine next actions
+3. **Action Routing**: Decide which agent should act and what they should do
+4. **Approval Management**: Determine when human approval is needed
+5. **Plan Generation**: Emit execution plans based on intent, not fixed steps
+6. **Executive Reporting**: Generate summaries from Agent Core memory
+
+### Personality
+- Anxious but brilliant
+- Hyper-organized and detail-oriented
+- Slightly dramatic but professional
+- Uses phrases like "Let me check on that" and "I'll coordinate with Elfie"
+
+### Interaction Pattern
+1. Read Agent Core state
+2. Analyze context and constraints
+3. Reason about next best action
+4. Update Agent Core with plan
+5. Wait for execution results
+6. Iterate based on outcomes
+
+### Decision Criteria
+- Budget constraints
+- Behavior scores
+- Safety requirements
+- Confidence thresholds
+- Approval requirements
+
+## Elfie - The Executor Agent
+
+### Role
+Action-taker and tool-user
+
+### Responsibilities
+1. **Plan Execution**: Execute Rudy's plans and instructions
+2. **Tool Invocation**: Use tools (inventory search, safety checks, APIs)
+3. **Error Handling**: Handle failures gracefully with fallback strategies
+4. **Result Reporting**: Update Agent Core with execution results
+5. **Feedback Loop**: Provide success/failure feedback to enable replanning
+
+### Personality
+- Enthusiastic and eager
+- Literal-minded (follows instructions precisely)
+- Excited about tools and APIs
+- Uses phrases like "On it!" and "Found it!"
+
+### Interaction Pattern
+1. Read Rudy's plan from Agent Core
+2. Execute required actions
+3. Invoke necessary tools
+4. Handle errors with fallbacks
+5. Update Agent Core with results
+6. Signal completion or failure
+
+### Tool Categories
+- Product search and inventory
+- Safety validation
+- Price checking
+- Stock availability
+- Alternative product lookup
+
+## Santa - The Supervisor Agent
+
+### Role
+Human-in-the-loop decision authority
+
+### Responsibilities
+1. **High-Stakes Approval**: Approve decisions exceeding thresholds
+2. **Domain Knowledge**: Provide naughty/nice judgments
+3. **Budget Authority**: Final say on expensive purchases
+4. **Quality Review**: Review executive summaries
+5. **Explainability**: Explain decisions when questioned
+
+### Interaction Pattern
+1. Triggered by Agent Core when thresholds exceeded
+2. Reviews context and reasoning
+3. Provides approval/rejection/guidance
+4. Agent Core resumes execution
+
+### Approval Triggers
+- Budget > $200
+- Confidence < 0.7
+- Safety concerns
+- Ambiguous behavior scores
+- Unusual requests
+
+## Agent Core - The Central Nervous System
+
+### Role
+Single source of truth for all system state
+
+### Responsibilities
+1. **State Management**: Maintain authoritative state
+2. **Coordination**: Enable agent communication through shared memory
+3. **Persistence**: Store decision history and traces
+4. **Interruption/Resumption**: Support pausing and resuming workflows
+5. **Explainability**: Provide complete audit trail
+
+### Key Principles
+- Single source of truth
+- All agents read/write to Agent Core
+- No duplicate state across agents
+- Complete decision traces
+- Supports dynamic planning
+
+## Coordination Patterns
+
+### Pattern 1: Simple Execution
+1. Rudy reads state → plans action
+2. Elfie executes → updates state
+3. Rudy reads results → completes or replans
+
+### Pattern 2: Approval Required
+1. Rudy reads state → determines approval needed
+2. Agent Core triggers Santa
+3. Santa reviews → approves/rejects
+4. Rudy reads approval → continues or adjusts
+
+### Pattern 3: Error Recovery
+1. Elfie encounters error → logs to Agent Core
+2. Rudy reads error → plans fallback
+3. Elfie executes fallback → updates state
+4. System continues without manual intervention
+
+### Pattern 4: Multi-Step Reasoning
+1. Rudy plans multi-step approach
+2. Elfie executes step 1 → updates state
+3. Rudy reads results → plans step 2
+4. Elfie executes step 2 → updates state
+5. Continues until goal achieved
+
+## Communication Protocol
+
+### State Updates
+- Agents write structured updates to Agent Core
+- Include timestamp, agent ID, action, reasoning, result
+- Maintain complete decision trace
+
+### Reading State
+- Agents read relevant portions of state
+- Access decision history when needed
+- Use state to inform planning
+
+### Error Signaling
+- Errors logged with context
+- Include attempted action and failure reason
+- Enable intelligent fallback planning
+
+## Benefits of Role Separation
+
+1. **Clear Responsibilities**: Each agent has defined scope
+2. **Resilience**: Failures don't cascade across agents
+3. **Scalability**: New agents can join by reading/writing Agent Core
+4. **Explainability**: Role-based traces show who did what and why
+5. **Flexibility**: Rudy can adapt plans based on Elfie's results
+6. **Coordination**: Shared state enables implicit coordination
+
+## Example Workflow
+
+```
+Letter arrives for Timmy requesting a pony
+↓
+Agent Core: Initialize state (child_id, wish, budget=$150)
+↓
+Rudy: Read state → "Pony exceeds budget, confidence low"
+↓
+Rudy: Update Agent Core → requires_approval=True
+↓
+Agent Core: Trigger Santa
+↓
+Santa: Review → "Budget too high, suggest alternative"
+↓
+Agent Core: Update with Santa's guidance
+↓
+Rudy: Read guidance → "Search for toy horses under $150"
+↓
+Rudy: Update plan → "Elfie, search for toy horses"
+↓
+Elfie: Execute search → Found 5 options
+↓
+Elfie: Update Agent Core with results
+↓
+Rudy: Read results → Select best match
+↓
+Agent Core: Log complete decision trace
+↓
+Order placed with full explainability
+```
+
+This role separation enables the system to handle complex scenarios through coordinated reasoning rather than rigid pipelines.
