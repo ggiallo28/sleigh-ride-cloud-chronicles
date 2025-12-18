@@ -42,6 +42,14 @@ The protagonist and final decision-maker. Once a master of traditional toy-makin
 ### The North Pole Cloud Apprentice (You)
 The participant and Santa's trusted partner throughout this journey. You learn cloud engineering and AI concepts alongside Santa, helping him solve each day's crisis. You write the code, deploy the infrastructure, and make the technical decisions that keep Project Sleigh-Ride moving forward. Your growth from novice to confident cloud architect mirrors the narrative arc of the challenge.
 
+### The AI Agents (Joining during the story)
+
+#### Rudy (The Orchestrator)
+The anxious, high-level planner who breaks down complex wishes. Rudy is responsible for understanding the intent behind a child's letter and creating a step-by-step plan for fulfillment.
+
+#### Elfie (The Tool User)
+The hands-on specialist who interacts with the "legacy" inventory systems (and loves it). Elfie executes the specific tasks assigned by Rudy, searching databases and checking stock levels.
+
 ### Supporting Cast
 - **Amazon Bedrock**: The magical AI engine powering Santa's solutions.
 - **AWS Services**: The toolbox (Lambda, S3, DynamoDB, etc.) that Santa uses to build the system.
@@ -107,18 +115,36 @@ Each day, you will:
 
 ### Phase 1: Digitization & Basic Understanding (Days 1-6)
 Santa learns to process children's letters using basic prompt engineering, text summarization, entity extraction, and embeddings. Focus on the fundamentals of generative AI: prompt engineering, structuring unstructured data, and understanding semantic meaning. You will build the core data processing pipeline that serves as the foundation for the entire system.
+- **Day 1:** The First Digital Letter
+- **Day 2:** Structure from Chaos
+- **Day 3:** The Picture Perfect Card
+- **Day 4:** The Validation Gate
+- **Day 5:** The 10-Page Manifesto
+- **Day 6:** The Vague Wish
 
 ### Phase 2: Knowledge & Memory (Days 7-12)
 Move beyond simple processing to context-aware decision making. Implement Retrieval-Augmented Generation (RAG) to ground AI responses in historical data, manage conversation memory, and build reasoning chains for complex judgments.
+- **Day 7:** The Nice List Vector Store
+- **Day 8:** Retrieval Augmented Christmas
+- **Day 9:** Complex Context Reconstruction
+- **Day 10:** Rudy's Memory
+- **Day 11:** The Moral Compass
+- **Day 12:** The Priority Queue
 
 ### Phase 3: Agents & Tools (Days 13-18)
 Transition from passive scripts to active agents. Design and deploy autonomous agents capable of using tools, executing API calls, and collaborating to solve multi-step problems without constant human intervention.
+- **Day 13:** Enter Rudy
+- **Day 14:** Enter Elfie
+- **Day 15:** Agent Collaboration
+- **Day 16:** The API Call
+- **Day 17:** The Safety Filter
+- **Day 18:** Self-Healing Workflows
 
-### Phase 4: Autonomous Workflow (Days 19-23)
-Orchestrate the complete system into a production-grade workflow. Focus on optimization, consistency checks, and implementing "Human-in-the-Loop" patterns to handle edge cases while automating the majority of the workload.
+### Phase 4: Coordination, Control & Trust (Days 19-23)
+Shift focus to the reliability and coherence of the system. Implement planning without rigid pipelines, optimize context sharing and memory, ensure multimodal consistency, and establish robust "Human-in-the-Loop" controls.
 
-### Phase 5: Scale & Observability (Days 24-25)
-Prepare for production scale. Implement observability, audit trails, and explainability features to trust the system's decisions, culminating in a final high-volume stress test.
+### Phase 5: Grand Finale (Days 24-25)
+The final push for production readiness. Implement deep explainability features and prepare the agent core to handle the scale of Christmas Eve.
 
 ---
 
@@ -210,9 +236,9 @@ sleigh-ride-cloud-chronicles/
 ```
 
 Each `dayXX/` folder contains:
-- `task.md`: The day's challenge description
+- `README.md`: The day's challenge description
 - `input/`: Files needed to complete the challenge
-- `expected/`: Reference outputs showing what you're aiming for
+- `images/`: Visual assets for the day
 - `output/`: Where you'll place your generated results
 
 ---
@@ -279,7 +305,7 @@ uv pip install -r setup/requirements.txt
 
 ```bash
 cd day01
-cat task.md  # Read the challenge
+cat README.md  # Read the challenge
 python solution.py  # Your code goes here
 ```
 
@@ -377,7 +403,7 @@ Your solution code and infrastructure definitions are your own and may be licens
 
 Santa is waiting at the North Pole, and Christmas hangs in the balance.
 
-Read `day01/task.md` to begin your journey.
+Read `day01/README.md` to begin your journey.
 
 The Cloud Migration starts now.
 

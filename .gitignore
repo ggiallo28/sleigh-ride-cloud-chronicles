@@ -208,11 +208,9 @@ __marimo__/
 # /.kiro
 .DS_Store
 .vscode/
-/generators
+
 
 
 #prompts
 Advent_of_Amazon_The_Great_Cloud_Migration.md
 sys_prompt.txt
-
-days/day16
