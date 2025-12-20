@@ -138,10 +138,12 @@ Transition from passive scripts to active agents. Design and deploy autonomous a
 - **Day 15:** Agent Collaboration
 - **Day 16:** The API Call
 - **Day 17:** The Safety Filter
-- **Day 18:** Self-Healing Workflows
+- **Day 18:** The Brain of the Operation (Agent Core)
 
 ### Phase 4: Coordination, Control & Trust (Days 19-23)
 Shift focus to the reliability and coherence of the system. Implement planning without rigid pipelines, optimize context sharing and memory, ensure multimodal consistency, and establish robust "Human-in-the-Loop" controls.
+- **Day 19:** Planning Without Pipelines
+- **Day 20:** Context Sharing & Memory Optimization
 
 ### Phase 5: Grand Finale (Days 24-25)
 The final push for production readiness. Implement deep explainability features and prepare the agent core to handle the scale of Christmas Eve.
