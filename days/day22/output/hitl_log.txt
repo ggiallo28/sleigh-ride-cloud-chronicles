@@ -1,0 +1,9 @@
+Agent: Analyzing Request...
+Agent: Detected 'Live Animal'. Confidence: Low.
+Action: Suspending Workflow. Requesting Human Review.
+---
+Human Input Required: Approve 'Real Pony' for Phillip? (Y/N)
+> Y
+---
+Action: Resuming Workflow.
+Agent: Human approved. Initiating Livestock Transport Protocol.

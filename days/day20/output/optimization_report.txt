@@ -1,0 +1,30 @@
+Without Memory:
+- Processed 3 requests.
+- Total Tool Calls: 3 (check_inventory x3)
+
+With Memory:
+- Processed 3 requests.
+- Total Tool Calls: 1 (check_inventory x1)
+- Cache Hits: 2
+
+Optimization Details:
+---
+Request 1 (Alice → Red Bike):
+  Status: Full Processing
+  Actions: check_inventory("Red Bike") → In Stock, $120
+  Decision: APPROVED
+
+Request 2 (Bob → Red Bike):
+  Status: REUSED (Item Knowledge)
+  Cache Hit: "Red Bike" → In Stock, $120
+  Decision: APPROVED
+
+Request 3 (Charlie → Red Bike):
+  Status: REUSED (Item Knowledge)
+  Cache Hit: "Red Bike" → In Stock, $120
+  Decision: APPROVED
+
+Summary:
+- Items Cached: 1 (Red Bike)
+- Token Savings: ~40% (estimated 2000 tokens saved)
+- Time Savings: ~66% (skipped 2 API calls)

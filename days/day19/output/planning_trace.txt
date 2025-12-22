@@ -1,0 +1,16 @@
+State: Start
+Thought: I need to check if we have the robot.
+Action: check_inventory("Blue Robot")
+Result: Stock: 5
+
+State: Inventory Confirmed
+Thought: We have it. Now I need to ship it.
+Action: generate_shipping_label("Timmy", "123 Elf Lane")
+Result: Label #999 created
+
+State: Label Created
+Thought: Order is ready. I should notify the user.
+Action: send_email("Timmy", "Order shipped!")
+Result: Sent
+
+Goal Achieved.
