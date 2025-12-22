@@ -67,8 +67,8 @@ The system is consistent. But sometimes, the system is just wrong. Sometimes, a 
 **Preview of purchased_toy_meta.json:**
 ```json
 {
-  "item_id": "BIKE-001",
-  "name": "Racing Bike",
+  "product_id": "PROD-020",
+  "name": "Bicycle",
   "attributes": {
     "color": "Neon Red",
     "material": "Carbon Fiber",

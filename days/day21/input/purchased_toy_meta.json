@@ -1,186 +1,186 @@
 [
   {
-    "product_id": "TOY_001",
-    "name": "Out to Impress Jewelry Set",
+    "product_id": "PROD-020",
+    "name": "Bicycle",
     "attributes": {
-      "color": "yellow",
-      "texture": "plush",
-      "type": "creative",
-      "size": "extra-large",
-      "weight_kg": 1.87,
-      "dimensions_cm": {
-        "length": 27,
-        "width": 75,
-        "height": 36
-      },
-      "material": "plastic",
-      "age_range": "3-10",
-      "safety_certified": true,
-      "assembly_required": true
-    },
-    "visual_description": "A green Out to Impress Jewelry Set with plastic finish",
-    "price": 127.34,
-    "stock_quantity": 54
-  },
-  {
-    "product_id": "TOY_002",
-    "name": "ElectroCubes Nightlight Building Set",
-    "attributes": {
-      "color": "black",
-      "texture": "wooden",
-      "type": "outdoor",
-      "size": "small",
-      "weight_kg": 3.43,
-      "dimensions_cm": {
-        "length": 24,
-        "width": 78,
-        "height": 53
-      },
-      "material": "metal",
-      "age_range": "8-12",
-      "safety_certified": true,
-      "assembly_required": true
-    },
-    "visual_description": "A pink ElectroCubes Nightlight Building Set with plastic finish",
-    "price": 48.46,
-    "stock_quantity": 5
-  },
-  {
-    "product_id": "TOY_003",
-    "name": "mini espresso maker",
-    "attributes": {
-      "color": "pink",
-      "texture": "soft",
-      "type": "game",
+      "color": "Neon Red",
+      "material": "Carbon Fiber",
+      "pattern": "Lightning Bolts",
+      "texture": "glossy",
       "size": "large",
-      "weight_kg": 4.22,
+      "weight_kg": 7.5,
       "dimensions_cm": {
-        "length": 74,
-        "width": 35,
-        "height": 14
+        "length": 165,
+        "width": 45,
+        "height": 95
       },
-      "material": "metal",
-      "age_range": "4-14",
+      "age_range": "10-15",
       "safety_certified": true,
       "assembly_required": true
     },
-    "visual_description": "A gold mini espresso maker with metallic finish",
-    "price": 107.94,
-    "stock_quantity": 19
+    "visual_description": "A Neon Red Bicycle with Carbon Fiber frame and Lightning Bolts pattern",
+    "price": 75.67,
+    "stock_quantity": 12
   },
   {
-    "product_id": "TOY_004",
-    "name": "art supplies",
-    "attributes": {
-      "color": "purple",
-      "texture": "plush",
-      "type": "educational",
-      "size": "small",
-      "weight_kg": 1.28,
-      "dimensions_cm": {
-        "length": 82,
-        "width": 20,
-        "height": 10
-      },
-      "material": "fabric",
-      "age_range": "3-14",
-      "safety_certified": true,
-      "assembly_required": true
-    },
-    "visual_description": "A green art supplies with wooden finish",
-    "price": 190.42,
-    "stock_quantity": 26
-  },
-  {
-    "product_id": "TOY_005",
-    "name": "Piplup",
-    "attributes": {
-      "color": "pink",
-      "texture": "plastic",
-      "type": "educational",
-      "size": "medium",
-      "weight_kg": 3.59,
-      "dimensions_cm": {
-        "length": 61,
-        "width": 57,
-        "height": 33
-      },
-      "material": "mixed",
-      "age_range": "6-10",
-      "safety_certified": true,
-      "assembly_required": true
-    },
-    "visual_description": "A yellow Piplup with textured finish",
-    "price": 80.85,
-    "stock_quantity": 80
-  },
-  {
-    "product_id": "TOY_006",
-    "name": "doll",
+    "product_id": "PROD-001",
+    "name": "Apple Ipad Air",
     "attributes": {
       "color": "silver",
-      "texture": "hard",
-      "type": "educational",
-      "size": "small",
-      "weight_kg": 0.45,
-      "dimensions_cm": {
-        "length": 90,
-        "width": 17,
-        "height": 19
-      },
-      "material": "plastic",
-      "age_range": "3-12",
-      "safety_certified": true,
-      "assembly_required": true
-    },
-    "visual_description": "A silver doll with hard finish",
-    "price": 70.12,
-    "stock_quantity": 67
-  },
-  {
-    "product_id": "TOY_007",
-    "name": "portable campfire",
-    "attributes": {
-      "color": "yellow",
-      "texture": "soft",
-      "type": "sports",
+      "texture": "smooth",
+      "type": "electronic",
       "size": "medium",
-      "weight_kg": 3.94,
+      "weight_kg": 0.46,
       "dimensions_cm": {
-        "length": 62,
-        "width": 34,
-        "height": 11
+        "length": 24,
+        "width": 17,
+        "height": 0.6
       },
-      "material": "plastic",
-      "age_range": "8-13",
+      "material": "aluminum",
+      "age_range": "6-99",
       "safety_certified": true,
       "assembly_required": false
     },
-    "visual_description": "A black portable campfire with plastic finish",
-    "price": 104.05,
-    "stock_quantity": 98
+    "visual_description": "A sleek silver Apple Ipad Air with aluminum finish",
+    "price": 305.15,
+    "stock_quantity": 45
   },
   {
-    "product_id": "TOY_008",
-    "name": "video game",
+    "product_id": "PROD-002",
+    "name": "Robot",
     "attributes": {
-      "color": "red",
-      "texture": "textured",
-      "type": "toy",
-      "size": "extra-large",
-      "weight_kg": 3.67,
+      "color": "white",
+      "texture": "hard",
+      "type": "electronic",
+      "size": "medium",
+      "weight_kg": 1.2,
       "dimensions_cm": {
-        "length": 23,
-        "width": 41,
-        "height": 17
+        "length": 30,
+        "width": 20,
+        "height": 15
       },
-      "material": "wood",
-      "age_range": "7-13",
+      "material": "plastic",
+      "age_range": "8-14",
       "safety_certified": true,
       "assembly_required": true
     },
-    "visual_description": "A black video game with soft finish",
-    "price": 70.13,
-    "stock_quantity": 36
+    "visual_description": "A white programmable Robot with plastic finish",
+    "price": 364.32,
+    "stock_quantity": 28
+  },
+  {
+    "product_id": "PROD-003",
+    "name": "Portable Campfire",
+    "attributes": {
+      "color": "black",
+      "texture": "hard",
+      "type": "outdoor",
+      "size": "small",
+      "weight_kg": 3.5,
+      "dimensions_cm": {
+        "length": 40,
+        "width": 40,
+        "height": 30
+      },
+      "material": "metal",
+      "age_range": "12-99",
+      "safety_certified": true,
+      "assembly_required": false
+    },
+    "visual_description": "A black Portable Campfire with metal finish",
+    "price": 94.58,
+    "stock_quantity": 15
+  },
+  {
+    "product_id": "PROD-004",
+    "name": "Skateboard",
+    "attributes": {
+      "color": "black",
+      "texture": "textured",
+      "type": "outdoor",
+      "size": "medium",
+      "weight_kg": 2.5,
+      "dimensions_cm": {
+        "length": 80,
+        "width": 20,
+        "height": 10
+      },
+      "material": "wood",
+      "age_range": "6-18",
+      "safety_certified": true,
+      "assembly_required": false
+    },
+    "visual_description": "A black Skateboard with wooden deck and textured grip tape",
+    "price": 35.39,
+    "stock_quantity": 50
+  },
+  {
+    "product_id": "PROD-005",
+    "name": "Interactive Storybook Projector",
+    "attributes": {
+      "color": "blue",
+      "texture": "smooth",
+      "type": "educational",
+      "size": "small",
+      "weight_kg": 0.8,
+      "dimensions_cm": {
+        "length": 15,
+        "width": 15,
+        "height": 10
+      },
+      "material": "plastic",
+      "age_range": "3-8",
+      "safety_certified": true,
+      "assembly_required": false
+    },
+    "visual_description": "A blue Interactive Storybook Projector with plastic finish",
+    "price": 25.80,
+    "stock_quantity": 32
+  },
+  {
+    "product_id": "PROD-006",
+    "name": "Smart Fitness Tracker",
+    "attributes": {
+      "color": "black",
+      "texture": "soft",
+      "type": "electronic",
+      "size": "small",
+      "weight_kg": 0.05,
+      "dimensions_cm": {
+        "length": 25,
+        "width": 2,
+        "height": 1
+      },
+      "material": "silicone",
+      "age_range": "10-99",
+      "safety_certified": true,
+      "assembly_required": false
+    },
+    "visual_description": "A black Smart Fitness Tracker with silicone band",
+    "price": 76.68,
+    "stock_quantity": 100
+  },
+  {
+    "product_id": "PROD-007",
+    "name": "Mini Espresso Maker",
+    "attributes": {
+      "color": "silver",
+      "texture": "metallic",
+      "type": "general",
+      "size": "small",
+      "weight_kg": 0.5,
+      "dimensions_cm": {
+        "length": 20,
+        "width": 10,
+        "height": 10
+      },
+      "material": "metal",
+      "age_range": "18-99",
+      "safety_certified": true,
+      "assembly_required": false
+    },
+    "visual_description": "A silver Mini Espresso Maker with metallic finish",
+    "price": 63.06,
+    "stock_quantity": 20
   }
 ]
