@@ -1,0 +1,88 @@
+{
+  "test_scenario": "Memory Optimization - Duplicate Detection and Context Reuse",
+  "requests": [
+    {
+      "request_id": "req_001",
+      "timestamp": "2024-12-15T09:00:00Z",
+      "child_id": "emma_2024",
+      "child_name": "Emma",
+      "age": 10,
+      "wish": "Deluxe Telescope with Star Chart",
+      "budget": 150,
+      "behavior_score": 0.92,
+      "note": "First request - will require full processing"
+    },
+    {
+      "request_id": "req_002",
+      "timestamp": "2024-12-15T09:30:00Z",
+      "child_id": "emma_2024",
+      "child_name": "Emma",
+      "age": 10,
+      "wish": "Deluxe Telescope with Star Chart",
+      "budget": 150,
+      "behavior_score": 0.92,
+      "note": "DUPLICATE - Same child, same wish, 30 minutes later. Should reuse req_001 result."
+    },
+    {
+      "request_id": "req_003",
+      "timestamp": "2024-12-15T10:00:00Z",
+      "child_id": "tyler_2024",
+      "child_name": "Tyler",
+      "age": 9,
+      "wish": "Gaming Console Standard Edition",
+      "budget": 120,
+      "behavior_score": 0.85,
+      "note": "New child, new wish - requires full processing"
+    },
+    {
+      "request_id": "req_004",
+      "timestamp": "2024-12-15T10:15:00Z",
+      "child_id": "marcus_2024",
+      "child_name": "Marcus",
+      "age": 8,
+      "wish": "Gaming Console Standard Edition",
+      "budget": 150,
+      "behavior_score": 0.88,
+      "note": "Different child, SAME ITEM as Tyler. Should reuse inventory check from req_003."
+    },
+    {
+      "request_id": "req_005",
+      "timestamp": "2024-12-15T11:00:00Z",
+      "child_id": "emma_2024",
+      "child_name": "Emma",
+      "age": 10,
+      "wish": "Deluxe Telescope with Star Chart",
+      "budget": 150,
+      "behavior_score": 0.92,
+      "note": "DUPLICATE - Emma's third request. Should reuse previous result if still valid."
+    },
+    {
+      "request_id": "req_006",
+      "timestamp": "2024-12-15T11:30:00Z",
+      "child_id": "sophia_2024",
+      "child_name": "Sophia",
+      "age": 11,
+      "wish": "Science Kit Advanced",
+      "budget": 80,
+      "behavior_score": 0.95,
+      "note": "New child, new wish - requires full processing"
+    },
+    {
+      "request_id": "req_007",
+      "timestamp": "2024-12-15T12:00:00Z",
+      "child_id": "tyler_2024",
+      "child_name": "Tyler",
+      "age": 9,
+      "wish": "Gaming Console Standard Edition",
+      "budget": 120,
+      "behavior_score": 0.85,
+      "note": "DUPLICATE - Tyler's second request, 2 hours after first. Cache may still be valid."
+    }
+  ],
+  "expected_optimizations": {
+    "req_002": "Full duplicate - reuse entire decision from req_001",
+    "req_004": "Partial reuse - same item as req_003, reuse inventory check",
+    "req_005": "Full duplicate - reuse decision from req_001/req_002",
+    "req_007": "Full duplicate - reuse decision from req_003"
+  }
+}
