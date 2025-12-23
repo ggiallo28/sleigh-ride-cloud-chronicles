@@ -109,3 +109,15 @@ Agent: Human approved. Initiating Livestock Transport Protocol.
 
 *   Completion of Day 21.
 *   Basic Control Flow.
+
+### Concepts Covered
+
+* Human-in-the-Loop (HITL) Patterns
+* Humans as First-Class Agents
+* Workflow Suspension and Resumption
+* State Persistence Across Interruptions
+* Async Agent Coordination
+* Escalation Logic
+* Callback-Based Human Integration
+* High-Stakes Decision Routing
+

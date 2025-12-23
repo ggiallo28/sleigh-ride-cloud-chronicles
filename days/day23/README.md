@@ -112,3 +112,15 @@ The briefing is done. The sleigh is packed. But one parent is unhappy. They want
 
 *   Completion of Day 22.
 *   Basic Log Parsing.
+
+### Concepts Covered
+
+* Agent-Generated Reporting
+* Log Analysis and Filtering
+* Executive Summarization
+* LLM-Based Insight Generation
+* Observability Beyond Metrics
+* Decision-Level vs. Event-Level Reporting
+* Structured Output Generation
+* Trend Analysis from Raw Data
+
