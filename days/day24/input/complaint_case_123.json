@@ -1,0 +1,10 @@
+{
+  "case_id": "123",
+  "child_id": "child_9999",
+  "parent_name": "Karen Smith",
+  "complaint_text": "My son Timmy received COAL this year! This is unacceptable. He has been an angel. I demand to see the manager and the records of why this decision was made.",
+  "timestamp": "2024-12-26T09:00:00Z",
+  "status": "OPEN",
+  "priority": "HIGH",
+  "related_decision_id": "dec_coal_timmy_2024"
+}

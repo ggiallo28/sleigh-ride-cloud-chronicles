@@ -1,0 +1,10 @@
+child_id,gift,confidence,status,approval_flag
+child_001,Lego Star Wars Set,0.98,Delivered,False
+child_002,Apple iPad Air,0.95,Delivered,True
+child_003,Bicycle,0.88,Delivered,False
+child_004,Robot,0.92,Delivered,False
+child_005,Skateboard,0.91,Delivered,False
+child_999,Coal,1.00,Delivered,False
+child_1234,Nintendo Switch,0.94,Delivered,True
+child_5678,Art Supplies,0.97,Delivered,False
+... (43,484 more entries) ...
