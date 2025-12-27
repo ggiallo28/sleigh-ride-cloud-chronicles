@@ -115,38 +115,43 @@ Each day, you will:
 
 ### Phase 1: Digitization & Basic Understanding (Days 1-6)
 Santa learns to process children's letters using basic prompt engineering, text summarization, entity extraction, and embeddings. Focus on the fundamentals of generative AI: prompt engineering, structuring unstructured data, and understanding semantic meaning. You will build the core data processing pipeline that serves as the foundation for the entire system.
-- **Day 1:** The First Digital Letter
-- **Day 2:** Structure from Chaos
-- **Day 3:** The Picture Perfect Card
-- **Day 4:** The Validation Gate
-- **Day 5:** The 10-Page Manifesto
-- **Day 6:** The Vague Wish
+- **[Day 1: The First Digital Letter](days/day01/README.md)**
+- **[Day 2: Structure from Chaos](days/day02/README.md)**
+- **[Day 3: The Picture Perfect Card](days/day03/README.md)**
+- **[Day 4: The Validation Gate](days/day04/README.md)**
+- **[Day 5: The 10-Page Manifesto](days/day05/README.md)**
+- **[Day 6: The Vague Wish](days/day06/README.md)**
 
 ### Phase 2: Knowledge & Memory (Days 7-12)
 Move beyond simple processing to context-aware decision making. Implement Retrieval-Augmented Generation (RAG) to ground AI responses in historical data, manage conversation memory, and build reasoning chains for complex judgments.
-- **Day 7:** The Nice List Vector Store
-- **Day 8:** Retrieval Augmented Christmas
-- **Day 9:** Complex Context Reconstruction
-- **Day 10:** Rudy's Memory
-- **Day 11:** The Moral Compass
-- **Day 12:** The Priority Queue
+- **[Day 7: The Nice List Vector Store](days/day07/README.md)**
+- **[Day 8: Retrieval Augmented Christmas](days/day08/README.md)**
+- **[Day 9: Complex Context Reconstruction](days/day09/README.md)**
+- **[Day 10: Rudy's Memory](days/day10/README.md)**
+- **[Day 11: The Moral Compass](days/day11/README.md)**
+- **[Day 12: The Priority Queue](days/day12/README.md)**
 
 ### Phase 3: Agents & Tools (Days 13-18)
 Transition from passive scripts to active agents. Design and deploy autonomous agents capable of using tools, executing API calls, and collaborating to solve multi-step problems without constant human intervention.
-- **Day 13:** Enter Rudy
-- **Day 14:** Enter Elfie
-- **Day 15:** Agent Collaboration
-- **Day 16:** The API Call
-- **Day 17:** The Safety Filter
-- **Day 18:** The Brain of the Operation (Agent Core)
+- **[Day 13: Enter Rudy](days/day13/README.md)**
+- **[Day 14: Enter Elfie](days/day14/README.md)**
+- **[Day 15: Agent Collaboration](days/day15/README.md)**
+- **[Day 16: The API Call](days/day16/README.md)**
+- **[Day 17: The Safety Filter](days/day17/README.md)**
+- **[Day 18: The Brain of the Operation (Agent Core)](days/day18/README.md)**
 
 ### Phase 4: Coordination, Control & Trust (Days 19-23)
-Shift focus to the reliability and coherence of the system. Implement planning without rigid pipelines, optimize context sharing and memory, ensure multimodal consistency, and establish robust "Human-in-the-Loop" controls.
-- **Day 19:** Planning Without Pipelines
-- **Day 20:** Context Sharing & Memory Optimization
+Shift focus to the reliability and coherence of the system. Implement planning without rigid pipelines, optimize context sharing and memory, and establish robust "Human-in-the-Loop" controls. Deploy the **Agent Core**, the central execution and memory layer that serves as the North Pole's brain.
+- **[Day 19: Planning Without Pipelines](days/day19/README.md)**
+- **[Day 20: Context Sharing & Memory Optimization](days/day20/README.md)**
+- **[Day 21: Multimodal Consistency](days/day21/README.md)**
+- **[Day 22: Human-in-the-Loop](days/day22/README.md)**
+- **[Day 23: The Executive Briefing](days/day23/README.md)**
 
 ### Phase 5: Grand Finale (Days 24-25)
-The final push for production readiness. Implement deep explainability features and prepare the agent core to handle the scale of Christmas Eve.
+The final push for production readiness. Implement deep explainability features to understand "why" the agents made specific choices, and run the ultimate scale test: processing a massive 100,000-letter batch for Christmas Eve.
+- **[Day 24: Inherent Explainability (Case #123)](days/day24/README.md)**
+- **[Day 25: The Final Flight (Mission Accomplished)](days/day25/README.md)**
 
 ---
 
@@ -443,3 +448,18 @@ The Cloud Migration starts now.
 **Happy Building, and May Your Pipelines Never Fail!**
 
 *- The Sleigh-Ride Cloud Chronicles Team*
+
+---
+
+## 📜 The Story of the Journey
+
+Step into the North Pole and witness the transformation of a millennium-old workshop into a high-tech marvel of the cloud. This is not just a technical log; it is a tale of innovation, magic, and the human heart.
+
+Follow Santa and the **North Pole Cloud Apprentice** as they navigate digital blizzards, manifest curious spirits, and discover the true soul of the cloud. To experience the journey in full, immersive detail, read our dedicated chronicle:
+
+### [📖 Read the Immersive Fairy Tale of Project Sleigh-Ride](STORY.md)
+
+---
+
+**Christmas wasn't just saved; it was upgraded.**
+```

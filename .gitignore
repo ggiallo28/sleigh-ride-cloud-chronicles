@@ -208,14 +208,3 @@ __marimo__/
 # /.kiro
 .DS_Store
 .vscode/
-
-
-
-#prompts
-Advent_of_Amazon_The_Great_Cloud_Migration.md
-sys_prompt.txt
-
-Advent of Amazon: The Great Cloud Migration.md
-AGENT_CORE_ARCHITECTURE.md
-Daily Instructions.md
-Full Project Directory Structure.md
