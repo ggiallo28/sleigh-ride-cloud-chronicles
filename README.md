@@ -34,6 +34,24 @@ The story begins now.
 
 ---
 
+## 📖 The Complete Story
+
+This README contains the technical overview. For the **full immersive narrative**, please read:
+
+### **[→ The Chronicle of the Great Sleigh-Ride Migration (STORY.md)](STORY.md)**
+
+The story follows Santa's 25-day journey from crisis to triumph, featuring:
+- **Chapter I**: The Arrival of the Wayfarer (Days 1-6)
+- **Chapter II**: The Great Well of Memory (Days 7-12)
+- **Chapter III**: The Manifestation of Spirits (Days 13-18)
+- **Chapter IV**: The Heartbeat of the Cloud (Days 19-23)
+- **Chapter V**: The Final Flight (Days 24-25)
+- **Epilogue**: A New Tradition
+
+Each day's challenge is woven into this narrative arc.
+
+---
+
 ## 🎅 Characters
 
 ### Santa Claus (Human-in-the-Loop)
@@ -95,10 +113,14 @@ You do **not** need prior experience with AI/ML or advanced cloud architecture t
 
 Each day includes:
 1. **Story Chapter**: A narrative scene advancing the plot and introducing the day's technical theme
+   - The story emerges naturally from [STORY.md](STORY.md) and each day's README
+   - Characters (Santa, Cloud Apprentice, Rudy, Elfie) develop realistically throughout the journey
 2. **Learning Goal**: Conceptual explanation of the cloud/AI concept you'll implement
 3. **Challenge Materials**: Input files and task descriptions in the `dayXX/` folders
 4. **Expected Outputs**: Reference examples showing what success looks like
 5. **Cost-Saving Tips**: Practical advice for managing AWS spend
+
+**The story is not a wrapper — it's integrated. Each day's technical challenge emerges from the narrative.**
 
 ### Your Mission
 
@@ -113,8 +135,14 @@ Each day, you will:
 
 ## 📚 Learning Path Overview
 
+**Each phase corresponds to a chapter in the story. [Read STORY.md for the full narrative.](STORY.md)**
+
 ### Phase 1: Digitization & Basic Understanding (Days 1-6)
+**[Story: Chapter I - The Arrival of the Wayfarer](STORY.md)**
+
 Santa learns to process children's letters using basic prompt engineering, text summarization, entity extraction, and embeddings. Focus on the fundamentals of generative AI: prompt engineering, structuring unstructured data, and understanding semantic meaning. You will build the core data processing pipeline that serves as the foundation for the entire system.
+
+In the story, Santa transforms chaos into signal through precise prompting, teaching the Bedrock Spirits to extract truth from noise.
 - **[Day 1: The First Digital Letter](days/day01/README.md)**
 - **[Day 2: Structure from Chaos](days/day02/README.md)**
 - **[Day 3: The Picture Perfect Card](days/day03/README.md)**
@@ -123,7 +151,11 @@ Santa learns to process children's letters using basic prompt engineering, text 
 - **[Day 6: The Vague Wish](days/day06/README.md)**
 
 ### Phase 2: Knowledge & Memory (Days 7-12)
+**[Story: Chapter II - The Great Well of Memory](STORY.md)**
+
 Move beyond simple processing to context-aware decision making. Implement Retrieval-Augmented Generation (RAG) to ground AI responses in historical data, manage conversation memory, and build reasoning chains for complex judgments.
+
+In the story, Santa builds the "Vector Store" — a Well of Memory containing ten years of behavior records. He learns to weigh nuanced information (like Timmy painting his sister's cat blue) with compassion and wisdom.
 - **[Day 7: The Nice List Vector Store](days/day07/README.md)**
 - **[Day 8: Retrieval Augmented Christmas](days/day08/README.md)**
 - **[Day 9: Complex Context Reconstruction](days/day09/README.md)**
@@ -132,7 +164,11 @@ Move beyond simple processing to context-aware decision making. Implement Retrie
 - **[Day 12: The Priority Queue](days/day12/README.md)**
 
 ### Phase 3: Agents & Tools (Days 13-18)
+**[Story: Chapter III - The Manifestation of Spirits](STORY.md)**
+
 Transition from passive scripts to active agents. Design and deploy autonomous agents capable of using tools, executing API calls, and collaborating to solve multi-step problems without constant human intervention.
+
+In the story, Rudy (The Orchestrator) and Elfie (The Tool User) emerge from the digital void. They clash, learn from each other, and eventually achieve perfect coordination through the Agent Core — a shared nervous system.
 - **[Day 13: Enter Rudy](days/day13/README.md)**
 - **[Day 14: Enter Elfie](days/day14/README.md)**
 - **[Day 15: Agent Collaboration](days/day15/README.md)**
@@ -141,7 +177,11 @@ Transition from passive scripts to active agents. Design and deploy autonomous a
 - **[Day 18: The Brain of the Operation (Agent Core)](days/day18/README.md)**
 
 ### Phase 4: Coordination, Control & Trust (Days 19-23)
+**[Story: Chapter IV - The Heartbeat of the Cloud](STORY.md)**
+
 Shift focus to the reliability and coherence of the system. Implement planning without rigid pipelines, optimize context sharing and memory, and establish robust "Human-in-the-Loop" controls. Deploy the **Agent Core**, the central execution and memory layer that serves as the North Pole's brain.
+
+In the story, the system matures from mechanical efficiency to emergent reasoning. Santa learns to trust the agents while maintaining human oversight. The "Pony Decision" shows how humans and AI work together as partners, not opposites.
 - **[Day 19: Planning Without Pipelines](days/day19/README.md)**
 - **[Day 20: Context Sharing & Memory Optimization](days/day20/README.md)**
 - **[Day 21: Multimodal Consistency](days/day21/README.md)**
@@ -149,7 +189,11 @@ Shift focus to the reliability and coherence of the system. Implement planning w
 - **[Day 23: The Executive Briefing](days/day23/README.md)**
 
 ### Phase 5: Grand Finale (Days 24-25)
+**[Story: Chapter V - The Final Flight & Epilogue](STORY.md)**
+
 The final push for production readiness. Implement deep explainability features to understand "why" the agents made specific choices, and run the ultimate scale test: processing a massive 100,000-letter batch for Christmas Eve.
+
+In the story, the system proves itself under ultimate pressure. Case #123 demonstrates that the system can not only make decisions, but explain them with perfect accountability. 43,492 children are helped with "perfect harmony of magic and machine."
 - **[Day 24: Inherent Explainability (Case #123)](days/day24/README.md)**
 - **[Day 25: The Final Flight (Mission Accomplished)](days/day25/README.md)**
 
