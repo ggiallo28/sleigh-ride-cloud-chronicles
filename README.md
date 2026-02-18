@@ -274,12 +274,8 @@ Each `dayXX/` folder contains:
 
 ```bash
 # Clone this repository
-git clone https://github.com/your-org/sleigh-ride-cloud-chronicles.git
+git clone https://github.com/ggiallo28/sleigh-ride-cloud-chronicles.git
 cd sleigh-ride-cloud-chronicles
-
-# Run setup script
-cd setup
-./install.sh
 
 # Configure AWS credentials
 aws configure
